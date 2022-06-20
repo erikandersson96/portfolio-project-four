@@ -46,6 +46,7 @@ INSTALLED_APPS = [
     'django_extensions',
     'django_summernote',
     'recipes',
+    'profiles',
 ]
 
 MIDDLEWARE = [

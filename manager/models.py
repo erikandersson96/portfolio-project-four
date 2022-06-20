@@ -1,5 +1,6 @@
 from django.db import models
 from django.contrib.auth.models import User
+from django_extensions.db.fields import AutoSlugField
 from cloudinary.models import CloudinaryField
 from django.core.validators import MaxValueValidator, MinValueValidator
 
@@ -13,7 +14,7 @@ class Recipe(models.Model):
     Recipe model
     """
     title = models.CharField(max_length=200, unique=True)
-    slug = models.SlugField(max_length=200, unique=True)
+    slug = AutoSlugField(populate_from='title', unique=True,)
     author = models.ForeignKey(
         User, on_delete=models.CASCADE, related_name="recipes")
     excerpt = models.TextField(

@@ -12,5 +12,3 @@ class RecipeAdmin(SummernoteModelAdmin):
     search_fields = ['title', 'content']
     list_filter = ('status', 'created_on')
     summernote_fields = ('method', 'ingredients')
-    readonly_fields = ('slug',)
-  

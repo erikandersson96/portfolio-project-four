@@ -14,6 +14,7 @@
         <div class="container text-dark text-center">
             {% if user.is_authenticated %}
                 <h1 class="title p-4">Choose which category, generate a meal, add to your list, Enjoy!</h1>
+                <!-- Dropdown menu for protein category -->
                 <div class="container">
                     <div class="dropdown">
                         <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
@@ -26,6 +27,10 @@
                           <a class="dropdown-item" href="#">Mix</a>
                         </div>
                       </div>
+                </div>
+                <!-- Box for recipe generator -->
+                <div class="container">
+                    
                 </div>
             {% else %} 
                 <h1 class="title p-4">Welcome!</h1>

@@ -50,47 +50,43 @@
                     <!-- Authentication Navigation menu -->
                     {% if user.is_authenticated %}
                         <li class="nav-item">
-                            <a class="nav-link active" href="{% url 'user_page' %}">My page</a>
+                            <a class="nav-link active" href="#">My page</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link active" href="{% url 'add_recipe' %}">Add recipe</a>
+                            <a class="nav-link active" href="#">Add recipe</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link active" href="{% url 'logout' %}">Logout</a>
+                            <a class="nav-link active" href="#">Logout</a>
                         </li>
                     {% else %}
                         <li class="nav-item">
-                            <a class="nav-link active" href="{% url 'register' %}">Register</a>
+                            <a class="nav-link active" href="#">Register</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link active" href="{% url 'login' %}">Login</a>
+                            <a class="nav-link active" href="#">Login</a>
                         </li>
                     {% endif %}
                 </ul>
             </div>
-
-
-
-
-
-            
         </div>
     </nav>
 
-
+    <!-- Content for each page get inserted between these content blocks -->
     {% block content %}
-    <!-- Content here -->
+
     {% endblock %}
 
 
     <!-- Footer -->
-    <footer>
-        <!-- Social Media Links -->
-        <div>
-            <!-- GitHub -->
-            <a href=""></a>
-            <!-- LinkedIn -->
-            <a href=""></a>
+    <footer class="bg-light text-center fixed-bottom">
+        <div class="container">
+            <!-- Social Media Links -->
+            <div>
+                <!-- GitHub -->
+                <a class="m-3 footer-button" href="https://github.com/erikandersson96" role="button" target="_blank" aria-label="github"><i class="fab fa-github"></i></a>
+                <!-- LinkedIn -->
+                <a class="m-3 footer-button" href="https://www.linkedin.com/in/erikhopemedia" role="button" target="_blank" aria-label="linkedin"><i class="fab fa-linkedin"></i></a>
+            </div>
         </div>
         <div>
         <!-- Copyright -->

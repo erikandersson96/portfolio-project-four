@@ -1,7 +1,25 @@
 {% extends 'base.html' %} 
 
+{% load static %}
+
 {% block content %} 
-    
+
+    <!-- Section for random generator and week list -->
+    <section class="section-container text-center">
+
+        <div class="container text-dark text-center">
+            {% if user.is_authenticated %}
+                <h1 class="title p-4">Choose which category, generate a meal, add to your list, Enjoy!</h1>
+            {% else %} 
+                <h1 class="title p-4">Welcome!</h1>
+                <p>
+                    With What To Eat you can randomly generate a meal that you can add to your week's list. 
+                    If you wish to filter by Meat, Fish, Vegetarian, Mix, be able to save your 
+                    weeks list or edit it you will have to login or register for a free account! 
+                </p>
+            {% endif %} 
+        </div>
+    </section>
 
 {% endblock content %}
 

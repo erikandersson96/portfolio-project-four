@@ -28,7 +28,7 @@
     <!-- Navigation bar -->
     <nav class="navbar navbar-expand-lg navbar-light bg-light mt-2">
         <div class="container-fluid">
-            <a class="navbar-brand {% active_link '/' %}" href="{% url 'home' %}">What To Eat</a>
+            <a class="navbar-link active" aria-current="page" href="{% url 'home' %}">What To Eat</a>
 
             <!-- Collapse Navigation menu -->
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" 
@@ -41,13 +41,31 @@
 
                     <!-- Navigation itmes -->
                     <li class="nav-item">
-                        <a class="nav-link {% active_link '' %}" 
-                            href="{% url '' %}">About
+                        <a class="nav-link active" 
+                            href="#">About
+                            <!-- Add Modal for About here!! -->
                         </a>
                     </li>
 
                     <!-- Authentication Navigation menu -->
-                    
+                    {% if user.is_authenticated %}
+                        <li class="nav-item">
+                            <a class="nav-link active" href="{% url 'user_page' %}">My page</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" href="{% url 'add_recipe' %}">Add recipe</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" href="{% url 'logout' %}">Logout</a>
+                        </li>
+                    {% else %}
+                        <li class="nav-item">
+                            <a class="nav-link active" href="{% url 'register' %}">Register</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" href="{% url 'login' %}">Login</a>
+                        </li>
+                    {% endif %}
                 </ul>
             </div>
 
@@ -64,7 +82,6 @@
     <!-- Content here -->
     {% endblock %}
 
-    <h1>Hello world!</h1>
 
     <!-- Footer -->
     <footer>

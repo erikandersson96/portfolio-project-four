@@ -2,6 +2,10 @@
 
 {% load static %}
 
+<!-- Add background image for home.html -->
+{% block additional_style %}
+{% endblock %}
+
 {% block content %} 
 
     <!-- Section for random generator and week list -->
@@ -10,12 +14,25 @@
         <div class="container text-dark text-center">
             {% if user.is_authenticated %}
                 <h1 class="title p-4">Choose which category, generate a meal, add to your list, Enjoy!</h1>
+                <div class="container">
+                    <div class="dropdown">
+                        <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                          Choose Protein Category
+                        </button>
+                        <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                          <a class="dropdown-item" href="#">Meat</a>
+                          <a class="dropdown-item" href="#">Fish</a>
+                          <a class="dropdown-item" href="#">Vegetarian</a>
+                          <a class="dropdown-item" href="#">Mix</a>
+                        </div>
+                      </div>
+                </div>
             {% else %} 
                 <h1 class="title p-4">Welcome!</h1>
-                <p>
-                    With What To Eat you can randomly generate a meal that you can add to your week's list. 
-                    If you wish to filter by Meat, Fish, Vegetarian, Mix, be able to save your 
-                    weeks list or edit it you will have to login or register for a free account! 
+                <p class="welcome-text">
+                    With What To Eat you can randomly generate a meal that you can add to your week's list, <br>
+                    choose from which protein you prefer or add one of your favorite recipes! <br>
+                    All you have to do is create a free user acount! 
                 </p>
             {% endif %} 
         </div>

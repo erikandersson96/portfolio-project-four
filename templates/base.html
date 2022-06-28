@@ -43,10 +43,11 @@
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav me-auto mb-2 mb-lg-0">
 
-                    <!-- Navigation itmes -->  
-                    <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                    <!-- Navigation itmes -->
+                
+                    <button type="button" class="btn btn-primary btn-about" data-bs-toggle="modal" data-bs-target="#exampleModal">
                         About
-                      </button>                 
+                    </button>              
 
                     <!-- Authentication Navigation menu -->
                     {% if user.is_authenticated %}
@@ -76,11 +77,11 @@
         <div class="modal-dialog">
           <div class="modal-content">
             <div class="modal-header">
-              <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+              <h5 class="modal-title" id="exampleModalLabel">About - What To Eat</h5>
               <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
             <div class="modal-body">
-              Modal body here...
+              About What To Eat...
             </div>
             <div class="modal-footer">
               <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>

@@ -4,6 +4,12 @@ body {
 }
 
 
+/* The about button */
+.btn-about {
+    background-color: lightgreen;
+}
+
+
 /* Color and size for the login/register button */
 .btn-signup {
     background-color: green;

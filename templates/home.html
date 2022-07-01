@@ -10,13 +10,6 @@
             <img class="header-image img-fluid" src="{% static 'site_images/spaghetti-background.jpg' %}" alt="Spaghetti background image">
         </div>
     </div>
-    <div class="caption">
-        <p class="lead">What To Eat - Recipes.</p>
-        <h1 class="bold">Welcome to What To Eat!</h1>
-        <p>Here you can see all of our delicious recipes that you can take as inspiration <br>
-           or if you wish to add your own recipes you can do so by log in or create an account.
-        </p>
-    </div>
 </header>
 {% endblock %}
 
@@ -39,7 +32,7 @@
     <div class="container text-center text-md-left mb-3">
         <div class="row text-center text-md-left g-3 card-row">
             
-            {% for recipe in recipe_list_view %}
+            {% for recipe in object_list %}
             <div class="col-md-6 col-lg-3 col-xl-3 mx-auto mt-3">
                 <div class="card box-shadow h-100">
                     {% if "placeholder" in recipe.meal_image.url %}
@@ -59,7 +52,7 @@
                         <li class="list-group-item align-items-center">Author: {{ recipe.author }}</li>
                     </ul>
                     <div class="card-footer">
-                        <a href="{% url 'recipe_detail' recipe.slug %}" class="btn btn-recipe align-items-center">View recipe</a>
+                         <a href="#" class="btn btn-recipe align-items-center">View recipe</a> 
                     </div>
                 </div>
             </div>

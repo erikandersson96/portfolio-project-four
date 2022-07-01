@@ -21,6 +21,11 @@ body {
     
 }
 
+/****** Add padding above text for welcome to What To Eat recipes home page ******/
+.home-wte-welcome {
+    padding-top: 50px;
+}
+
 /****** Add padding above/bottom cards for recipes ******/
 .card-row {
     padding-top: 60px;

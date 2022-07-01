@@ -16,7 +16,7 @@
 {% block content %} 
 
     <!-- Check if user is authenticated to make the welocome message personal or not -->
-    <div class="container text-dark text-center">
+    <div class="container text-dark text-center home-wte-welcome">
         {% if user.is_authenticated %}
             <h1 class="title p-4 text-center">Welcome to What To Eat - Recipes, {{ user.username }}.</h1>
             <h2 class="text-center">Choose a delicious recipe for todays dinner:</h2>

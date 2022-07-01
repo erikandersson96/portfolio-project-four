@@ -6,6 +6,14 @@
 {% block additional_style %}
 {% endblock %}
 
+{% block header_image %}
+    <div class="container">
+        <div class="row px-4 py-5 my-5 text-center">
+            <img class="header-image" src="{% static 'site_images/spaghetti-background.jpg' %}" alt="Spaghetti background image">
+        </div>
+    </div>
+{% endblock %}
+
 {% block content %} 
 
     <!-- Section for random generator and week list -->
@@ -13,53 +21,13 @@
 
         <div class="container text-dark text-center">
             {% if user.is_authenticated %}
-                <h1 class="title p-4 text-center">Welcome to What To Eat's Recipes {{ user.username }}!</h1>
+                <h1 class="title p-4 text-center">Welcome to What To Eat's Recipes {{ user.username }}.</h1>
                 <h2 class="text-center">Choose a delicious recipe for todays dinner:</h2>
-                <!-- Dropdown menu for protein category -->
-                <div class="container">
-                    <div class="dropdown">
-                        <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                          Choose Protein Category
-                        </button>
-                        <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                          <a class="dropdown-item" href="#">Meat</a>
-                          <a class="dropdown-item" href="#">Fish</a>
-                          <a class="dropdown-item" href="#">Vegetarian</a>
-                          <a class="dropdown-item" href="#">Mix</a>
-                        </div>
-                      </div>
-                </div>
-                <!-- Box for recipe generator -->
-                <section class="section-container">
-                    <div class="row row-cols-1 row-cols-md-2 g-4 m-auto d-flex justify-content-center">
-                        <h2>Image box here</h2>
-                    </div>
-                    <div class="recipe-name">
-                        <h3>Name of recipe</h3>
-                    </div>
-                    <div class="generate-a-meal">
-                        <button>Generate a meal</button>
-                    </div>
-                </section>
+                
             {% else %} 
-                <h1 class="title p-4">Welcome!</h1>
-                <p class="welcome-text">
-                    With What To Eat you can randomly generate a meal that you can add to your week's list, <br>
-                    choose from which protein you prefer or add one of your favorite recipes! <br>
-                    All you have to do is create a free user acount! 
-                </p>
-                <!-- Box for recipe generator -->
-                <section class="section-container">
-                    <div class="row row-cols-1 row-cols-md-2 g-4 m-auto d-flex justify-content-center">
-                        <h2>Image box here</h2>
-                    </div>
-                    <div class="recipe-name">
-                        <h3>Name of recipe</h3>
-                    </div>
-                    <div class="generate-a-meal">
-                        <button>Generate a meal</button>
-                    </div>
-                </section>
+                <h1 class="title p-4 text-center">Welcome to What To Eat's Recipes.</h1>
+                <h2 class="text-center">Choose a delicious recipe for todays dinner:</h2>
+               
             {% endif %} 
         </div>
     </section>

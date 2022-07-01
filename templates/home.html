@@ -16,21 +16,19 @@
 
 {% block content %} 
 
-    <!-- Section for random generator and week list -->
-    <section class="section-container text-center">
-
-        <div class="container text-dark text-center">
-            {% if user.is_authenticated %}
-                <h1 class="title p-4 text-center">Welcome to What To Eat's Recipes {{ user.username }}.</h1>
-                <h2 class="text-center">Choose a delicious recipe for todays dinner:</h2>
+    <!-- Check if user is authernticated to make the welocome message personal -->
+    <div class="container text-dark text-center">
+        {% if user.is_authenticated %}
+            <h1 class="title p-4 text-center">Welcome to What To Eat's Recipes {{ user.username }}.</h1>
+            <h2 class="text-center">Choose a delicious recipe for todays dinner:</h2>
                 
-            {% else %} 
-                <h1 class="title p-4 text-center">Welcome to What To Eat's Recipes.</h1>
-                <h2 class="text-center">Choose a delicious recipe for todays dinner:</h2>
+        {% else %} 
+            <h1 class="title p-4 text-center">Welcome to What To Eat's Recipes.</h1>
+            <h2 class="text-center">Choose a delicious recipe for todays dinner:</h2>
                
-            {% endif %} 
-        </div>
-    </section>
+        {% endif %} 
+    </div>
+    
 
 {% endblock content %}
 

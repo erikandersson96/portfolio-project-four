@@ -21,3 +21,8 @@ body {
     
 }
 
+/****** Add padding above/bottom cards for recipes ******/
+.card-row {
+    padding-top: 60px;
+    padding-bottom: 30px;
+}

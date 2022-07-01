@@ -1,6 +1,7 @@
 
 body {
     background-color: #ffffff;
+    overflow: scroll;
 }
 
 
@@ -18,5 +19,5 @@ body {
 
 /* Background image for the home page */
 .header-image {
-    
+
 }

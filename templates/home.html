@@ -13,7 +13,8 @@
 
         <div class="container text-dark text-center">
             {% if user.is_authenticated %}
-                <h1 class="title p-4">Choose which category, generate a meal, add to your list, Enjoy!</h1>
+                <h1 class="title p-4 text-center">Welcome to What To Eat's Recipes {{ user.username }}!</h1>
+                <h2 class="text-center">Choose a delicious recipe for todays dinner:</h2>
                 <!-- Dropdown menu for protein category -->
                 <div class="container">
                     <div class="dropdown">

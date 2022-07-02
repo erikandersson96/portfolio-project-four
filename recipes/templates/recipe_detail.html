@@ -18,9 +18,62 @@
                     <p>This recipe was created: {{ recipe.created_on }}, by author: {{ recipe.author }}.</p>
                 </div>
             </header>
+            <div class="container">
+                <!-- Image of recipe -->
+                <div class="row">
+                    <figure class="mb-5">
+                        {% if "placeholder" in recipe.featured_image.url %}
+                            <img src="{% static 'site_images/standard-food-image.jpg' %}" alt="Plate with pasta" class="img-fluid rounded" id="standard-recipe-image">
+                        {% else %}
+                            <img src="{{ recipe.featured_image.url }}" alt="{{ recipe.title }}" id="standard-recipe-image">
+                        {% endif %}
+                    </figure>
+                </div>
+            </div>
+        </div>
+            <!-- Side Lists -->
+            <div class="col-lg-4">
+                <div class="row">
+                    <!-- Recipe details on rigth side -->
+                    <div class="card mt-4 mb-4">
+                        <div class="card-header">
+                            <h3 class="recipe-info-text">Recipe Details</h3>
+                        </div>
+                        <div class="card-body">
+                            <div class="row">
+                                <div class="col-sm-6">
+                                    <ul class="list-unstyled mb-0">
+                                        <li class="list-group-item">Difficulty: {{ recipe.difficulty }}</li>
+                                        <li class="list-group-item">Servings: {{ recipe.serves }}</li>
+                                        <li class="list-group-item">Prep time: {{ recipe.prep_time }} min</li>
+                                        <li class="list-group-item">Cook time: {{ recipe.cook_time }} min</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Recipe Ingredients -->
+                <div class="row">
+                    <div class="card mb-4">
+                        <div class="card-header">
+                            <h3 class="recipe-info-text">Ingredients</h3>
+                        </div>
+                        <div class="card-body">{{ recipe.ingredients | safe }}</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <section class="row mb-5">
+            <div class="fs-5 mb-4">
+                <h3 class="recipe-info-text">Cook Method</h3>
+                {{ recipe.instructions | safe }}
+            </div>
+        </section>
+        <div>
+            <!-- Add authentication here for edit and delete recipe! -->
         </div>
     </div>
-</div>
 
 
 {% endblock %}

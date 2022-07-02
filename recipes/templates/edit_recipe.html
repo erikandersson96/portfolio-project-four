@@ -1,0 +1,23 @@
+{% extends 'base.html' %}
+
+{% load static %}
+
+
+{% block content %}
+    <!-- Check if user is authenticated so he/she can edit the recipe -->
+    {% if user.is_authenticated %}
+        <div class="container text-dark">
+            <div class="row">
+                <div class="col mt-3 mb-5">
+                    <div class="text-box rounded">
+                        <h2 class="what-to-eat-text">Edit Recipe</h2>
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+    {% csrf_token %}
+    {% else %}
+    {% endif %}
+
+{% endblock %}

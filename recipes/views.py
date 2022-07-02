@@ -1,7 +1,6 @@
 from django.shortcuts import render, get_object_or_404
 from django.views import generic, View
 from .models import Recipe
-from .forms import RecipeForm
 
 
 class RecipeListView(generic.ListView):
@@ -31,6 +30,5 @@ class RecipeDetail(View):
             "recipe_detail.html",
             {
                 "recipe": recipe,
-                "recipe_form": RecipeForm(),
             },
         )

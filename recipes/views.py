@@ -55,3 +55,12 @@ def edit_recipe(request, slug):
     else:
         recipe_form = RecipeForm(instance=recipe)
     return render(request, "edit_recipe.html", context)
+
+
+def delete_recipe(request, slug):
+    """
+    View for delete recipe
+    """
+    recipe = Recipe.objects.get(slug=slug)
+    recipe.delete()
+    return redirect('home')

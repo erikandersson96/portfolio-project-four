@@ -74,7 +74,7 @@
             <!-- Authentication for edit and delete recipe -->
             {% if user.id == recipe.author.id %}
                 <a href="{% url 'edit_recipe' recipe.slug %}" class="edit"><button class="btn btn-signup btn-md" value="{{ recipe.slug }}" type="button">Edit recipe</button></a>
-                <a href="#" class="confirm-delete delete"><button class="btn btn-danger btn-md mx-4" value="#" type="button">Delete recipe</button></a>
+                <a href="{% url 'delete_recipe' recipe.slug %}" class="confirm-delete delete"><button class="btn btn-danger btn-md mx-4" value="{{ recipe.slug }}" type="button">Delete recipe</button></a>
             {% endif %}
         </div>
     </div>

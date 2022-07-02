@@ -22,10 +22,10 @@
                 <!-- Image of recipe -->
                 <div class="row">
                     <figure class="mb-5">
-                        {% if "placeholder" in recipe.featured_image.url %}
+                        {% if "placeholder" in recipe.meal_image.url %}
                             <img src="{% static 'site_images/standard-food-image.jpg' %}" alt="Plate with pasta" class="img-fluid rounded" id="standard-recipe-image">
                         {% else %}
-                            <img src="{{ recipe.featured_image.url }}" alt="{{ recipe.title }}" id="standard-recipe-image">
+                            <img src="{{ recipe.meal_image.url }}" alt="{{ recipe.title }}" id="standard-recipe-image">
                         {% endif %}
                     </figure>
                 </div>

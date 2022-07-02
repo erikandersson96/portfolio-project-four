@@ -1,6 +1,7 @@
 from django.shortcuts import render, get_object_or_404, redirect
 from django.views import generic, View
 from .models import Recipe
+from .forms import RecipeForm
 
 
 class RecipeListView(generic.ListView):
@@ -34,7 +35,7 @@ class RecipeDetail(View):
         )
 
 
-def edit_recipe(request, slug): 
+def edit_recipe(request, slug):
     """
     View for edit recipe
     """

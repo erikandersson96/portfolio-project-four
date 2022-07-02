@@ -1,0 +1,26 @@
+{% extends 'base.html' %}
+
+{% load static %}
+
+
+<!-- Main Content for Recipe Detail -->
+{% block content %}
+
+<div class="container">
+    <div class="row">
+        <div class="col-lg-8">
+            <!-- Recipe header -->
+            <header class="mb-4">
+                <!-- Recipe Title -->
+                <h1 class="fw-bolder mb-1 what-to-eat-text">{{ recipe.title }}</h1>
+                <!-- Recipe: created on, author -->
+                <div class="text-muted fst-italic mb-2">
+                    <p>This recipe was created: {{ recipe.created_on }}, by author: {{ recipe.author }}.</p>
+                </div>
+            </header>
+        </div>
+    </div>
+</div>
+
+
+{% endblock %}

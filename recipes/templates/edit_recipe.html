@@ -1,7 +1,7 @@
 {% extends 'base.html' %}
-
+{% load cloudinary %}
 {% load static %}
-
+{% load crispy_forms_tags %}
 
 {% block content %}
     <!-- Check if user is authenticated so he/she can edit the recipe -->
@@ -18,35 +18,35 @@
                             <div class="col">
                                 {% csrf_token %}
                                 <div class="row">
-                                    {{ recipe_form.title }}
+                                    {{ recipe_form.title|as_crispy_field }}
                                 </div>
                                 <div class="row">
-                                    {{ recipe_form.excerpt }}
-                                </div>
-                                <div class="row">
-                                    <div class="col-6">
-                                        {{ recipe_form.difficulty }}
-                                    </div>
-                                    <div class="col-6">
-                                        {{ recipe_form.serves }}
-                                    </div>
+                                    {{ recipe_form.excerpt|as_crispy_field }}
                                 </div>
                                 <div class="row">
                                     <div class="col-6">
-                                        {{ recipe_form.prep_time }}
+                                        {{ recipe_form.difficulty|as_crispy_field }}
                                     </div>
                                     <div class="col-6">
-                                        {{ recipe_form.cook_time }}
+                                        {{ recipe_form.serves|as_crispy_field }}
                                     </div>
                                 </div>
                                 <div class="row">
-                                    {{ recipe_form.ingredients }}
+                                    <div class="col-6">
+                                        {{ recipe_form.prep_time|as_crispy_field }}
+                                    </div>
+                                    <div class="col-6">
+                                        {{ recipe_form.cook_time|as_crispy_field }}
+                                    </div>
                                 </div>
                                 <div class="row">
-                                    {{ recipe_form.instructions }}
+                                    {{ recipe_form.ingredients|as_crispy_field }}
                                 </div>
                                 <div class="row">
-                                    {{ recipe_form.meal_image }}
+                                    {{ recipe_form.instructions|as_crispy_field }}
+                                </div>
+                                <div class="row">
+                                    {{ recipe_form.meal_image|as_crispy_field }}
                                 </div>
                                 <button type="submit" class="btn btn-signup btn-lg">Save</button>
                             </div>

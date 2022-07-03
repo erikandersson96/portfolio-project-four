@@ -29,17 +29,22 @@ recipe website beacuse I am a food lover and tought that I could have some use f
 
 
 ---
-## How To Use The Website 
+## How To Navigate The Website 
 
-This quiz consists of 6 or 12 questions, and the answer for each question will be either one of two options that are displayed underneath. 
+This website consists of a navbar on top, with the `logo, about, register, login` for first time visitors or user's which haven't logged in yet. If a user login to the website the navbar changes slightly to include `Add recipe` instead of register. `Add recipe` is a feature which can only be used by users which are authenticated.
 
-You will have to Type either '1' or '2' to select the answer you think is the correct one and press Enter.
+A first time visitor or user will find all of the recipes listed on the start page, the recipes are listed with `pagination` of 6. So more then 6 recipes will then be displayed on a `"new page"` which can be accessed by a `Next` 
+button, on the new page there will be a `Previous` button. 
 
-The quiz will countinue until all questions has been played for the selected amount of questions. 
+In the footer of the page the social media links can be found, but also the copyright symbol of What To Eat.
 
-When you are finished with all of the selected questions you get asked to play again, if you press "N" (no) to exit. Just reload the page and the game will restart. 
+`About` What To Eat link will trigger a `"pop-up modal"` with information about the website. 
 
-Good luck! And have fun. 
+`Register and login` looks almost the same apart from some design features that are necessary. 
+
+`Add recipe or Edit recipe` which are available for logged in users shares the same design apart from some buttons and headings.
+
+I hope that you will find some delicous recipes when navigating the website. 
 
 
 ---

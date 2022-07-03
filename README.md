@@ -31,10 +31,13 @@ recipe website beacuse I am a food lover and tought that I could have some use f
 ---
 ## How To Navigate The Website 
 
-This website consists of a navbar on top, with the `logo, about, register, login` for first time visitors or user's which haven't logged in yet. If a user login to the website the navbar changes slightly to include `Add recipe` instead of register. `Add recipe` is a feature which can only be used by users which are authenticated.
+This website consists of a navbar on top, with the `logo, about, register, login, add recipe` for both first time visitors or user's that has an account. But `Add recipe` will only be available to use for user's which are logged in otherwise a
+message will appear which tells the visitor to `register or login`. 
 
 A first time visitor or user will find all of the recipes listed on the start page, the recipes are listed with `pagination` of 6. So more then 6 recipes will then be displayed on a `"new page"` which can be accessed by a `Next` 
 button, on the new page there will be a `Previous` button. 
+
+If a visitor or user selects a specific recipe to click on they will be directed to a page that hold the recipe details. The only difference in design of this page is if the visitor/user is authenticated and then a `Edit and Delete recipe` button will appear for user's who added their recipe. 
 
 In the footer of the page the social media links can be found, but also the copyright symbol of What To Eat.
 

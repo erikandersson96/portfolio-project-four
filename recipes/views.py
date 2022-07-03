@@ -57,6 +57,29 @@ def edit_recipe(request, slug):
     return render(request, "edit_recipe.html", context)
 
 
+def add_recipe(request):
+    """
+    View for add recipe
+    """
+    recipe_form = RecipeForm(request.POST or None, request.FILES or None)
+    context = {
+        'recipe_form': recipe_form,
+    }
+
+    if request.method == "POST":
+        recipe_form = RecipeForm(request.POST, request.FILES)
+        print("hello123")
+        if recipe_form.is_valid():
+            recipe_form = recipe_form.save(commit=False)
+            recipe_form.author = request.user
+            recipe_form.status = 1
+            recipe_form.save()
+            return redirect('home')
+    else:
+        recipe_form = RecipeForm()
+    return render(request, "add_recipe.html", context)
+
+
 def delete_recipe(request, slug):
     """
     View for delete recipe

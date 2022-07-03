@@ -12,6 +12,7 @@
                     <!-- Add Css styling for h2 use ".text-box" -->
                     <div class="text-box rounded">
                         <h2 class="what-to-eat-text">Edit Recipe</h2>
+                        <hr>
                     </div>
                     <form action="?action=save" method="post" style="margin-top: 1.3em;" enctype="multipart/form-data">
                         <div class="row">
@@ -56,6 +57,13 @@
             </div>
         </div>
     {% else %}
+        <div class="container">
+            <div class="row">
+                <div class="col mt-3 mb-5 text-center">
+                    <h1 class="mb-5">You have to login to edit recipes!</h1>
+                    <p>Please <a href="{% url 'account_signup' %}">register</a> an account or<a href="{% url 'account_login' %}"></a> login to edit your recipe.</p>
+                </div>
+            </div>
+        </div>
     {% endif %}
-
 {% endblock %}

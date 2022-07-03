@@ -1,6 +1,6 @@
 from django import forms
 from .models import Recipe
-from django_summernote.widgets import SummernoteInplaceWidget
+from django_summernote.widgets import SummernoteWidget
 
 
 class RecipeForm(forms.ModelForm):
@@ -22,9 +22,9 @@ class RecipeForm(forms.ModelForm):
         ]
 
         widgets = {
-            'ingredients': SummernoteInplaceWidget(),
-            'instructions': SummernoteInplaceWidget()
+            'ingredients': SummernoteWidget(),
+            'instructions': SummernoteWidget()
         }
-    
+  
     def __init__(self, *args, **kwargs):
         super(RecipeForm, self).__init__(*args, **kwargs)

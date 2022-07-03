@@ -18,7 +18,8 @@ To visit What To Eat website please click this [link]().
 
 This website is a fictional website for the purpose of my Fourth Portfolio Project for Code Institute’s Full Stack Software Development Course. I created this website with the knowledge I gained from the `Bootstrap, jQuery, Django` modules.
 
-The main goal of this project was to test my new knowledge in Python. I decided to create a 12 question Quiz Game about Formula One. 
+The main goal of this project was to test my new knowledge in Django and Bootstrap. I decided to create a 
+recipe website beacuse I am a food lover and tought that I could have some use for it myself. 
 
 ##### Features I aimed to achieve with this project:
 

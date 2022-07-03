@@ -58,26 +58,32 @@ I hope that you will find some delicous recipes when navigating the website.
 * [Website Design](#website-design)
 
 * [Logic](#logic) 
-  * [Flow Diagram](#flow-diagram) 
+  * [Flow Diagram](#flow-diagram)
   * [Explain Logic in Flow Diagram](#explain-logic-in-flow-chart) 
-
+  * [Database Diagram](#database-diagram)
+   
 * [Existing Features](#existing-features)
   * [Start Screen](#start-screen)
-  * [Leaderboard & Game Rules](#leaderboard--game-rules)
-  * [Username](#username)
-  * [Question Selection](#question-selection)
-  * [Questions](#questions)
-  * [End Message](#end-message)
-  * [Play Again](#play-again)
+  * [Recipe List](#recipe-list)
+  * [View Recipe Details](#view-recipe-details)
+  * [Footer](#footer)
+  * [Navbar](#navbar)
+  * [About modal](#about-modal)
+  * [Add recipe not logged in](#add-recipe-not-logged-in)
+  * [Add recipe logged in](#add-recipe-logged-in)
+  * [Edit recipe logged in](#edit-recipe-logged-in)
+  * [Register](#register)
+  * [Login / Logout](#login-logout)
 
 * [Testing](#testing)
   * [Manual Testing](#manual-testing)
+  * [Automated Testing](#automated-testing)
   * [Bugs](#bugs)
   * [Validation](#validation)
   * [User Story Testing](#user-story-testing)
   * [Device Testing](#device-testing)
 
-* [Python Libraries](#python-libraries)
+* [Technologies Used](#technologies-used)
 
 * [Content](#content)
 

@@ -23,13 +23,13 @@ recipe website beacuse I am a food lover and tought that I could have some use f
 
 ##### Features I aimed to achieve with this project:
 
-* To make the game `easy` to understand for the user. 
-* Make sure that the game has good `instructions` through out the whole game so the user doesn't get confuesed. 
-* To get people more educated about the sport of Formula One. 
+* To make the website `easy` to understand for the user. 
+* Make sure that the website has good `UI and UX` through out the whole site so the user doesn't get confuesed. 
+* To make it easier for people to decide what they should eat for dinner. 
 
 
 ---
-## How To Play 
+## How To Use The Website 
 
 This quiz consists of 6 or 12 questions, and the answer for each question will be either one of two options that are displayed underneath. 
 

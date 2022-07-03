@@ -1,22 +1,22 @@
 # What To Eat 
 
-Formula One Quiz is a quiz built with Python. The quiz has 12 questions and for every question there is 2 options for the answer but only 1 is correct. 
-The questions are all subjected around Formula One, both about historical moments from the very start until the 2020 season. So if you want to test your knowledge 
-in Formula One, play the quiz. 
+What To Eat is a recipe website where both first time visitors and users can see all of our delicous recipes. 
+If a visitor wish to share their own delicous recipes, they can do so by register for a free user account. Old 
+users can login/logout, see all of the recipes, edit or delete the recipes that they have created.  
 
 **Remember that all links in this Readme does not open in a new tab. They open in the same window.** 
 
-To play the quiz you can click this [link](). 
+To visit What To Eat website please click this [link](). 
 
 ![Screenshot of I am responsive]()
 
 
 ---
-## Portfolio Project Three 
+## Portfolio Project Four
 
 ### Intention 
 
-This website is a fictional website for the purpose of my Third Portfolio Project for Code Institute’s Full Stack Software Development Course. I created this website with the knowledge I gained from the `Python` module.
+This website is a fictional website for the purpose of my Fourth Portfolio Project for Code Institute’s Full Stack Software Development Course. I created this website with the knowledge I gained from the `Bootstrap, jQuery, Django` modules.
 
 The main goal of this project was to test my new knowledge in Python. I decided to create a 12 question Quiz Game about Formula One. 
 

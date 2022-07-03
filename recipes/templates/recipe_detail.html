@@ -74,8 +74,27 @@
             <!-- Authentication for edit and delete recipe -->
             {% if user.id == recipe.author.id %}
                 <a href="{% url 'edit_recipe' recipe.slug %}" class="edit"><button class="btn btn-signup btn-md" value="{{ recipe.slug }}" type="button">Edit recipe</button></a>
-                <a href="{% url 'delete_recipe' recipe.slug %}" class="confirm-delete delete"><button class="btn btn-danger btn-md mx-4" value="{{ recipe.slug }}" type="button">Delete recipe</button></a>
+                <button type="button" class="btn btn-danger btn-md mx-4" data-toggle="modal" data-target="deleteModal{{recipe.slug}}">Delete recipe</button>
             {% endif %}
         </div>
+        <!-- Delete modal -->
+        <div id="deleteModal{{recipe.slug}}" class="modal fade" role="dialog">
+            <div class="modal-dialog">
+               <!-- Modal content-->
+               <div class="modal-content">
+                  <div class="modal-header">
+                     <button type="button" class="close" data-dismiss="modal">&times;</button>
+                  </div>
+                  <div class="modal-body">
+                     <h4>Are you sure you want to delete {{ recipe.title }}?</h4>
+                     <p>Warning! This action cannot be undone.</p>
+                  </div>
+                  <div class="modal-footer">
+                     <button type="button" class="btn btn-secondary" data-dismiss="modal">Cancel</button>
+                     <a href="{% url 'delete_recipe' recipe.slug %}" class="btn btn-danger">Delete</a>
+                  </div>
+               </div>
+            </div>
+         </div>
     </div>
 {% endblock %}

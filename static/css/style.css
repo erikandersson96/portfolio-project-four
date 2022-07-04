@@ -13,15 +13,15 @@ body {
 
 /******************* Logo *******************/
 #logo {
-    color: black;
-    font-family: "kaushan", sans-serif;
+    color: #34A56F;
+    font-family: kaushan, sans-serif;
     font-size: 40px;
 }
 
 
 /******************* Color and size for the login/register button *******************/
 .btn-signup {
-    background-color: green;
+    background-color: #2E8B57;
     color: #fff;
 }
 

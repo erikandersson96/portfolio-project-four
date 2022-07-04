@@ -334,7 +334,7 @@ Like shown in the screenshot below:
 * **Solution Bug 1:**
 It was as simple as that I had choosen the wrong `Bootstrap` version as well as I hadn't added a `Bootstrap` version for `JavaScript`. 
 The version I first had was `Bootstrap 5.0.2` for only `Bootstrap`. 
-I changed `Bootstrap version` to `Bootstrap 5.0.1` and added `Bootstrap JavaScript 5.0.1` links. 
+I changed `Bootstrap version` to `Bootstrap 5.0.1` and added the `Bootstrap JavaScript 5.0.1` link. 
 
 * **Bug 2:** 
 My modals for the `About link and Delete recipe button` wasn't appearing when clicking on respective button/link. 
@@ -345,7 +345,7 @@ Like shown in the screenshot below:
 ![Screenshot bug 2]()
 
 * **Solution Bug 2:**
-  
+The same solution was for bug 2, my modals started to working after I added the `Bootstrap 5.0.1` version and added the `Bootstrap JavaScript 5.0.1` link.
 
 
 ### Validation

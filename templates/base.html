@@ -27,7 +27,10 @@
     {% block additional_style %}
     {% endblock %}
 
-    <title>What To Eat - Recipe App</title>
+    <title>What To Eat |
+        {% block title %}
+        {% endblock title %}
+    </title>
 </head>
 
 <body>

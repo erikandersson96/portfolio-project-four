@@ -353,11 +353,11 @@ page. Like shown in the screenshot below:
 
 **Screenshot:**
 
-![Screenshot bug 3]()
+![Screenshot bug 3](/assets/readme/bugs/bug3.png)
 
 * **Solution Bug 3:**
 I made a search on google and found this [website](https://radu.link/make-footer-stay-bottom-page-bootstrap/)(link) with a two step method. So I just added
-`d-flex flex-column min-vh-100` to the container class of the `body` in my base.html file. 
+a class of `d-flex flex-column min-vh-100` to the `body` in my base.html file. 
 
 
 ### Validation

@@ -322,29 +322,30 @@ Throughout the whole development of this Quiz I have tested the game in the GitP
 ### Bugs 
  
 * **Bug 1:**
-End message doesn't show up. 
-When the user has answered all of the selected questions (6 or 12). The end message should show up with: 
-`Well done! I hope your Formula One knowledge got a little better with this quiz.`, `{user_name} you scored at total of {point} points!`.
-`{user_name}` and `{points}` is used in an f-string to input the user name of the user and the total points that the user scored. 
-But the end message does not show up at all, the Quiz just goes back to the the meny. Like shown in the screenshot below:
+Success message that shows that user is `logged in/logged out`.
+When a user login/logout a green message will appear to clarify that the user is `logged in/logged out`. But it didn't go away after the `3000` milliseconds
+I had in my JavaScript function. It stayed at the top of the page until I refreshed it.
+Like shown in the screenshot below:
 
 **Screenshot:**
 
 ![Screenshot bug 1]()
 
 * **Solution Bug 1:**
-It was as simple as that I had forgot to add end_message with the correct parameters in the `main()` function.  
+It was as simple as that I had choosen the wrong `Bootstrap` version as well as I hadn't added a `Bootstrap` version for `JavaScript`. 
+The version I first had was `Bootstrap 5.0.2` for only `Bootstrap`. 
+I changed `Bootstrap version` to `Bootstrap 5.0.1` and added `Bootstrap JavaScript 5.0.1` links. 
 
 * **Bug 2:** 
-My leaderboard not showing the correct values. 
-When I tried to run my leaderboard I only got the id of worksheet 6 and 12, not the actual users and points. Like shown in the screenshot below: 
+My modals for the `About link and Delete recipe button` wasn't appearing when clicking on respective button/link. 
+Like shown in the screenshot below: 
 
 **Screenshot:** 
 
 ![Screenshot bug 2]()
 
 * **Solution Bug 2:**
-First I tried to write a whole loop that was going to sort the leaderboard for me so I could get the correct order for the user who was number one and the third for the user who was number three in the ranking. But after speaking to my mentor, [Benjamin](https://github.com/BAK2K3) (link) suggested me to search for `GSPREAD documentation` and the sort method. And I found in that documentation the `sort()` method. Instead of trying to reinvent the wheel I just had to use the sort() method. Here is a link to the [sort()](https://docs.gspread.org/en/latest/api.html?highlight=sort#gspread.worksheet.Worksheet.sort) method for GSPREAD.  
+  
 
 
 ### Validation

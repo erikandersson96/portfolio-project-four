@@ -2,10 +2,22 @@
 
 {% load static %}
 
+<!-- Title for page -->
 {% block title %}
     What To Eat 403 page
 {% endblock %}
 
 {% block content %}
+    <section>
+        <div class="bg-dark col-lg-5 col-11 m-auto rounded m-2 p-3 text-light">
+            <h1 class="display-1 fw-bolder yellow">403</h1>
+            <h2>Forbidden</h2> <hr>
+            <h2>I'm so sorry, but you dont have permission to access this resource.</h2>
+        </div> 
+        <div class="m-2 text-center">
+            <a href="{% url 'home' %}" class="btn btn-signup btn-md">Home</a>
+        </div>
+    </section>
+
 
 {% endblock %}

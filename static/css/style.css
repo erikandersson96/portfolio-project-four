@@ -8,15 +8,12 @@ body {
     font-weight: bold;
 }
 
-h1 {
+h1, h2, h3 {
     font-family: "Kaushan";
 }
 
 
 /******************* Navbar *******************/
-.navbar {
-    
-}
 
 .nav-item {
     font-family: "Lato", sans-serif;

@@ -18,6 +18,11 @@ body {
     font-size: 40px;
 }
 
+/******************* Footer *******************/
+footer a {
+    color: #34A56F;
+    font-size: 20px;
+}
 
 /******************* Color and size for the login/register button *******************/
 .btn-signup {

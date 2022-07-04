@@ -338,11 +338,6 @@ I changed `Bootstrap version` to `Bootstrap 5.0.1` and added the `Bootstrap Java
 
 * **Bug 2:** 
 My modals for the `About link and Delete recipe button` wasn't appearing when clicking on respective button/link. 
-Like shown in the screenshot below: 
-
-**Screenshot:** 
-
-![Screenshot bug 2]()
 
 * **Solution Bug 2:**
 The same solution was for bug 2 as bug 1, my modals started to working after I added the `Bootstrap 5.0.1` version and added the `Bootstrap JavaScript 5.0.1` link.

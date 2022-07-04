@@ -4,6 +4,12 @@
 
 body {
     background-color: #ffffff;
+    font-family: "Lato", sans-serif;
+    font-weight: bold;
+}
+
+h1 {
+    font-family: "Kaushan";
 }
 
 
@@ -20,7 +26,7 @@ body {
 /******************* Logo *******************/
 #logo {
     color: #34A56F;
-    font-family: "Kaushan", sans-serif;
+    font-family: "Kaushan";
     font-size: 40px;
 }
 

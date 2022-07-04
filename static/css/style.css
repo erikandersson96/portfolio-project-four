@@ -1,9 +1,22 @@
+/******************* Font *******************/
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script:wght@900&family=Lato:wght@300&display=swap');
+
 
 body {
     background-color: #ffffff;
 }
 
-/******************* Font *******************/
+/******************* Navbar *******************/
+.navbar {
+    
+}
+
+/******************* Logo *******************/
+#logo {
+    color: black;
+    font-family: ;
+    font-size: ;
+}
 
 
 /******************* Color and size for the login/register button *******************/
@@ -24,7 +37,7 @@ body {
     padding-top: 50px;
 }
 
-/******************* Add padding above/bottom cards for recipes *******************/
+/******************* Add padding above/bottom the cards for recipes *******************/
 .card-row {
     padding-top: 60px;
     padding-bottom: 30px;
@@ -34,10 +47,6 @@ body {
 
 .about-text {
     
-}
-
-.btn-about {
-    background-color: lightgreen;
 }
 
 /******************* Delete Modal, delete recipe button, body text *******************/

@@ -345,7 +345,7 @@ Like shown in the screenshot below:
 ![Screenshot bug 2]()
 
 * **Solution Bug 2:**
-The same solution was for bug 2, my modals started to working after I added the `Bootstrap 5.0.1` version and added the `Bootstrap JavaScript 5.0.1` link.
+The same solution was for bug 2 as bug 1, my modals started to working after I added the `Bootstrap 5.0.1` version and added the `Bootstrap JavaScript 5.0.1` link.
 
 * **Bug 3:** 
 My footer wasn't at the bottom of the page. When I clicked on register/login/logout etc my `footer` was not at the bottom of the page, it was right underneath the content of each 

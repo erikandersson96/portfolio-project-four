@@ -329,7 +329,7 @@ Like shown in the screenshot below:
 
 **Screenshot:**
 
-![Screenshot bug 1]()
+![Screenshot bug 1](/assets/readme/bugs/bug1.png)
 
 * **Solution Bug 1:**
 It was as simple as that I had choosen the wrong `Bootstrap` version as well as I hadn't added a `Bootstrap` version for `JavaScript`. 

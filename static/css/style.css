@@ -15,7 +15,8 @@ body {
 
 /******************* Background image for the home page *******************/
 .header-image {
-    
+    height: 100%;
+    width: 100%;
 }
 
 /******************* Add padding above text for welcome to What To Eat recipes home page *******************/

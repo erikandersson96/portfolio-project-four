@@ -347,6 +347,18 @@ Like shown in the screenshot below:
 * **Solution Bug 2:**
 The same solution was for bug 2, my modals started to working after I added the `Bootstrap 5.0.1` version and added the `Bootstrap JavaScript 5.0.1` link.
 
+* **Bug 3:** 
+My footer wasn't at the bottom of the page. When I clicked on register/login/logout etc my `footer` was not at the bottom of the page, it was right underneath the content of each 
+page. Like shown in the screenshot below:
+
+**Screenshot:**
+
+![Screenshot bug 3]()
+
+* **Solution Bug 3:**
+I made a search on google and found this [website](https://radu.link/make-footer-stay-bottom-page-bootstrap/)(link) with a two step method. So I just added
+`d-flex flex-column min-vh-100` to the container class of the `body` in my base.html file. 
+
 
 ### Validation
 

@@ -3,6 +3,10 @@
 {% load static %}
 {% load crispy_forms_tags %}
 
+{% block title %}
+    Add recipe page
+{% endblock title %}
+
 {% block content %}
     <!-- Check if user is authenticated so he/she can add their own recipe -->
     {% if user.is_authenticated %}

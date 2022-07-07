@@ -54,9 +54,9 @@ I hope that you will find some delicous recipes when navigating the website.
 ## Table of Contents
 
 * [UX](#ux) 
-  * [Strategy](#strategy)
-  * [Visitor Goals](#visitor-goals) 
   * [User Stories](#user-stories) 
+  * [Strategy](#strategy)
+  * [Scope](#scope) 
 
 * [Website Design](#website-design)
 
@@ -101,9 +101,11 @@ I hope that you will find some delicous recipes when navigating the website.
 ## UX 
 
 #### User Stories
-
+* 
+* 
+* 
+* 
  
-
 #### Strategy
 
 * **Project Goal**

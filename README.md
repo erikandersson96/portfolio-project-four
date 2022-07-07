@@ -121,18 +121,55 @@ Create a website that allows users to see, add and edit recipes.
 ---
 ## Website Design
 
-I modified my `CSS` in the `layout.html` file to add a header `"logo"` above to center align everything including the terminal, I added a `h2` message below and both 
-`Instagram and Facebook`. I also added a background color of red. 
+For the start page I choose a vertically aligned navigation bar on top, with all of the navigation links `About, Add recipe, Register, Login` or just `About, Add recipe, Login/Logout` if the user is authenticated. After that there is a background image with some text underneath that presents the list of recipes in the lower section of the page, this text will change slightly to create a personal welcome message for a user that is authenticated. At the bottom I have my `footer` with contact me and my social media links as well as copyright for `What To Eat`.
+All other pages on the website inherits the navigation bar and footer.  
 
-This is how it looks on `Heroku`: 
+This is how it looks: 
 
-![Screenshot of terminal on heroku app]() 
+![Screenshot of start page upper part]() 
 
-The red color I choose for the background serves a puspose since it is the same red color code that `Ferrari F1 Team` use for their 2022 formula one car. 
+![Screenshot of start page lower part]() 
 
-Here is a image of `Ferrari F1 Team 2022 formula one car` color code: 
+When there are more then 6 recipes in `What To Eat's` recipe list a `"Next"` button will appear that takes the user or site visitor to the next page of recipes which loads with the same 
+content as the start page to match, and then a `"Previous"` button will replace the `"Next"` button so the user can get back to the start page. The list of recipes is in an order of newest to oldest.  
 
-![Screenshot of Ferrari F1 Team 2022 formula one car color code]()
+![Screenshot of next and previous buttons]() 
+
+The about link will trigger a `modal` that contains the about What To Eat text. To close the about modal you can just click anywhere else outside it or use the close button. 
+
+![Screenshot of about modal]()
+
+The `Add recipe` link will either display a `You have to login to add your own recipes!` message or the form for adding a recipe depending of if the user is authenticated or not on the that page. 
+
+![Screenshot of add recipe site not authenticated]()
+
+![Screenshot of add recipe site authenticated]()
+
+The `Register` page displays a register your account page with `username, email (optional), password, password again`. 
+
+![Screenshot of register an account]()
+
+The `Login` page displays a login form and if the user is already authenicated (logged in) the `Logout` navigation link will trigger a page that says 
+`You are about to sign out. Is that what you want?` with a confirmation button to sign out. 
+
+![Screenshot of login page]()
+
+![Screenshot of logout page]()
+
+When a `user` has selected a recipe to view by clicking `View recipe` from the recipe list, a detailed page of that recipe will appear with the recipe name on top, the created on and by information underneath. Right below that there is an image of the recipe, which can be selected by a user of what ever image they would like or a standard image will be provided. On the right there is two boxes on top of eachother `Recipe details` and `ingredients`. `Cook method` is found right underneath the recipe image. And if the user is authenticated and is the creator of the specific recipe he or she can then edit or delete the recipe by a green and red button on the bottom of the `Recipe details` page. 
+
+![Screenshot of recipe details, not logged in or creator of recipe]()
+
+![Screenshot of recipe details, logged in and creator of recipe]()
+
+If the user is the creator of the recipe and wish to `edit` the recipe he or she can then click the green button that says `Edit recipe` to come to the edit recipe page, this page looks 
+similar to the `Add recipe` page but each input field will be filled out with the recipe information of that recipe. 
+
+![Screenshot of edit recipe]()
+
+If the user is the creator of the recipe and wish to `delete` the recipe he or she can then click on the red button that says `Delete recipe`. A modal will then appear on the top of the page to inform the user that he or she is about to delete the recipe and asks for a confirmation on this. 
+
+![Screenshot of delete recipe modal]()
 
 
 ---

@@ -23,35 +23,35 @@
                             <div class="col">
                                 {% csrf_token %}
                                 <div class="row">
-                                    {{ recipe_form.title|as_crispy_field | safe }}
+                                    {{ recipe_form.title|as_crispy_field }}
                                 </div>
                                 <div class="row">
-                                    {{ recipe_form.excerpt|as_crispy_field | safe }}
-                                </div>
-                                <div class="row">
-                                    <div class="col-6">
-                                        {{ recipe_form.difficulty|as_crispy_field | safe }}
-                                    </div>
-                                    <div class="col-6">
-                                        {{ recipe_form.serves|as_crispy_field | safe }}
-                                    </div>
+                                    {{ recipe_form.excerpt|as_crispy_field }}
                                 </div>
                                 <div class="row">
                                     <div class="col-6">
-                                        {{ recipe_form.prep_time|as_crispy_field | safe }}
+                                        {{ recipe_form.difficulty|as_crispy_field }}
                                     </div>
                                     <div class="col-6">
-                                        {{ recipe_form.cook_time|as_crispy_field | safe }}
+                                        {{ recipe_form.serves|as_crispy_field }}
                                     </div>
                                 </div>
                                 <div class="row">
-                                    {{ recipe_form.ingredients|as_crispy_field | safe }}
+                                    <div class="col-6">
+                                        {{ recipe_form.prep_time|as_crispy_field }}
+                                    </div>
+                                    <div class="col-6">
+                                        {{ recipe_form.cook_time|as_crispy_field }}
+                                    </div>
                                 </div>
                                 <div class="row">
-                                    {{ recipe_form.instructions|as_crispy_field | safe }}
+                                    {{ recipe_form.ingredients|as_crispy_field }}
                                 </div>
                                 <div class="row">
-                                    {{ recipe_form.meal_image|as_crispy_field | safe }}
+                                    {{ recipe_form.instructions|as_crispy_field }}
+                                </div>
+                                <div class="row">
+                                    {{ recipe_form.meal_image|as_crispy_field }}
                                     <p>A default image will be choosen for this recipe if you don't add your own.</p>
                                 </div>
                                 <button type="submit" class="btn btn-signup btn-lg">Save</button>

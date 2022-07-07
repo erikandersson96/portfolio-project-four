@@ -9,7 +9,7 @@ body {
 }
 
 h1, h2, h3 {
-    font-family: "Kaushan";
+    font-family: "Kaushan", sans-serif;
 }
 
 
@@ -23,7 +23,7 @@ h1, h2, h3 {
 /******************* Logo *******************/
 #logo {
     color: #34A56F;
-    font-family: "Kaushan";
+    font-family: "Kaushan", sans-serif;
     font-size: 40px;
 }
 

@@ -140,7 +140,7 @@ This is how it looks:
 ![Screenshot of start page lower part (logged in)]() 
 
 **Footer:**
-![Screenshot of footer]() 
+![Screenshot of footer](/assets/readme/design/footer.png) 
 
 Recipe `card`, the card which holds the short information of each recipe in the recipe list. 
 

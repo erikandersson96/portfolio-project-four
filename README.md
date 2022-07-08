@@ -126,9 +126,14 @@ All other pages on the website inherits the navigation bar and footer.
 
 This is how it looks: 
 
-![Screenshot of start page upper part]() 
+![Screenshot of start page upper part (not logged in)]() 
 
-![Screenshot of start page lower part]() 
+![Screenshot of start page upper part (logged in)]() 
+
+![Screenshot of start page lower part (not logged in)]() 
+
+![Screenshot of start page lower part (logged in)]() 
+
 
 When there are more then 6 recipes in `What To Eat's` recipe list a `"Next"` button will appear that takes the user or site visitor to the next page of recipes which loads with the same 
 content as the start page to match, and then a `"Previous"` button will replace the `"Next"` button so the user can get back to the start page. The list of recipes is in an order of newest to oldest.  

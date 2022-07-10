@@ -146,6 +146,27 @@ Create a website that allows users to create an account so they can see, add and
 
 `Summernote` - I used this to add the `"text tools"` to edit the information inside both the `ingredients and instructions` text boxes for add and edit a recipe. 
 
+### Color Scheme 
+
+I choose four colors for my website, a `shade of green`, `another shade of green`, `red for delete` and `black` for all text.   
+
+**#34A56F - A lighter green (HEX-color)** 
+
+![Screenshot of green color]()
+
+**#34A56F - A lighter green (HEX-color)** 
+
+![Screenshot of green color]()
+
+**Red color (Default css color)**
+
+![Screenshot of red color]()
+
+**Black color (Default css color)**
+
+![Screenshot of black color]()
+
+### Fonts
 
 
 ---

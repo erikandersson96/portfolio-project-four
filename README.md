@@ -240,7 +240,7 @@ This is how it looks:
 **About modal:**
 The about link will trigger a `modal` that contains the about What To Eat text. To close the about modal you can just click anywhere else outside it or use the close button. 
 
-![Screenshot of about modal]()
+![Screenshot of about modal](/assets/readme/design/about-modal.png)
 
 **Add recipe:**
 The `Add recipe` link will either display a `You have to login to add your own recipes!` message or the form for adding a recipe depending of if the user is authenticated or not on the that page. 

@@ -152,11 +152,11 @@ I choose four colors for my website, a `shade of green`, `another shade of green
 
 **#34A56F - A lighter green (HEX-color)** 
 
-![Screenshot of green color]()
+![Screenshot of green color](/assets/readme/color/logo-green.png)
 
 **#34A56F - A lighter green (HEX-color)** 
 
-![Screenshot of green color]()
+![Screenshot of green color](/assets/readme/color/green.png)
 
 **Red color (Default css color)**
 

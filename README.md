@@ -279,6 +279,7 @@ The `Login` page displays a login form and if the user is already authenicated (
 ### Recipes
 
 **Recipe card:**
+
 ![Screenshot of recipe card](/assets/readme/design/recipe-card.png) 
 
 **Next and previous page:**

@@ -291,10 +291,10 @@ content as the start page to match, and then a `"Previous"` button will replace 
 When a `user` has selected a recipe to view by clicking `View recipe` from the recipe list, a detailed page of that recipe will appear with the recipe name on top, the created on and by information underneath. Right below that there is an image of the recipe, which can be selected by a user of what ever image they would like or a standard image will be provided. On the right there is two boxes on top of eachother `Recipe details` and `ingredients`. `Cook method` is found right underneath the recipe image. And if the user is authenticated and is the creator of the specific recipe he or she can then edit or delete the recipe by a green and red button on the bottom of the `Recipe details` page. 
 
 **Recipe details, not authenticated or creator of recipe:**
-![Screenshot of recipe details, not logged in or creator of recipe]()
+![Screenshot of recipe details, not logged in or creator of recipe](/assets/readme/design/recipe-detail.png)
 
 **Recipe details, authenticated and creator of recipe:**
-![Screenshot of recipe details, logged in and creator of recipe]()
+![Screenshot of recipe details, logged in and creator of recipe](/assets/readme/design/recipe-detail1.png)
 
 If the user is the creator of the recipe and wish to `edit` the recipe he or she can then click the green button that says `Edit recipe` to come to the edit recipe page, this page looks 
 similar to the `Add recipe` page but each input field will be filled out with the recipe information of that recipe. 

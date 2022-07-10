@@ -269,9 +269,11 @@ The `Login` page displays a login form and if the user is already authenicated (
 `You are about to sign out. Is that what you want?` with a confirmation button to sign out. 
 
 **Login:**
+
 ![Screenshot of login page](/assets/readme/design/sign-in.png)
 
 **Logout:**
+
 ![Screenshot of logout page](/assets/readme/design/sign-out.png)
 
 ### Recipes

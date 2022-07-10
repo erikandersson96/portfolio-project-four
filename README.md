@@ -109,7 +109,7 @@ I hope that you will find some delicous recipes when navigating the website.
 #### Strategy
 
 * **Project Goal**
-Create a website that allows users to see, add and edit recipes. 
+Create a website that allows users to create an account so they can see, add and edit recipes. 
 
 #### Scope 
 

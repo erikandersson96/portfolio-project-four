@@ -121,8 +121,30 @@ Create a website that allows users to create an account so they can see, add and
 ---
 ## Website Design
 
+`Logo design` - Because this website was created with the intention to keep it clean and simple. I decided to go with only `“What To Eat”`. Because I thought it gives the website a simple and clean look.
 
+`Background Image` - I downloaded this image from pixabay.com which is a website with free images. And I used a white background color to it in case the image wouldn't load.
 
+`Navigation bar` - I decided to use a pretty standard navbar with navigation links, but I think that gives the website a straight forward look. 
+
+`Text over recipe list` - Here I choose to only have a `h1 header, a paragraph and a h2 header` for representing the recipe list.
+
+`Recipe list` - The recipe list is paginated (sorted) in an order of 6 recipes per page, all amount over that will add the `Next and Previous` buttons. 
+
+`Footer` - I choose a `footer` that would look similar to my navbar and contain just the most necessary information such as 
+`a contact me header, my social media links and the what to eat copyright information.`
+
+`About modal` - I didn't want to create a seperate page for the about information so therfore I choose to use a `modal` for this. 
+
+`Add recipe` - This page is design in two different ways, either with only a message that says that you will have to login or register for an account, or a form with all the infromation that is required for adding a recipe. 
+
+`Register` - Is just designed with the standard look that comes with `allauth`, I have only designed the `h1 font design to go with the rest`. 
+
+`Login and Logout` - looks almost the same in there design and is almost standard looking with `allauth` with a matching header. 
+
+`Buttons` - All buttons for the website is green to match each other except the delete button which is red. 
+
+`Summernote` - I used this to add the `"text tools"` to edit the information inside both the `ingredients and instructions` text boxes for add and edit a recipe. 
 
 
 

@@ -277,7 +277,7 @@ The `Login` page displays a login form and if the user is already authenicated (
 ### Recipes
 
 **Recipe card:**
-![Screenshot of recipe card]() 
+![Screenshot of recipe card](/assets/readme/design/recipe-card.png) 
 
 **Next and previous page:**
 When there are more then 6 recipes in `What To Eat's` recipe list a `"Next"` button will appear that takes the user or site visitor to the next page of recipes which loads with the same 

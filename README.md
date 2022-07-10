@@ -300,12 +300,12 @@ If the user is the creator of the recipe and wish to `edit` the recipe he or she
 similar to the `Add recipe` page but each input field will be filled out with the recipe information of that recipe. 
 
 **Edit recipe, authenticated and creator of recipe:**
-![Screenshot of edit recipe]()
+![Screenshot of edit recipe](/assets/readme/design/edit-recipe.png)
 
 If the user is the creator of the recipe and wish to `delete` the recipe he or she can then click on the red button that says `Delete recipe`. A modal will then appear on the top of the page to inform the user that he or she is about to delete the recipe and asks for a confirmation on this. 
 
 **Delete recipe, authenticated and creator of recipe:**
-![Screenshot of delete recipe modal]()
+![Screenshot of delete recipe modal](/assets/readme/design/delete-recipe.png)
 
 
 ---

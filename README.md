@@ -253,10 +253,10 @@ The about link will trigger a `modal` that contains the about What To Eat text. 
 The `Add recipe` link will either display a `You have to login to add your own recipes!` message or the form for adding a recipe depending of if the user is authenticated or not on the that page. 
 
 **Add recipe, not authenticated:**
-![Screenshot of add recipe site not authenticated]()
+![Screenshot of add recipe site not authenticated](/assets/readme/design/add-recipe.png)
 
 **Add recipe, authenticated:**
-![Screenshot of add recipe site authenticated]()
+![Screenshot of add recipe site authenticated](/assets/readme/design/add-recipe1.png)
 
 ### User
 

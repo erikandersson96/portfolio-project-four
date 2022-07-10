@@ -237,6 +237,13 @@ This is how it looks:
 
 ### Navbar
 
+**Navbar links:**
+The navbar links depends as I have mentioned earlier, either there is `About, Add recipe, Register, Login` or `About, Add recipe, Login/Logout` if the user is authenticated. 
+
+![Screenshot of navbar](/assets/readme/design/navbar.png)
+
+![Screenshot of navbar logged in](/assets/readme/design/navbar1.png)
+
 **About modal:**
 The about link will trigger a `modal` that contains the about What To Eat text. To close the about modal you can just click anywhere else outside it or use the close button. 
 

@@ -168,11 +168,15 @@ I choose four colors for my website, a `shade of green`, `another shade of green
 
 ### Fonts
 
-I choose two different fonts for my website, `"Kaushan"` for my logo and all headings (h1, h2, h3) and `"Lato"` for all other text with `sans-serif` as backup in case the choosen font wouldn't load. I choose these two fonts because I thought they matched good togheter and for this website. 
+I choose two different fonts for my website, `"Kaushan"` for my logo and all headings (h1, h2, h3) and `"Lato"` for all other text with `sans-serif` as backup in case the choosen font wouldn't load. I choose these two fonts because I thought they matched good togheter and for this website. The fonts were taken from `pairfonts.com`. 
 
 **Kaushan for my logo and all headings:**
 
+![Screenshot of black color]()
+
 **Lato for all other text:**
+
+![Screenshot of black color]()
 
 
 ---

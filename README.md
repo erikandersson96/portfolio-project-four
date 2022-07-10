@@ -263,16 +263,16 @@ The `Add recipe` link will either display a `You have to login to add your own r
 **Register account:**
 The `Register` page displays a register your account page with `username, email (optional), password, password again`. 
 
-![Screenshot of register an account]()
+![Screenshot of register an account](/assets/readme/design/register.png)
 
 The `Login` page displays a login form and if the user is already authenicated (logged in) the `Logout` navigation link will trigger a page that says 
 `You are about to sign out. Is that what you want?` with a confirmation button to sign out. 
 
 **Login:**
-![Screenshot of login page]()
+![Screenshot of login page](/assets/readme/design/sign-in.png)
 
 **Logout:**
-![Screenshot of logout page]()
+![Screenshot of logout page](/assets/readme/design/sign-out.png)
 
 ### Recipes
 

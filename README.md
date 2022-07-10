@@ -325,13 +325,21 @@ The app might have some bad user experience now because the time delay is a bit 
 ---
 ## Technologies
 
-Technologies that I used for this `Formula One Quiz` is the following down below.
+Technologies that I used for `What To Eat` website project is the following down below.
 
 #### Programming Languages 
 
 * [Python](https://www.python.org/) (link): Python is a general-purpose language, meaning it can be used to create a variety of different programs and isn't specialized for any specific problems.
 
 #### Frameworks & Programs 
+
+* [Django](https://www.djangoproject.com/) (link): Django is a high-level `Python web framework` that enables rapid development of secure and maintainable websites.
+
+* [Bootstrap 5](https://getbootstrap.com/) (link): Bootstrap is a `CSS framework and toolkit`. Developers can't use it to write programs, but because Bootstrap contains massive amounts of reusable code and website element templates, the framework can remove some of the “busy work” and significantly speed up the process of building a website.
+
+* [CSS](https://www.w3schools.com/css/) (link): CSS (Cascading Style Sheets), Is a program used to style the the structure HTML of a website. 
+
+* [HTML 5](https://www.w3schools.com/html/) (link): HTML 5. Technically, HTML is not a programming language, but rather a `markup language`.
 
 * [GitHub](https://github.com) (link): GitHub is used to store all data from the project after it has been pushed using the 
 `git add . | git commit -m "message here" | git push` command in the GitPod terminal. 

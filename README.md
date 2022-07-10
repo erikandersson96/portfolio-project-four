@@ -221,16 +221,16 @@ All other pages on the website inherits the navigation bar and footer.
 This is how it looks: 
 
 **Not authenticated:**
-![Screenshot of start page upper part (not logged in)]() 
+![Screenshot of start page upper part (not logged in)](/assets/readme/design/home.png) 
 
 **Authenticated:**
-![Screenshot of start page upper part (logged in)]() 
+![Screenshot of start page upper part (logged in)](/assets/readme/design/home-up.png) 
 
 **Not authenticated:**
-![Screenshot of start page lower part (not logged in)]() 
+![Screenshot of start page lower part (not logged in)](/assets/readme/design/home-down.png) 
 
 **Authenticated:**
-![Screenshot of start page lower part (logged in)]() 
+![Screenshot of start page lower part (logged in)](/assets/readme/design/home-down1.png) 
 
 **Footer:**
 ![Screenshot of footer](/assets/readme/design/footer.png) 

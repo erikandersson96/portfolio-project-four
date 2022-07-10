@@ -2,7 +2,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@900&family=Lato:wght@300&display=swap');
 
 
-
 body {
     background-color: #ffffff;
     font-family: "Lato", sans-serif;
@@ -17,7 +16,7 @@ h1, h2, h3 {
 /******************* Navbar *******************/
 
 .nav-item {
-    font-family: "Lato", sans-serif;
+    font-family: "Lato";
     font-size: 20px;
 }
 

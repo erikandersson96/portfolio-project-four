@@ -160,11 +160,11 @@ I choose four colors for my website, a `shade of green`, `another shade of green
 
 **Red color (Default css color)**
 
-![Screenshot of red color]()
+![Screenshot of red color](/assets/readme/color/red.png)
 
 **Black color (Default css color)**
 
-![Screenshot of black color]()
+![Screenshot of black color](/assets/readme/color/black.png)
 
 ### Fonts
 

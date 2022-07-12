@@ -201,7 +201,7 @@ Before I started to code this project I created a `Diagram Entity Relationship -
 Before I started to write any code for this project I made sure to create an easy and straightforward `Flow Diagram` with all the logic for this project. The `Flow Diagram` was created with the use of 
 [Lucid Chart](https://www.lucidchart.com/pages/) (link). I used the free version that is available for anyone that register an acount at their website. My `Flow Diagram` is demonstrated below. 
 
-![Screenshot of flow diagram](/assets/readme/logic/lucidchart.png)
+![Screenshot of flow diagram](/assets/readme/logic/flowdiagram.png)
 
 **Explain flow diagram:** 
 

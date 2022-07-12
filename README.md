@@ -121,6 +121,14 @@ Create a website that allows users to create an account so they can see, add and
 ---
 ## Website Design
 
+### What To Eat - Balsamiq Wireframe
+
+I created a Wireframe for this project to showcase for my mentor what my design idea for this project would look like using [Balsamiq - wireframes](https://balsamiq.com/) (link). But I also created this so I could focus more on designing the actual website instead of having to think to much how the design for this project would look. 
+
+Instead adding all scrrenshots of my wireframe here I have decided that you can take a look at it by this shared link of my wireframe, [What To Eat - wireframe](https://balsamiq.cloud/sxp607p/pbhbjfz) (link).
+
+### Design
+
 `Logo design` - Because this website was created with the intention to keep it clean and simple. I decided to go with only `“What To Eat”`. Because I thought it gives the website a simple and clean look.
 
 `Background Image` - I downloaded this image from pixabay.com which is a website with free images. And I used a white background color to it in case the image wouldn't load.
@@ -182,15 +190,20 @@ I choose two different fonts for my website, `"Dancing Script"` for my logo and 
 ---
 ## Logic 
 
-### Flow Diagram 
+### What To Eat - Database Schema
 
-Before I started to write any code for this project I made sure to create an easy and straightforward `Flow Diagram` with all the logic for this Quiz. The `Flow Diagram` was created with the use of 
+Before I started to code this project I created a `Diagram Entity Relationship - Database Schema` using [dbdiagram](https://dbdiagram.io/home) (link). I created this to easier understand the database models that I was going to create for this project.
+
+![Screenshot of database schema]()
+
+### What To Eat - Flow Diagram
+
+Before I started to write any code for this project I made sure to create an easy and straightforward `Flow Diagram` with all the logic for this project. The `Flow Diagram` was created with the use of 
 [Lucid Chart](https://www.lucidchart.com/pages/) (link). I used the free version that is available for anyone that register an acount at their website. My `Flow Diagram` is demonstrated below. 
 
-![Screenshot of my flow diagram first part]() 
-![Screenshot of my flow diagram last part]()
+![Screenshot of flow diagram]()
 
-### Explain Logic in Flow Chart
+**Explain flow diagram:** 
 
 First the user starts the program. Secondly the user gets to the `Menu` with 3 options `Start Quiz | Leaderboard | Game Rules`. 
 

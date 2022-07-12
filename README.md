@@ -353,28 +353,36 @@ Technologies that I used for `What To Eat` website project is the following down
 
 #### Programming Languages 
 
-* [Python](https://www.python.org/) (link): Python is a general-purpose language, meaning it can be used to create a variety of different programs and isn't specialized for any specific problems.
+* [Python 3.0](https://www.python.org/) (link): Python is a general-purpose language, meaning it can be used to create a variety of different programs and isn't specialized for any specific problems.
 
 #### Frameworks & Programs 
 
 * [Django](https://www.djangoproject.com/) (link): Django is a high-level `Python web framework` that enables rapid development of secure and maintainable websites.
 
-* [Bootstrap 5](https://getbootstrap.com/) (link): Bootstrap is a `CSS framework and toolkit`. Developers can't use it to write programs, but because Bootstrap contains massive amounts of reusable code and website element templates, the framework can remove some of the “busy work” and significantly speed up the process of building a website.
-
-* [CSS](https://www.w3schools.com/css/) (link): CSS (Cascading Style Sheets), Is a program used to style the the structure HTML of a website. 
-
-* [HTML 5](https://www.w3schools.com/html/) (link): HTML 5. Technically, HTML is not a programming language, but rather a `markup language`.
+* [Bootstrap 5](https://getbootstrap.com/) (link): Bootstrap is a `CSS framework and toolkit`. Developers can't use it to write programs, but because Bootstrap contains massive amounts of reusable code and website element templates, the framework can remove some of the “busy work” and significantly speed up the process of building a website. 
 
 * [GitHub](https://github.com) (link): GitHub is used to store all data from the project after it has been pushed using the 
 `git add . | git commit -m "message here" | git push` command in the GitPod terminal. 
 
 * [GitPod](https://www.gitpod.io) (link): I used `GitPod` as my `IDE` that stands for `An integrated development environment (IDE) is a software for building applications that combines common developer tools into a single graphical user interface (GUI)`. You can read more about this [here](https://www.gitpod.io/blog/gitpod-launch) (link). 
 
+* `Git`: This is used for version control by utilizing the Gitpod terminal to commit to Git and Push to GitHub. Incase someting unexpected happens to your gitpod workspace, everything is committed to your GitHub repository. 
+
 * [Heroku](https://www.heroku.com) (link): Heroku is a container-based cloud Platform as a Service `(PaaS)`. Developers use Heroku to deploy, manage, and scale modern apps.
 
 * [LucidChart](https://www.lucidchart.com/pages/) (link): Lucidchart is the intelligent diagramming application that empowers teams to clarify complexity, logic and more. To get a better visual understanding about how an application work. 
 
 * [PEP8](http://pep8online.com/) (link): Is a validation tool that I used to validate my code. 
+
+* [Am I responsive](https://ui.dev/amiresponsive) (link). Used to create the mockup image. 
+
+* [Font Awesome](https://fontawesome.com/) (link). Was used to add icons for my social media links. 
+
+* [Pair Fonts](https://pairfonts.com/) (link). I used Pair Fonts to add custome fonts for the aesthetic and UX purposes. 
+
+* [Balsamiq](https://balsamiq.com/) (link). Balsamiq was used to create my wireframe for my design process. 
+
+* [dbdiagram](https://dbdiagram.io/home) (link). dbdiagram was used to create my database schema before I started to code my project. 
 
 
 ---

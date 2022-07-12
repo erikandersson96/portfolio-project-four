@@ -35,3 +35,7 @@ During my development for this project each function were tested to work as expe
 
 ---
 ### Automated Testing
+
+
+---
+### RETURN BACK TO THE [TOP](#testing)

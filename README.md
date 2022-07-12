@@ -385,7 +385,6 @@ Technologies that I used for `What To Eat` website project is the following down
 
 All testing of this project has been documented in a seperate file called `TESTING.md` and you can fin it [here](TESTING.md) (internal link). 
 
-
 ### Bugs 
  
 * **Bug 1:**

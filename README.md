@@ -194,7 +194,7 @@ I choose two different fonts for my website, `"Dancing Script"` for my logo and 
 
 Before I started to code this project I created a `Diagram Entity Relationship - Database Schema` using [dbdiagram](https://dbdiagram.io/home) (link). I created this to easier understand the database models that I was going to create for this project.
 
-![Screenshot of database schema]()
+![Screenshot of database schema](/assets/readme/logic/db-schema.png)
 
 ### What To Eat - Flow Diagram
 

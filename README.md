@@ -491,17 +491,6 @@ a class of `d-flex flex-column min-vh-100` to the `body` in my base.html file.
 
 
 ---
-## Python Libraries 
-
-**Python libraries used for this project:** 
-* **Os:** I choose to import this one so that I could enable the possibility for me to create a function that works as `"clear()"`, so I could call it within other functions so the terminal clears other text that were displayed before. The same principle is used when using the terminal in other situations and you want to clear out all unnecessary text so you get a cleaner look. Here you can take a look at the website of [OS](https://docs.python.org/3/library/os.html) (link).
-* **Time:** I choose to import time to be able to set time delays `(time.sleep(seconds))` within certain functions so the Quiz doesn't executes to fast for the user to be able read the information. Here you can take a look at the website of [Time](https://docs.python.org/3/library/time.html) (link).
-* **Random:** I had to import random in order for me to generate a random order of the questions for the user. 
-This Formula One Quiz was created with the intention to test peoples knowledge in the sport. A game that people can share among their friends and family to challenge each other's knowledge. Here you can take a look at the website of [Random](https://docs.python.org/3/library/random.html) (link).
-* **Pyfiglet:** I choose to import [pyfiglet](https://pypi.org/project/pyfiglet/0.7/) (link) so I could display `"F1 QUIZ"` in a 3d look without the need to create it myself. Take a look at their website to get all of the instructions to how you can implement it your self to your next python project. 
-
-
----
 ## Credits
 
 #### Media 
@@ -613,6 +602,7 @@ I would like to give an extra `Thank you` to all the kind people I have around m
 * **Code Institute** for their **Tutor** support. 
 * My mentor [Benjamin Kavanagh](https://github.com/BAK2K3) for being a **Superior** mentor.
 * **Google** for always clear things up.
+* **Code Institute Slack channel** for always helping out with problems or questions. 
 * My lovely **Girlfriend** for always supporting and believing in me.
 
 ### RETURN TO THE [TOP](#formula-one-quiz)

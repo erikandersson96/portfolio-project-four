@@ -314,12 +314,9 @@ If the user is the creator of the recipe and wish to `delete` the recipe he or s
 ---
 ## Future Features 
 
-A feature that I would like to add that I didn't have the time for to add to this project is the abilty to record the time that the user takes to answer each question. 
-So the `Formula One Quiz` would have been a little more challenging amongst friends when they are playing against eachother and the also implement the time to the leaderboard. 
-If I were to use this function I would need to use this combination `start_time = time.time() and end_time = time.time()`.  
+A feature that I would like to add in the future is the ability to categorize the protein source into `meat, fish, vegetarian or just a mix of all`. This is a feature that I felt I didn't have the knowledge or time for to create, but therfore I have decided to leave it as a future feature for me to add to this project. 
 
-Add some extra time delays for the correct or wrong answers for the user. But since `Heroku` updated their process for deployment I felt unsure about how to update my code push it and then create a new app with new config vars. I tried to do this but then my app wasn't created in some wierd way even when I followed the steps for manual deploy thru `Gitpod` terminal. 
-The app might have some bad user experience now because the time delay is a bit short, but I am fully aware of it and I would have changed it if I knew how to solve this manual heroku deployment problem. When my experience gets better I will be better for improving this in the future for future projects. 
+Another feature that I would like to add is a random function like a seperate page where authenticated users could randomly generate a meal from the list of all recipes, of course from the protein source that they have specified and then add this meal for their week's list. This list will then be saved for them to check for `what to eat` for each day of the week. And then they can remove items aswell from that list so they can create a new one for next week etc. 
 
 
 ---

@@ -416,6 +416,44 @@ All checking for validation when expecting a user input works correctly as expec
 
 Throughout the whole development of this Quiz I have tested the game in the GitPod terminal to see that my functions are working as expected, but also to debugg my code if my program have not operated as I expected it to do. 
 
+### Validation
+
+When testing my code in [PEP8 Online](http://pep8online.com/) validation tool I got no errors except that I had no newline at the bottom of the file. But that was only me erasing the last line in `PEP8` before checking my code because I thought that was correct. But since `GitPod` wont let me save my file without erros unless I have a newline at the bottom. Now I have changed that but I want to show a screenshot of the first `PEP8` result and underneath I will show the fixed screenshot. See images below: 
+
+**No Newline:**
+![Screenshot PEP8 validation error]()
+
+**With Newline:**
+![Screenshot PEP8 validation no error]()
+ 
+
+### User Story Testing 
+
+To meet the expectations in the user stories. I have tested my python project for each of them.
+
+1. **Goal** 
+* A user's perspective: I want to easily understand the purpose of the website. 
+
+**Result**
+* By presenting the game with `"F1 QUIZ"` first and a welcome message that explains that says `"Welcome to this Formula One Quiz!"`, so the user quickly understand the purpose of this website (python project). 
+
+2. **Goal**
+* A user's perspective: I want the quiz to have clear instructions about how the game works.
+
+**Result**
+* By always presenting instructions below each step the user takes in the game. 
+
+3. **Goal**
+* A user's perspective: I want the game to always provide me with information about how many questions I have played and have left, also how many points I have scored.
+
+**Result**
+* By adding the functionality to see which question of the selected amount the user is on right above each question. When the user has answered a question and if the user is correct the total points scored will be displayed underneath, but also when the game is finished. 
+
+### Device Testing 
+
+Since this project is dependent to run in a mock terminal it is restricted to `desktop` use only, otherwise it will be a bad user experience on a smaller screen device. 
+
+
 ### Bugs 
  
 * **Bug 1:**
@@ -452,45 +490,6 @@ I made a search on google and found this [website](https://radu.link/make-footer
 a class of `d-flex flex-column min-vh-100` to the `body` in my base.html file. 
 
 
-### Validation
-
-When testing my code in [PEP8 Online](http://pep8online.com/) validation tool I got no errors except that I had no newline at the bottom of the file. But that was only me erasing the last line in `PEP8` before checking my code because I thought that was correct. But since `GitPod` wont let me save my file without erros unless I have a newline at the bottom. Now I have changed that but I want to show a screenshot of the first `PEP8` result and underneath I will show the fixed screenshot. See images below: 
-
-**No Newline:**
-![Screenshot PEP8 validation error]()
-
-**With Newline:**
-![Screenshot PEP8 validation no error]()
- 
-
-### User Story Testing 
-
-To meet the expectations in the user stories. I have tested my python project for each of them.
-
-1. **Goal** 
-* A user's perspective: I want to easily understand the purpose of the website. 
-
-**Result**
-* By presenting the game with `"F1 QUIZ"` first and a welcome message that explains that says `"Welcome to this Formula One Quiz!"`, so the user quickly understand the purpose of this website (python project). 
-
-2. **Goal**
-* A user's perspective: I want the quiz to have clear instructions about how the game works.
-
-**Result**
-* By always presenting instructions below each step the user takes in the game. 
-
-3. **Goal**
-* A user's perspective: I want the game to always provide me with information about how many questions I have played and have left, also how many points I have scored.
-
-**Result**
-* By adding the functionality to see which question of the selected amount the user is on right above each question. When the user has answered a question and if the user is correct the total points scored will be displayed underneath, but also when the game is finished. 
-
-
-### Device Testing 
-
-Since this project is dependent to run in a mock terminal it is restricted to `desktop` use only, otherwise it will be a bad user experience on a smaller screen device. 
-
-
 ---
 ## Python Libraries 
 
@@ -503,30 +502,21 @@ This Formula One Quiz was created with the intention to test peoples knowledge i
 
 
 ---
-## Content
+## Credits
 
 #### Media 
 
-The `Ferrari red` color for the background was taken from [color-hex](https://www.color-hex.com/color/a6051a) (link), you can take a look at the color at their website by cliking the link. 
+All images for this project was taken from [Pixabay](https://pixabay.com/) (link). 
 
-#### Footer 
+#### Inspiration for this project
 
-The `footer` with the icons for the different social media links was taken from [Font Awesome](https://fontawesome.com/) (link).
+[Code Institute](https://codeinstitute.net/) (link) - I took inspiration to this project from the `Code Institute` videos of `I Think Therefore I Blog`. 
 
+[Best Beer Project - by nandabritto (other student)](https://github.com/nandabritto/beer_rate) (link) - I took some inspiration from this project to 
+create some of my `Django` and `Bootstrap` functionality. 
 
----
-## Credits
+[Lettuce Eat Project - by Kat632 (other student)](https://github.com/Kat632/PP4-LettuceEat) (link) - I took some inspiration from this project to create the view of my recipe list and the forms for add recipe and edit recipe.  
 
-#### Code 
-
-My mentor [Benjamin Kavanagh](https://github.com/BAK2K3) suggested me to use [pyfiglet](https://pypi.org/project/pyfiglet/0.7/) (link) instead of trying to create my own figlet in the 
-`Start Screen` that says `F1 QUIZ`. 
-
-![Screenshot of pyfiglet]()
-
-I used the `sort()` method after suggested to do so by my mentor [Benjamin Kavanagh](https://github.com/BAK2K3) for sorting my leaderboard rankings, I found this method in the documentation for `GSPREAD`. It can be found [here](https://docs.gspread.org/en/latest/api.html?highlight=sort#gspread.worksheet.Worksheet.sort) (link). 
-
-![Screenshot of sort() method GSPREAD docs]()
 
 ---
 ## Deployment 

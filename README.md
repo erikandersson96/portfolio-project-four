@@ -102,7 +102,7 @@ As a guest I would like to be able to:
 * Learn more about the website.
 * Visit the website's social platforms. 
 * View all of the recipes. 
-* View the recipe details of a seleted recipe. 
+* View the recipe details of a selected recipe. 
 
 As a user I would like to be able to: 
 

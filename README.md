@@ -79,12 +79,7 @@ I hope that you will find some delicous recipes when navigating the website.
   * [Login / Logout](#login-logout)
 
 * [Testing](#testing)
-  * [Manual Testing](#manual-testing)
-  * [Automated Testing](#automated-testing)
   * [Bugs](#bugs)
-  * [Validation](#validation)
-  * [User Story Testing](#user-story-testing)
-  * [Device Testing](#device-testing)
 
 * [Technologies Used](#technologies-used)
 

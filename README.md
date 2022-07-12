@@ -605,4 +605,4 @@ I would like to give an extra `Thank you` to all the kind people I have around m
 * **Code Institute Slack channel** for always helping out with problems or questions. 
 * My lovely **Girlfriend** for always supporting and believing in me.
 
-### RETURN TO THE [TOP](#formula-one-quiz)
+### RETURN TO THE [TOP](#what-to-eat)

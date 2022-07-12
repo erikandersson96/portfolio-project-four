@@ -79,6 +79,20 @@ Here is my user story testing for this project as a **admin**:
 ---
 ## Device Testing
 
+Something that's worth mentioning is that I've tested the majority of these devices within Chrome dev tool, I have not had physical access to test these devices. I have tested the responsiveness and aesthetics on the following devices and browsers:
+
+* Apple 
+
+* Android
+
+* Google Devices
+
+* Motorola
+
+* Desktops/laptops
+
+* Browsers
+
 
 ---
 ## Manual Testing

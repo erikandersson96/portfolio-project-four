@@ -101,10 +101,25 @@ I hope that you will find some delicous recipes when navigating the website.
 ## UX 
 
 #### User Stories
-* 
-* 
-* 
-* 
+As a guest I would like to be able to: 
+
+* Register an account using username, email, and password.
+* Learn more about the website.
+* Visit the website's social platforms. 
+* View all of the recipes. 
+* View the recipe details of a seleted recipe. 
+
+As a user I would like to be able to: 
+
+* Login to my account. 
+* Add recipes to the list of recipes. 
+* Edit and delete recipes created by me. 
+
+As a admin I need to be able to: 
+
+* See the entire list of recipes that has been added. 
+* Add recipes to the list of recipes to be viewed by everyone. 
+* Edit and delete recipes created by admin. 
  
 #### Strategy
 

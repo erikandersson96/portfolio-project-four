@@ -205,21 +205,20 @@ Before I started to write any code for this project I made sure to create an eas
 
 **Explain flow diagram:** 
 
-First the user starts the program. Secondly the user gets to the `Menu` with 3 options `Start Quiz | Leaderboard | Game Rules`. 
+First the user visits the website as a guest, the first page the user sees is the `start page`. At the start page the guest is able learn more about the website or view all of the recipes. 
 
-If the user choose `Leaderboard` the user will be displayed with the leaderboard stats and when the user wants to get back to the `Menu` the user just type `m or M`. If the user types an invalid input (not m or M) a message will appear with instructions about this. 
+If the guest clicks on the `Add recipe` nav link, a page will appear that tells the guest to either login or register for an account to add recipes. 
 
-If the user choose `Game Rules` the user will be displayed the game rules and when the user wants to get back to the `Menu` the same principle works as for `Leaderboard` type `m or M` with the same message for invalid inputs. 
+If the login isn't approved the user will get a message above the login form that says `The username and/or password you specified are not correct` and the guest can try again. 
+When the login is approved, the guest will then become a user and will be redirected to the `home page`. 
 
-If the user choose `Start Quiz` the user will be asked for a `username`, the user can input anything (alphabetic only) maximum of 10 characters. If the user types the wrong character a message with instructions will appear to guide the user right in order to continue the Quiz. 
+If the user choose to add a recipe, the recipe page will appear and the user can now add a recipe to the list of recipes. After the user has clicked on `Save` the user will be redirected to the `home page`. 
 
-When the user has inputted a valid `username` the user will be asked for how many question that he or she would like to play `6 or 12`, the user can only input 6 or 12 as a valid input otherwise a message with instructions will appear that guides the user on how to continue. 
+At the `home page` the user can view all recipes but also click on `View recipe` to see the recipes details, if the user is the creator or this recipe then the user is able to edit or delete the recipe. But if not the user can only view the recipe details.  
 
-After this question the Quiz will start, when the user gets displayed with a question the user gets 2 options for the only one correct answer, this will be listed as `1 or 2`. If the user types anything else then 1 or 2 a message will appear with instructions about how to continue the Quiz. If the user answers correct he or she will be rewarded with +1 point. If the user answers incorrect he or she will not get any point. The loop with questions will continue until all questions has been displayed of the selected amount `6 or 12`. 
+If the user choose to edit the recipe, the user will get directed to the `Edit recipe` page and after the user has clicked on `Save` the user will get redirected back to the `home page`. 
 
-When the user has finsihed all questions of the amount that the user selected a `End Message` will appear with the users `username and total score`. 
-
-To continue the user has to `Please press enter to continue...` to get a final question if he or she would like to either `play again` or `exit` the program by answer `Yes or No` by typing `y or Y` for Yes and `n or N` for no. If the user types anything else here a message with instructions will appear to guide the user to the correct input. If the user types `Yes` he or she will be taken back to the `Menu` with options or the program will exit if the user types `No`. 
+But If the user choose the `delete` button a delete modal will appear with a question if the user want to delete or not, if yes the recipe will be deleted permently and if not the user can close the modal window by the close button or just click somewhere outside the modal. 
 
 
 ---

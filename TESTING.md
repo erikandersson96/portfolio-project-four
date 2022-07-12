@@ -7,14 +7,22 @@ During my development for this project each function were tested to work as expe
 ## Table of contents - testing
 
 * [Validation Testing](#validation-testing)
+  * [Python PEP8](#python-pep8-validation)
+  * [HTML Validation](#html-code-validation)
+  * [CSS Validation](#css-code-validation)
 
 * [User Story Testing](#user-story-testing)
 
-* [Device Testing](#)
+* [Device Testing](#device-testing)
 
-* [Manual Testing](#)
+* [Manual Testing](#manual-testing)
+  * [Standard Elements](#standard-elements)
+  * [Home Page](#home-page)
+  * [Recipe Details](#recipe-details)
+  * [Add Recipe](#add-recipe)
+  * [Authentication](#authentication)
 
-* [Automated Testing](#)
+* [Automated Testing](#automated-testing)
 
 
 ---

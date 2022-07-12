@@ -20,6 +20,15 @@ During my development for this project each function were tested to work as expe
 ---
 ## Validation Testing
 
+### Python (PEP8) Validation
+
+##### whattoeat App
+
+##### recipes App
+
+### HTML Code Validation
+
+### CSS Code Validation
 
 ---
 ## User Story Testing

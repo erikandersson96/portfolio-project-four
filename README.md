@@ -54,8 +54,8 @@ I hope that you will find some delicous recipes when navigating the website.
 ## Table of Contents
 
 * [Planning](#planning)
-  * [Wireframe]()
-  * [Trello]()
+  * [Wireframe](#what-to-eat---balsamiq-wireframe)
+  * [Trello](#trello---user-stories-board)
 
 * [UX](#ux) 
   * [User Stories](#user-stories) 

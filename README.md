@@ -6,7 +6,7 @@ users can login/logout, see all of the recipes, edit or delete the recipes that 
 
 **Remember that all links in this Readme does not open in a new tab. They open in the same window.** 
 
-To visit What To Eat website please click this [link](). 
+To visit What To Eat website please click this [link](https://whattoeat2022.herokuapp.com/). 
 
 ![Screenshot of I am responsive]()
 

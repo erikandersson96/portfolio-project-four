@@ -99,9 +99,19 @@ I hope that you will find some delicous recipes when navigating the website.
 ---
 ## Planning
 
-### Wireframe 
+### What To Eat - Balsamiq Wireframe
 
-### Trello
+I created a Wireframe for this project to showcase for my mentor what my design idea for this project would look like using [Balsamiq - wireframes](https://balsamiq.com/) (link). But I also created this so I could focus more on designing the actual website instead of having to think to much how the design for this project would look. 
+
+Instead adding all scrrenshots of my wireframe here I have decided that you can take a look at it by this shared link of my wireframe, [What To Eat - wireframe](https://balsamiq.cloud/sxp607p/pbhbjfz) (link).
+
+### Trello - User Stories Board
+
+Before I started to work with the code for this project I was requested of my mentor to create a mapping tool for my `user stories` to easier track `what to do when`. So I choose to use `Trello` as my tool for this. During my development I have been moving each user story with it's `EPICS` to the correct stage of the process, and I have made sure that each user story was manualy tested and fully functional before moving on to the next one. 
+
+I will demonstrate for you down below each step of my trello board during my development:
+
+
 
 
 ---
@@ -142,12 +152,6 @@ Create a website that allows users to create an account so they can see, add and
 
 ---
 ## Website Design
-
-### What To Eat - Balsamiq Wireframe
-
-I created a Wireframe for this project to showcase for my mentor what my design idea for this project would look like using [Balsamiq - wireframes](https://balsamiq.com/) (link). But I also created this so I could focus more on designing the actual website instead of having to think to much how the design for this project would look. 
-
-Instead adding all scrrenshots of my wireframe here I have decided that you can take a look at it by this shared link of my wireframe, [What To Eat - wireframe](https://balsamiq.cloud/sxp607p/pbhbjfz) (link).
 
 ### Design
 

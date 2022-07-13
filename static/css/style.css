@@ -46,6 +46,14 @@ footer a {
     width: 100%;
 }
 
+/******************* Styling for caption on the start page *******************/
+.caption {
+    position: absolute;
+    top: 30%;
+    left: 35%; 
+    width: 30%; 
+}
+
 /******************* Add padding above text for welcome to What To Eat recipes home page *******************/
 .home-wte-welcome {
     padding-top: 50px;

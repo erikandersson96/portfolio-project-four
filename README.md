@@ -111,7 +111,30 @@ Before I started to work with the code for this project I was requested of my me
 
 I will demonstrate for you down below each step of my trello board during my development:
 
+**Trello board:**
 
+![Screenshot of trello board](/assets/readme/)
+
+
+**To Do (Admin):**
+
+![Screenshot of trello board](/assets/readme/)
+
+**In-design (Admin):** 
+
+![Screenshot of trello board](/assets/readme/)
+
+**Testing (Admin):**
+
+![Screenshot of trello board](/assets/readme/)
+
+**Done (Admin):**
+
+![Screenshot of trello board](/assets/readme/)
+
+Then I have been doing this for each and everyone of the rest in my `To Do` list. I have displayed the other ones in my `To Do` list underneath: 
+
+![Screenshot of trello board](/assets/readme/)
 
 
 ---

@@ -53,6 +53,10 @@ I hope that you will find some delicous recipes when navigating the website.
 ---
 ## Table of Contents
 
+* [Planning](#planning)
+  * [Wireframe]()
+  * [Trello]()
+
 * [UX](#ux) 
   * [User Stories](#user-stories) 
   * [Strategy](#strategy)
@@ -378,6 +382,8 @@ Technologies that I used for `What To Eat` website project is the following down
 * [Balsamiq](https://balsamiq.com/) (link). Balsamiq was used to create my wireframe for my design process. 
 
 * [dbdiagram](https://dbdiagram.io/home) (link). dbdiagram was used to create my database schema before I started to code my project. 
+
+* [Trello](https://trello.com/) (link). Trello was used for creating my board for mapping my user stories in this project. 
 
 
 ---

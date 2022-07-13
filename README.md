@@ -97,6 +97,14 @@ I hope that you will find some delicous recipes when navigating the website.
 
 
 ---
+## Planning
+
+### Wireframe 
+
+### Trello
+
+
+---
 ## UX 
 
 #### User Stories

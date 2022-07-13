@@ -113,28 +113,32 @@ I will demonstrate for you down below each step of my trello board during my dev
 
 **Trello board:**
 
-![Screenshot of trello board](/assets/readme/)
+![Screenshot of trello board](/assets/readme/planning/trello.png)
 
 
 **To Do (Admin):**
 
-![Screenshot of trello board](/assets/readme/)
+![Screenshot of trello board](/assets/readme/planning/todo-admin.png)
 
 **In-design (Admin):** 
 
-![Screenshot of trello board](/assets/readme/)
+![Screenshot of trello board](/assets/readme/planning/design-admin.png)
 
 **Testing (Admin):**
 
-![Screenshot of trello board](/assets/readme/)
+![Screenshot of trello board](/assets/readme/planning/test-admin.png)
 
 **Done (Admin):**
 
-![Screenshot of trello board](/assets/readme/)
+![Screenshot of trello board](/assets/readme/planning/done-admin.png)
 
 Then I have been doing this for each and everyone of the rest in my `To Do` list. I have displayed the other ones in my `To Do` list underneath: 
 
-![Screenshot of trello board](/assets/readme/)
+![Screenshot of trello board](/assets/readme/planning/todo1.png)
+
+![Screenshot of trello board](/assets/readme/planning/todo2.png)
+
+![Screenshot of trello board](/assets/readme/planning/todo3.png)
 
 
 ---

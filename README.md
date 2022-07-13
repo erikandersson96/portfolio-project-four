@@ -542,6 +542,9 @@ This instructions were taken from [Github - cloning a repository](https://docs.g
 
 Deploying a project using Heroku: 
 
+* Don't forget to set your `DEBUG` in your `settings.py` file of your main app in `Django` to `False`.
+* Ensure that all of your project dependencies are listed in the `requirments.txt` file. 
+* If not, then you can use this command in the Gitpod terminal: `pip3 freeze --local > requirments.txt`.
 * Visit the [Heroku](https://www.heroku.com) (link) website and click on create an account. 
 * Click the `"New"` button. 
 * Click the `"Create new app"` button. 
@@ -550,24 +553,21 @@ Deploying a project using Heroku:
 * Click the `"Create App"` button. 
 * Once redirected, proceed to the settings tab. 
 * Click on the `"config vars"` button. 
-* Supply a `KEY` of `PORT` and it's value of `8000`. Then click the `"add"` button. 
+* Supply a `KEY` of `PORT` and it's value of `8000`. Then click the `"add"` button. Do this with `Cloudinary, Database URL (from Heroku-Postgres) and your secret key`. 
 * Next step is to add `Buildpacks`, click the `"Add Buildpack"` button. 
-* The `python` buildpack needs to be added first then the `node js` buildpack. 
-* Once the buildpacks have completed, got to the deploy screen, once in the deploy screen, select GitHub as the deployment method and connect your GitHub profile. 
+* The `Heroku Postgress` buildpack need to be added. 
+* Once the buildpack have completed, go to the deploy tab, once on the deploy screen, select GitHub as the deployment method and connect your GitHub profile. 
 * Search for the repository that you wish to deploy to `Heroku` and click `"connect"`. 
-* Once your repository is connected to Heroku you can choose to either automatically or manually deploy your app. 
-* I choose manual deploy beacuse I like to refresh the branch myself when I update my project. 
+* Once your repository is connected to Heroku you can choose to either automatically or manually deploy your app.  
 * By selecting automatic deploy, Heroku will build a new version of the app each time a change has been made and pushed to the repository on `GitHub`. 
-* By selecting manual deploys, it allows you to build a new version of your app whenever you click manual deploy. 
-* If your build is successful you will then be able to visit the live site by clicking the link that is provided to you by `Heroku`. 
+* Click on manual deploy to build your App. When complete, click on `View` to open up the live site on `Heroku`.  
+* Finished. 
 
-New way of deploy project to heroku: 
+If the `create app` process at `Heroku` website wouldn't work follow these steps: 
 * When you want to deploy your project to `Heroku`. 
 * Type `heroku login -i` to login to your existing account (if you have one) in the `Gitpod` terminal. 
 * Then run the command `heroku create your_app_name_here` to create a new app (the name has to be uniqe). 
 * Now you can see your new project at `Heroku` dashboard and set the config vars and buildpacks as the steps explained above. 
-
-The command to add packages to the requirments.txt file, `pip3 freeze --local > requirments.txt`. 
 
 
 ---

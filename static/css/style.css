@@ -51,7 +51,7 @@ footer a {
     position: absolute;
     top: 30%;
     left: 35%; 
-    width: 30%; 
+    padding: 10px; 
 }
 
 /******************* Add padding above text for welcome to What To Eat recipes home page *******************/
@@ -65,12 +65,148 @@ footer a {
     padding-bottom: 30px;
 }
 
-/******************* Media Query *******************/
+/******************* Media Queries *******************/
+
+@media only screen and (max-width: 1450px){
+
+    .caption {
+        left: 30%; 
+    }
+
+}
+
+@media only screen and (max-width: 1300px){
+
+    .caption-header {
+        font-size: 20px;
+    }
+
+    .caption-text {
+        font-size: 14px;
+    }
+
+}
+
+@media only screen and (max-width: 1100px){
+
+    .caption {
+        left: 25%; 
+    }
+
+}
+
+@media only screen and (max-width: 994px){
+
+    .caption-header {
+        font-size: 18px;
+    }
+
+    .caption-text {
+        font-size: 12px;
+    }
+
+    .caption {
+        left: 30%; 
+    }
+
+}
+
+@media only screen and (max-width: 912px){
+
+    .caption {
+        left: 25%; 
+    }
+
+}
+
+@media only screen and (max-width: 812px){
+
+    .caption {
+        left: 20%; 
+    }
+
+}
 
 @media only screen and (max-width: 750px){
 
     .copyright {
         font-size: 12px;
+    }
+
+}
+
+@media only screen and (max-width: 630px){
+
+    .caption {
+        left: 15%; 
+    }
+
+}
+
+@media only screen and (max-width: 585px){
+
+    .caption-header {
+        font-size: 16px;
+    }
+
+    .caption-text {
+        font-size: 10px;
+    }
+
+    .caption {
+        top: 25%;
+        left: 17%;
+    }
+
+}
+
+@media only screen and (max-width: 510px){
+
+    .caption-header {
+        font-size: 14px;
+    }
+
+    .caption-text {
+        font-size: 9px;
+    }
+
+    .caption {
+        top: 20%;
+        left: 17%;
+    }
+
+}
+
+@media only screen and (max-width: 510px){
+
+    .caption {
+        left: 14%;
+    }
+
+}
+
+@media only screen and (max-width: 430px){
+
+    .caption {
+        left: 8%;
+        top: 18%;
+    }
+
+}
+
+@media only screen and (max-width: 365px){
+
+    .caption {
+        left: 10%;
+        top: 20%;
+    }
+
+    .caption-header {
+        font-size: 11px;
+    }
+
+    .caption-text {
+        font-size: 7px;
     }
 
 }

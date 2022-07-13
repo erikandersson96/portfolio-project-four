@@ -31,6 +31,8 @@ SECRET_KEY = os.environ.get('SECRET_KEY')
 
 DEBUG = "DEBUG" in os.environ
 
+X_FRAME_OPTIONS = 'SAMEORIGIN'
+
 ALLOWED_HOSTS = ['whattoeat2022.herokuapp.com', 'localhost']
 
 

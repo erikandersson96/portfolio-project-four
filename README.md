@@ -465,6 +465,14 @@ page. Like shown in the screenshot below:
 I made a search on google and found this [website](https://radu.link/make-footer-stay-bottom-page-bootstrap/)(link) with a two step method. So I just added
 a class of `d-flex flex-column min-vh-100` to the `body` in my base.html file. 
 
+### Unfixed Bugs
+
+For some reason when a user is logged in and open the `About modal`, the already logged in user can't access the `register or login` links in the `About modal`. But it works perfectly fine for a user (guest) which aren't logged in. 
+
+**The links are these:** 
+
+![Screenshot of unfixed bug](/assets/readme/bugs/unfixed-bug.png)
+
 
 ---
 ## Credits

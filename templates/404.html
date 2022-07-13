@@ -2,10 +2,23 @@
 
 {% load static %}
 
+<!-- Title for page -->
 {% block title %}
     What To Eat 404 page
 {% endblock %}
 
 {% block content %}
+    <!-- error 404 container -->
+    <section>
+        <div class="bg-dark col-lg-5 col-11 m-auto rounded m-2 p-3 text-light">
+            <h1 class="display-1 fw-bolder yellow">404</h1>
+            <h2>Oh no!</h2> <hr>
+            <h2>Page not found.</h2>
+        </div> 
+        <!-- Back to home page button -->
+        <div class="m-2 text-center">
+            <a href="{% url 'home' %}" class="btn btn-signup btn-md">Home</a>
+        </div>
+    </section>
 
 {% endblock %}

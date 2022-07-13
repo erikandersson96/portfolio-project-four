@@ -412,7 +412,7 @@ Technologies that I used for `What To Eat` website project is the following down
 
 * [PEP8](http://pep8online.com/) (link): Is a validation tool that I used to validate my code. 
 
-* [Am I responsive](https://ui.dev/amiresponsive) (link). Used to create the mockup image. 
+* [Techsini](https://techsini.com/multi-mockup/index.php) (link). Used to create the mockup image. 
 
 * [Font Awesome](https://fontawesome.com/) (link). Was used to add icons for my social media links. 
 

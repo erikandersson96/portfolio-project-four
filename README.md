@@ -469,7 +469,7 @@ a class of `d-flex flex-column min-vh-100` to the `body` in my base.html file.
 
 For some reason when a user is logged in and open the `About modal`, the already logged in user can't access the `register or login` links in the `About modal`. But it works perfectly fine for a user (guest) which aren't logged in. 
 
-**The links are these:** 
+**The links are these highlighted with blue:** 
 
 ![Screenshot of unfixed bug](/assets/readme/bugs/unfixed-bug.png)
 

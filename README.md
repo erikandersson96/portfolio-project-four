@@ -118,27 +118,27 @@ I will demonstrate for you down below each step of my trello board during my dev
 
 **To Do (Admin):**
 
-![Screenshot of trello board](/assets/readme/planning/todo-admin.png)
+![Screenshot of trello admin to do](/assets/readme/planning/todo-admin.png)
 
 **In-design (Admin):** 
 
-![Screenshot of trello board](/assets/readme/planning/design-admin.png)
+![Screenshot of trello admin in-design](/assets/readme/planning/design-admin.png)
 
 **Testing (Admin):**
 
-![Screenshot of trello board](/assets/readme/planning/test-admin.png)
+![Screenshot of trello admin testing](/assets/readme/planning/test-admin.png)
 
 **Done (Admin):**
 
-![Screenshot of trello board](/assets/readme/planning/done-admin.png)
+![Screenshot of trello admin done](/assets/readme/planning/done-admin.png)
 
 Then I have been doing this for each and everyone of the rest in my `To Do` list. I have displayed the other ones in my `To Do` list underneath: 
 
-![Screenshot of trello board](/assets/readme/planning/todo1.png)
+![Screenshot of trello to do epics: recipe list and user authentication](/assets/readme/planning/todo1.png)
 
-![Screenshot of trello board](/assets/readme/planning/todo2.png)
+![Screenshot of trello to do epic: recipes](/assets/readme/planning/todo2.png)
 
-![Screenshot of trello board](/assets/readme/planning/todo3.png)
+![Screenshot of trello to do epic: learn about the website](/assets/readme/planning/todo3.png)
 
 
 ---

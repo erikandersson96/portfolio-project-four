@@ -8,7 +8,7 @@ users can login/logout, see all of the recipes, edit or delete the recipes that 
 
 To visit What To Eat website please click this [link](https://whattoeat2022.herokuapp.com/). 
 
-![Screenshot of I am responsive]()
+![Screenshot of Techsini mockup](/assets/readme/design/project-image.png)
 
 
 ---

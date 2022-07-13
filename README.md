@@ -122,7 +122,7 @@ I will demonstrate for you down below each step of my trello board during my dev
 
 **In-design (Admin):** 
 
-![Screenshot of trello admin in-design](/assets/readme/planning/design-admin.png)
+![Screenshot of trello admin in-design](/assets/readme/planning/indesign-admin.png)
 
 **Testing (Admin):**
 

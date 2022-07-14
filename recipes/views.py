@@ -1,5 +1,8 @@
 from django.shortcuts import render, get_object_or_404, redirect
 from django.views import generic, View
+from django.views.generic import UpdateView, DeleteView
+from django.contrib.auth.mixins import LoginRequiredMixin, UserPassesTestMixin
+from django.urls import reverse_lazy
 from .models import Recipe
 from .forms import RecipeForm
 
@@ -34,6 +37,16 @@ class RecipeDetail(View):
             },
         )
 
+# class edit_recipe(LoginRequiredMixin, UserPassesTestMixin, UpdateView):
+#     """
+#     View for edit recipe
+#     """
+#     model = Recipe
+#     template_name = 'edit_recipe.html'
+#     form_class = RecipeForm
+
+#     def test_func(self):
+#         return Recipe.objects.author == self.request.user
 
 def edit_recipe(request, slug):
     """
@@ -80,10 +93,20 @@ def add_recipe(request):
     return render(request, "add_recipe.html", context)
 
 
-def delete_recipe(request, slug):
+# def delete_recipe(request, slug):
+#     """
+#     View for delete recipe
+#     """
+#     recipe = Recipe.objects.get(slug=slug)
+#     recipe.delete()
+#     return redirect('home')
+
+class delete_recipe(LoginRequiredMixin, UserPassesTestMixin, DeleteView):
     """
     View for delete recipe
     """
-    recipe = Recipe.objects.get(slug=slug)
-    recipe.delete()
-    return redirect('home')
+    model = Recipe
+    success_url = reverse_lazy('home')
+
+    def test_func(self):
+        return Recipe.objects.author == self.request.user

@@ -1,8 +1,10 @@
 from django.shortcuts import render, get_object_or_404, redirect
 from django.views import generic, View
-from django.views.generic import UpdateView, DeleteView
-from django.contrib.auth.mixins import LoginRequiredMixin, UserPassesTestMixin
-from django.urls import reverse_lazy
+# from django.views.generic import UpdateView, DeleteView
+# from django.contrib.auth.mixins import LoginRequiredMixin, UserPassesTestMixin
+# from django.urls import reverse_lazy
+from django.contrib.auth.decorators import login_required
+from django.core.exceptions import PermissionDenied
 from .models import Recipe
 from .forms import RecipeForm
 
@@ -93,20 +95,24 @@ def add_recipe(request):
     return render(request, "add_recipe.html", context)
 
 
-# def delete_recipe(request, slug):
-#     """
-#     View for delete recipe
-#     """
-#     recipe = Recipe.objects.get(slug=slug)
-#     recipe.delete()
-#     return redirect('home')
-
-class delete_recipe(LoginRequiredMixin, UserPassesTestMixin, DeleteView):
+@login_required
+def delete_recipe(request, slug):
     """
     View for delete recipe
     """
-    model = Recipe
-    success_url = reverse_lazy('home')
+    recipe = Recipe.objects.get(slug=slug)
+    if recipe.author == request.user:
+        recipe.delete()
+    else:
+        raise PermissionDenied()
+    return redirect('home')
 
-    def test_func(self):
-        return Recipe.objects.author == self.request.user
+# class delete_recipe(LoginRequiredMixin, UserPassesTestMixin, DeleteView):
+#     """
+#     View for delete recipe
+#     """
+#     model = Recipe
+#     success_url = reverse_lazy('home')
+
+#     def test_func(self):
+#         return Recipe.objects.author == self.request.user

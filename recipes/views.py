@@ -50,26 +50,32 @@ class RecipeDetail(View):
 #     def test_func(self):
 #         return Recipe.objects.author == self.request.user
 
+
+@login_required
 def edit_recipe(request, slug):
     """
     View for edit recipe
     """
     recipe = get_object_or_404(Recipe, slug=slug)
-    recipe_form = RecipeForm(request.POST or None, instance=recipe)
-    context = {
-        "recipe_form": recipe_form,
-        "recipe": recipe
-    }
-    if request.method == "POST":
-        recipe_form = RecipeForm(request.POST, request.FILES, instance=recipe)
-        if recipe_form.is_valid():
-            recipe = recipe_form.save(commit=False)
-            recipe.author = request.user
-            recipe.save()
-            return redirect('home')
+    if recipe.author == request.user:
+        recipe_form = RecipeForm(request.POST or None, instance=recipe)
+        context = {
+            "recipe_form": recipe_form,
+            "recipe": recipe
+        }
+        if request.method == "POST":
+            recipe_form = RecipeForm(request.POST, request.FILES, instance=recipe)
+            if recipe_form.is_valid():
+                recipe = recipe_form.save(commit=False)
+                recipe.author = request.user
+                recipe.save()
+                return redirect('home')
+        else:
+            recipe_form = RecipeForm(instance=recipe)
+        return render(request, "edit_recipe.html", context)
     else:
-        recipe_form = RecipeForm(instance=recipe)
-    return render(request, "edit_recipe.html", context)
+        raise PermissionDenied()
+    return redirect('home')
 
 
 @login_required

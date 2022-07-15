@@ -172,15 +172,15 @@ Here are some screenshots of my function based views in views.py:
 
 **Add recipe:**
 
-![Screenshot of function based views in views.py, add_recipe]()
+![Screenshot of function based views in views.py, add_recipe](/assets/readme/testing-readme/add_recipe.png)
 
 **Edit recipe:**
 
-![Screenshot of function based views in views.py, add_recipe]()
+![Screenshot of function based views in views.py, add_recipe](/assets/readme/testing-readme/edit_recipe.png)
 
 **Delete recipe:**
 
-![Screenshot of function based views in views.py, add_recipe]()
+![Screenshot of function based views in views.py, add_recipe](/assets/readme/testing-readme/delete_recipe.png)
 
 
 ---

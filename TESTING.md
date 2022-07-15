@@ -21,7 +21,8 @@ During my development for this project each function were tested to work as expe
   * [Recipe Details](#recipe-details)
   * [Add Recipe](#add-recipe)
   * [Authentication](#authentication)
-  * [Defensive Programming]()
+
+* [Defensive Programming](#defensive-programming)
 
 * [Automated Testing](#automated-testing)
 

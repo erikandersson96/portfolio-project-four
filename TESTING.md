@@ -189,4 +189,4 @@ Here are some screenshots of my function based views in views.py:
 
 
 ---
-## RETURN BACK TO THE [TOP](#testing)
+## RETURN BACK TO README [here](README.md)

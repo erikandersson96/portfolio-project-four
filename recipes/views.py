@@ -72,6 +72,7 @@ def edit_recipe(request, slug):
     return render(request, "edit_recipe.html", context)
 
 
+@login_required
 def add_recipe(request):
     """
     View for add recipe

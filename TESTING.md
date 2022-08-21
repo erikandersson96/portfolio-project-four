@@ -103,6 +103,7 @@ So my solution for this error was to just erase this missing closing tag.
 
 Now you can take a look at my `approved` HTML validation by clicking this link [here](https://validator.w3.org/nu/?doc=https%3A%2F%2Fwhattoeat2022.herokuapp.com%2F).
 
+
 ### CSS Code Validation
 
 ---

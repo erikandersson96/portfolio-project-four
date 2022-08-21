@@ -26,19 +26,32 @@ During my development for this project each function were tested to work as expe
 
 * [Defensive Programming](#defensive-programming)
 
-* [Automated Testing](#automated-testing)
-
 
 ---
 ## Validation Testing
 
 ### Python (PEP8) Validation
 
-##### whattoeat App
+##### whattoeat App 
 
 ##### recipes App
 
-### HTML Code Validation
+### HTML Code Validation 
+
+When testing my markup HTML code at [W3C HTML Validator](https://validator.w3.org/), I got one error: 
+
+**Error:** 
+
+I had missed to erase a `"closing i element (</i>)"`, for my `What To Eat` logo at the top of the website.
+
+**Solution:**
+
+The reason for why I had a closing `(</i>)` tag is because I first wanted to have a `Font Awesome` icon before my logo text, but I decided not to and then forgot it there. 
+So my solution for this error was to just erase this missing closing tag. 
+
+**After I applied the HTML solution:**
+
+Now you can take a look at my `approved` HTML validation by clicking this link [here](https://validator.w3.org/nu/?doc=https%3A%2F%2Fwhattoeat2022.herokuapp.com%2F).
 
 ### CSS Code Validation
 
@@ -184,10 +197,6 @@ Here are some screenshots of my function based views in views.py:
 **Delete recipe:**
 
 ![Screenshot of function based views in views.py, add_recipe](/assets/readme/testing-readme/delete_recipe.png)
-
-
----
-## Automated Testing
 
 
 ---

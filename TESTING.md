@@ -62,7 +62,7 @@ Since I got a warning of `blank line contains whitespace` I erased it by doing a
 
 **models.py:**
 
-![Screenshot pep8 validation whattoeat models.py](/assets/readme/testing-readme)
+![Screenshot pep8 validation whattoeat models.py](/assets/readme/testing-readme/pep8-recipes-models.png)
 
 **urls.py:**
 

@@ -39,6 +39,10 @@ footer a {
     color: #fff;
 }
 
+/******************* Parent div for background image and caption *******************/
+.parent-div-home {
+    position: relative;
+}
 
 /******************* Background image for the home page *******************/
 .header-image {

@@ -58,7 +58,7 @@ I got no errors when I tested the `whattoeat` urls.py code.
 
 **Solution:**
 
-Since I got a warning of `blank line contains whitespace` 
+Since I got a warning of `blank line contains whitespace` I erased it by doing a backspace on my keyboard an then save the file.
 
 **models.py:**
 

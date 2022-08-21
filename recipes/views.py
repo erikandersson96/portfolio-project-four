@@ -1,8 +1,5 @@
 from django.shortcuts import render, get_object_or_404, redirect
 from django.views import generic, View
-# from django.views.generic import UpdateView, DeleteView
-# from django.contrib.auth.mixins import LoginRequiredMixin, UserPassesTestMixin
-# from django.urls import reverse_lazy
 from django.contrib.auth.decorators import login_required
 from django.core.exceptions import PermissionDenied
 from .models import Recipe
@@ -38,17 +35,6 @@ class RecipeDetail(View):
                 "recipe": recipe,
             },
         )
-
-# class edit_recipe(LoginRequiredMixin, UserPassesTestMixin, UpdateView):
-#     """
-#     View for edit recipe
-#     """
-#     model = Recipe
-#     template_name = 'edit_recipe.html'
-#     form_class = RecipeForm
-
-#     def test_func(self):
-#         return Recipe.objects.author == self.request.user
 
 
 @login_required
@@ -113,13 +99,3 @@ def delete_recipe(request, slug):
     else:
         raise PermissionDenied()
     return redirect('home')
-
-# class delete_recipe(LoginRequiredMixin, UserPassesTestMixin, DeleteView):
-#     """
-#     View for delete recipe
-#     """
-#     model = Recipe
-#     success_url = reverse_lazy('home')
-
-#     def test_func(self):
-#         return Recipe.objects.author == self.request.user

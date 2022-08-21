@@ -40,7 +40,7 @@ I have tested my python code at [PEP8 online validation tool](http://pep8online.
 
 ![Screenshot pep8 validation settings.py](/assets/readme/testing-readme/pep8-settings.png)
 
-**Solution:**
+**Solution settings.py:**
 
 I added a backslash to get rid of the line too long warning for line 162, and I made sure that I got the correct `python indentation` by pressing the tab key on my keyboard. 
 
@@ -56,7 +56,7 @@ I got no errors when I tested the `whattoeat` urls.py code.
 
 ![Screenshot pep8 validation recipes forms.py](/assets/readme/testing-readme/pep8-recipes-forms.png)
 
-**Solution:**
+**Solution forms.py:**
 
 Since I got a warning of `blank line contains whitespace` I erased it by doing a backspace on my keyboard an then save the file.
 
@@ -64,7 +64,7 @@ Since I got a warning of `blank line contains whitespace` I erased it by doing a
 
 ![Screenshot pep8 validation recipes models.py](/assets/readme/testing-readme/pep8-recipes-models.png)
 
-**Solution:**
+**Solution models.py:**
 
 I got two warnings for my `recipe models.py file`, one for not using two blank lines and a blank line contains whitespace so I solved these by adding two blank lines and erase the whitespace. 
 
@@ -72,7 +72,7 @@ I got two warnings for my `recipe models.py file`, one for not using two blank l
 
 ![Screenshot pep8 validation recipes urls.py](/assets/readme/testing-readme/pep8-recipes-urls.png)
 
-**Solution:**
+**Solution urls.py:**
 
 I got a warning for `line too long`, so I fixed this by breaking up the line into two and use the right indentation. 
 
@@ -80,7 +80,7 @@ I got a warning for `line too long`, so I fixed this by breaking up the line int
 
 ![Screenshot pep8 validation recipes views.py](/assets/readme/testing-readme/pep8-recipes-views.png)
 
-**Solution:**
+**Solution views.py:**
 
 I fixed the two warnings of `line too long` by erasing commented out code that was too long and unnecessary and splitting up the warning for line 56 into two lines of code with the correct
 indentation.

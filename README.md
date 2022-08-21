@@ -422,7 +422,9 @@ Technologies that I used for `What To Eat` website project is the following down
 
 * [dbdiagram](https://dbdiagram.io/home) (link). dbdiagram was used to create my database schema before I started to code my project. 
 
-* [Trello](https://trello.com/) (link). Trello was used for creating my board for mapping my user stories in this project. 
+* [Trello](https://trello.com/) (link). Trello was used for creating my board for mapping my user stories in this project.
+
+* [Favicon](https://favicon.io/) (link). Favicon was used to create the little icon that is showing in the browser adress bar to make the user experience more professional for the website. 
 
 
 ---

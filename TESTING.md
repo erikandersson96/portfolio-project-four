@@ -32,11 +32,23 @@ During my development for this project each function were tested to work as expe
 
 ### Python (PEP8) Validation 
 
-I have tested my python code at [PEP8 online validation tool](http://pep8online.com/), I will show my results below with images and then a short description below each image of my solution. 
+I have tested my python code at [PEP8 online validation tool](http://pep8online.com/), I will show my results below with images and then a short description below each image of my solution. And I have seperated each django file to their respective django application within the project, the main application whattoeat and the recipes app. 
 
-##### whattoeat App 
+##### whattoeat Main Project App 
 
-##### recipes App
+**settings.py:**
+
+**urls.py:**
+
+##### recipes App 
+
+**forms.py:**
+
+**models.py:**
+
+**urls.py:**
+
+**views.py:**
 
 ### HTML Code Validation 
 

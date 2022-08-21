@@ -38,6 +38,8 @@ I have tested my python code at [PEP8 online validation tool](http://pep8online.
 
 **settings.py:**
 
+![Screenshot pep8 validation settings.py](/assets/readme/testing-readme/pep8-settings.png)
+
 **urls.py:**
 
 ##### recipes App 

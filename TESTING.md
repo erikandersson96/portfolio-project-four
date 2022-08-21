@@ -54,11 +54,20 @@ I got no errors when I tested the `whattoeat` urls.py code.
 
 **forms.py:**
 
+![Screenshot pep8 validation recipes forms.py](/assets/readme/testing-readme/pep8-recipes-forms.png)
+
 **models.py:**
+
+![Screenshot pep8 validation whattoeat models.py](/assets/readme/testing-readme)
 
 **urls.py:**
 
+![Screenshot pep8 validation whattoeat urls.py](/assets/readme/testing-readme)
+
 **views.py:**
+
+![Screenshot pep8 validation whattoeat views.py](/assets/readme/testing-readme)
+
 
 ### HTML Code Validation 
 

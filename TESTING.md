@@ -40,6 +40,10 @@ I have tested my python code at [PEP8 online validation tool](http://pep8online.
 
 ![Screenshot pep8 validation settings.py](/assets/readme/testing-readme/pep8-settings.png)
 
+**Solution:**
+
+I added a backslash to get rid of the line too long warning for line 162, and I made sure that I got the correct `python indentation` by pressing the tab key on my keyboard. 
+
 **urls.py:**
 
 ##### recipes App 

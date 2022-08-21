@@ -9,6 +9,7 @@ DIFFICULTY = ((0, "Easy"), (1, "Medium"), (2, "Advanced"))
 MEASUREMENT = ((0, "kg"), (1, "grams"), (2, "liter"), (3, "deciliter"), (
     4, "tbsp"), (5, "tsp"), (6, "ounce"), (7, "cup"))
 
+
 class Recipe(models.Model):
     """
     Recipe model
@@ -63,7 +64,7 @@ class Recipe(models.Model):
             return True
         else:
             return False
-        
+
     def author_delete(self, request, slug):
         """
         Allows the author of the recipe to delete it
@@ -72,6 +73,3 @@ class Recipe(models.Model):
             return True
         else:
             return False
-
-
-

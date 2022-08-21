@@ -62,7 +62,7 @@ Since I got a warning of `blank line contains whitespace` I erased it by doing a
 
 **models.py:**
 
-![Screenshot pep8 validation whattoeat models.py](/assets/readme/testing-readme/pep8-recipes-models.png)
+![Screenshot pep8 validation recipes models.py](/assets/readme/testing-readme/pep8-recipes-models.png)
 
 **Solution:**
 
@@ -70,7 +70,7 @@ I got two warnings for my `recipe models.py file`, one for not using two blank l
 
 **urls.py:**
 
-![Screenshot pep8 validation whattoeat urls.py](/assets/readme/testing-readme/pep8-recipes-urls.png)
+![Screenshot pep8 validation recipes urls.py](/assets/readme/testing-readme/pep8-recipes-urls.png)
 
 **Solution:**
 
@@ -78,7 +78,8 @@ I got a warning for `line too long`, so I fixed this by breaking up the line int
 
 **views.py:**
 
-![Screenshot pep8 validation whattoeat views.py](/assets/readme/testing-readme)
+![Screenshot pep8 validation recipes views.py](/assets/readme/testing-readme/pep8-recipes-views.png)
+
 
 
 ### HTML Code Validation 

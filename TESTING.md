@@ -80,6 +80,10 @@ I got a warning for `line too long`, so I fixed this by breaking up the line int
 
 ![Screenshot pep8 validation recipes views.py](/assets/readme/testing-readme/pep8-recipes-views.png)
 
+**Solution:**
+
+I fixed the two warnings of `line too long` by erasing commented out code that was too long and unnecessary and splitting up the warning for line 56 into two lines of code with the correct
+indentation.
 
 
 ### HTML Code Validation 

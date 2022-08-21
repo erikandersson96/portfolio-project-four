@@ -50,7 +50,8 @@ def edit_recipe(request, slug):
             "recipe": recipe
         }
         if request.method == "POST":
-            recipe_form = RecipeForm(request.POST, request.FILES, instance=recipe)
+            recipe_form = RecipeForm(
+                request.POST, request.FILES, instance=recipe)
             if recipe_form.is_valid():
                 recipe = recipe_form.save(commit=False)
                 recipe.author = request.user

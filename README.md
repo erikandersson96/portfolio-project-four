@@ -85,7 +85,7 @@ I hope that you will find some delicous recipes when navigating the website.
 * [Testing](#testing)
   * [Bugs](#bugs)
 
-* [Technologies Used](#technologies-used)
+* [Technologies Used](#technologies)
 
 * [Content](#content)
 

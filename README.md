@@ -426,6 +426,8 @@ Technologies that I used for `What To Eat` website project is the following down
 
 * [Favicon](https://favicon.io/) (link). Favicon was used to create the little icon that is showing in the browser adress bar to make the user experience more professional for the website. 
 
+* [Am I Responsive](https://ui.dev/amiresponsive) (link). I used am I responsive to create the image in the start of this readme that displays the website on different screen sizes. 
+
 
 ---
 ## Testing

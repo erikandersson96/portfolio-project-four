@@ -56,6 +56,10 @@ I got no errors when I tested the `whattoeat` urls.py code.
 
 ![Screenshot pep8 validation recipes forms.py](/assets/readme/testing-readme/pep8-recipes-forms.png)
 
+**Solution:**
+
+Since I got a warning of `blank line contains whitespace` 
+
 **models.py:**
 
 ![Screenshot pep8 validation whattoeat models.py](/assets/readme/testing-readme)

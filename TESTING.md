@@ -70,7 +70,11 @@ I got two warnings for my `recipe models.py file`, one for not using two blank l
 
 **urls.py:**
 
-![Screenshot pep8 validation whattoeat urls.py](/assets/readme/testing-readme)
+![Screenshot pep8 validation whattoeat urls.py](/assets/readme/testing-readme/pep8-recipes-urls.png)
+
+**Solution:**
+
+I got a warning for `line too long`, so I fixed this by breaking up the line into two and use the right indentation. 
 
 **views.py:**
 

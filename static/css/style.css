@@ -27,6 +27,10 @@ h1, h2, h3 {
     font-size: 40px;
 }
 
+#logo:hover {
+    color: #175e3c;
+}
+
 /******************* Footer *******************/
 footer a {
     color: #34A56F;

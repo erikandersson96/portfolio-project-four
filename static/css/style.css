@@ -20,6 +20,11 @@ h1, h2, h3 {
     font-size: 20px;
 }
 
+.nav-item:hover {
+    box-shadow: 0 0 11px rgba(33,33,33,.2);
+    background-color: #34A56F;
+}
+
 /******************* Logo *******************/
 #logo {
     color: #34A56F;

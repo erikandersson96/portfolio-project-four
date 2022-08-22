@@ -4,6 +4,22 @@ from django.contrib.auth.decorators import login_required
 from django.core.exceptions import PermissionDenied
 from .models import Recipe
 from .forms import RecipeForm
+from django.core.paginator import EmptyPage, Paginator
+
+
+class SafePaginator(Paginator):
+    """
+    Prevent user from manually type wrong page
+    in the adressbar other then those existing
+    """
+    def validate_number(self, number):
+        try:
+            return super(SafePaginator, self).validate_number(number)
+        except EmptyPage:
+            if number > 1:
+                return self.num_pages
+            else:
+                raise
 
 
 class RecipeListView(generic.ListView):
@@ -14,6 +30,7 @@ class RecipeListView(generic.ListView):
     model = Recipe
     queryset = Recipe.objects.filter(status=1).order_by('-created_on')
     template_name = 'home.html'
+    paginator_class = SafePaginator
     paginate_by = 6
 
 

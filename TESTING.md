@@ -12,6 +12,8 @@ During my development for this project each function were tested to work as expe
   * [Python PEP8](#python-pep8-validation)
   * [HTML Validation](#html-code-validation)
   * [CSS Validation](#css-code-validation)
+  * [Lighthouse](#lighthouse)
+  * [Wave](#wave)
 
 * [User Story Testing](#user-story-testing)
 
@@ -111,6 +113,12 @@ When I first tested my CSS code via [W3C Jigsaw CSS Validator](https://jigsaw.w3
 **First wrong attempt with errors:** 
 
 **The correct attempt with no errors:**
+
+
+### Lighthouse
+
+
+### Wave
 
 
 ---

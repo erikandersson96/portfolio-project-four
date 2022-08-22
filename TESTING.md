@@ -112,6 +112,8 @@ When I first tested my CSS code via [W3C Jigsaw CSS Validator](https://jigsaw.w3
 
 **First wrong attempt with errors:** 
 
+![Screenshot of css wrong attempt](/assets/readme/testing-readme/css-validering-2.png)
+
 **The correct attempt with no errors:**
 
 

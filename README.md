@@ -502,6 +502,10 @@ At first I had an issue that when paginate (press next and previous) in the reci
 
 ![Screenshot adressbar manually paginate random wrong number](/assets/readme/wrong-page.png)
 
+**Here is the code that solved my problem:**
+
+![Screenshot code solution for wrong pagination](/assets/readme/paginate-wrong.png)
+
 
 ---
 ## Deployment 

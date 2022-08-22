@@ -106,6 +106,13 @@ Now you can take a look at my `approved` HTML validation by clicking this link [
 
 ### CSS Code Validation
 
+When I first tested my CSS code via [W3C Jigsaw CSS Validator](https://jigsaw.w3.org/css-validator/validator.html.en), by enter my heroku website link like I have done this previously with my other projects (but then I used the github link). But then I got 6 errors for Font Awesome like shown in the image below. So I asked my mentor [Benjamin Kavanagh](https://github.com/BAK2K3) why this was the case because it seemed to be a problem not related to my CSS but rather something regarding my CDN link for Font Awesome, so I was told to not test my CSS by typing in the website link but instead copy my CSS and paste it in the `By direct input` and test it that way and then I got it right with no errors. 
+
+**First wrong attempt with erros:** 
+
+**The correct attempt with no errors:**
+
+
 ---
 ## User Story Testing
 

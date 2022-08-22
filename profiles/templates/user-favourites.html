@@ -1,0 +1,76 @@
+{% extends 'base.html' %}
+
+{% load static %}
+
+<!-- Title for page -->
+{% block title %}
+    User favorite recipes
+{% endblock %}
+
+{% block content %}
+    <!--  -->
+    <section>
+        <div class="col-lg-5 col-11 m-auto m-2 p-3 text-center">
+            <h1 class="display-1">{{ user.username }} favorite recipes!</h1>
+        </div> 
+        <div class="container text-center text-md-left mb-3">
+            <div class="row text-center text-md-left g-3 card-row">
+                
+                {% for recipe in object_list %}
+                <div class="col-md-6 col-lg-3 col-xl-3 mx-auto mt-3">
+                    <div class="card box-shadow h-100">
+                        {% if "placeholder" in recipe.meal_image.url %}
+                        <img class="card-img-top" src="{% static 'site_images/standard-food-image.jpg' %}" alt="Plate with pasta">
+                        {% else %}
+                        <img class="card-img-top" src="{{ recipe.meal_image.url }}" alt="{{ recipe.title }}">
+                        {% endif %}
+                        <div class="card-body">
+                            <h3 class="card-title">{{ recipe.title }}</h3>
+                            <p class="card-text">{{ recipe.excerpt }}</p>
+                        </div>
+                        <ul class="list-group">
+                            <li class="list-group-item align-items-center">Difficulty: {{ recipe.difficulty }}</li>
+                            <li class="list-group-item align-items-center">Servings: {{ recipe.serves }}</li>
+                            <li class="list-group-item align-items-center">Prep time: {{ recipe.prep_time }} min</li>
+                            <li class="list-group-item align-items-center">Cook time: {{ recipe.cook_time }} min</li>
+                            <li class="list-group-item align-items-center">Created by: {{ recipe.author }}</li>
+                        </ul>
+                        <!-- Add url 'recipe_detail' recipe.slug within anchor tags for card footer href!!!!-->
+                        <div class="card-footer">
+                             <a href="{% url 'recipe_detail' recipe.slug %}" class="btn btn-signup align-items-center">View recipe</a> 
+                        </div>
+                    </div>
+                </div>
+                {% if forloop.counter|divisibleby:3 %}
+                </div>
+                <div class="row">
+                {% endif %}
+                {% endfor %}
+                </div>
+                <div class="row mt-3">
+                    {% if is_paginated %}
+                    <nav aria-label="Page Navigation">
+                        <ul class="pagination justify-content-center">
+                            {% if page_obj.has_previous %}
+                                <li>
+                                    <a href="?page={{ page_obj.previous_page_number }}" class="page-link">&laquo;
+                                        Previous</a>
+                                </li>
+                            {% endif %}
+                            {% if page_obj.has_next %}
+                                <li>
+                                    <a href="?page={{ page_obj.next_page_number }}" class="page-link">Next &raquo;</a>
+                                </li>
+                            {% endif %}
+                        </ul>
+                    </nav>
+                    {% endif %}
+                </div>
+            </div>
+        <!-- Back to home page button -->
+        <div class="m-2 text-center">
+            <a href="{% url 'home' %}" class="btn btn-signup btn-md">Home</a>
+        </div>
+    </section>
+
+{% endblock %}

@@ -109,6 +109,8 @@ Instead adding all scrrenshots of my wireframe here I have decided that you can 
 
 Before I started to work with the code for this project I was requested of my mentor to create a mapping tool for my `user stories` to easier track `what to do when`. So I choose to use `Trello` as my tool for this. During my development I have been moving each user story with it's `EPICS` to the correct stage of the process, and I have made sure that each user story was manualy tested and fully functional before moving on to the next one. 
 
+If you want to visit my trello board you can do so by clicking this [link](https://trello.com/b/Hy1ZJoPK/portfolio-project-4) (link).
+
 I will demonstrate for you down below each step of my trello board during my development:
 
 **Trello board:**
@@ -391,7 +393,7 @@ Technologies that I used for `What To Eat` website project is the following down
 
 #### Programming Languages 
 
-* [Python 3.0](https://www.python.org/) (link): Python is a general-purpose language, meaning it can be used to create a variety of different programs and isn't specialized for any specific problems.
+* [Python 3](https://www.python.org/) (link): Python is a general-purpose language, meaning it can be used to create a variety of different programs and isn't specialized for any specific problems.
 
 #### Frameworks & Programs 
 

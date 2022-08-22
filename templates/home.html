@@ -7,26 +7,26 @@
 {% endblock %}
 
 <!-- Background image for home.html -->
-{% block header_image %}
-<header>
-    <div class="parent-div-home">
-        <div class="row g-0">
-            <img class="header-image" src="https://res.cloudinary.com/erikandersson96/image/upload/v1657703341/spaghetti-g0a0a251b7_1920_nzhlua.jpg" alt="Spaghetti background image">
+    {% block header_image %}
+    {% if not 'page' in request.GET %}
+    <header>
+        <div class="parent-div-home">
+            <div class="row g-0">
+                <img class="header-image" src="https://res.cloudinary.com/erikandersson96/image/upload/v1657703341/spaghetti-g0a0a251b7_1920_nzhlua.jpg" alt="Spaghetti background image">
+            </div>
+            <!-- Caption on home page -->
+            <div class="bg-dark rounded text-light text-center caption">
+                <h2 class="caption-header">Welcome to What To Eat! {{ request.GET.page }}</h2>
+                    <p class="caption-text">This is a recipe website were you can see all of our delicious recipes. <br> 
+                        If you wish to add your own recipes, you can do so by create an account or login.</p>
+            </div>
         </div>
-        <!-- Caption on home page -->
-        <div class="bg-dark rounded text-light text-center caption">
-            <h2 class="caption-header">Welcome to What To Eat!</h2>
-                <p class="caption-text">This is a recipe website were you can see all of our delicious recipes. <br> 
-                    If you wish to add your own recipes, you can do so by create an account or login.</p>
-        </div>
-    </div>
-</header>
-
-{% endblock %}
-
+    </header>
+    {% endif %}
+    {% endblock %}
 {% block content %} 
 
-    <!-- Check if user is authenticated to make the welcoome message personal or not -->
+    <!-- Check if user is authenticated to make the welcome message personal or not -->
     <div class="container text-dark text-center home-wte-welcome">
         {% if user.is_authenticated %}
             <h1 class="title p-4 text-center">Welcome to What To Eat - Recipes, {{ user.username }}.</h1>

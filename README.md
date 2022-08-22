@@ -496,6 +496,12 @@ create some of my `Django` and `Bootstrap` functionality.
 
 [Lettuce Eat Project - by Kat632 (other student)](https://github.com/Kat632/PP4-LettuceEat) (link) - I took some inspiration from this project to create the view of my recipe list and the forms for add recipe and edit recipe.  
 
+#### Help from Stack Overflow
+
+At first I had an issue that when paginate (press next and previous) in the recipe list on the home page, a user could manually type in a random number in the adress bar like shown in the image below to trigger a 404 page. To prevent this I used a solution found on `Stack Overflow` provided to me by my mentor [Benjamin Kavanagh](https://github.com/BAK2K3), the solution can be found via this [link](https://stackoverflow.com/questions/40835222/display-last-page-of-paginated-results-instead-of-404-using-listview) (link). I just wrote the exact same code as written by `TimB` among those answers and it solved my issue. 
+
+![Screenshot adressbar manually paginate random wrong number](/assets/readme/wrong-page.png)
+
 
 ---
 ## Deployment 

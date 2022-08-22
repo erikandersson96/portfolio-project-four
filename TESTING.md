@@ -117,6 +117,16 @@ When I first tested my CSS code via [W3C Jigsaw CSS Validator](https://jigsaw.w3
 
 ### Lighthouse
 
+I have tested the website with `Chrome lighthouse dev tool` to test the website `performance`. I have tested this in a `incognito` window for better performance while testing. I got an average result of 94,5% for desktop and 90,5% for mobile devices.
+
+**Desktop:**
+
+![Screenshot of lighthouse devtool on desktop](/assets/readme/wave-lighthouse/desktop-lighthouse.png)
+
+**Mobile:**
+
+![Screenshot of lighthouse devtool on mobile](/assets/readme/wave-lighthouse/mobile-lighthouse.png)
+
 
 ### Wave
 

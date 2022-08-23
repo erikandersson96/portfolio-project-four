@@ -136,7 +136,7 @@ I have tested the website with `Chrome lighthouse dev tool` to test the website 
 
 **WAVE error:**
 
-![Screenshot of contrast error and alerts]()
+![Screenshot of contrast error and alerts](/assets/readme/wave-lighthouse/wave-wrong.png)
 
 
 ---

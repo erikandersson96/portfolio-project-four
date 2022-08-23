@@ -211,15 +211,19 @@ Create a website that allows users to create an account so they can see, add and
 
 ### Color Scheme 
 
-I choose four colors for my website, a `shade of green`, `another shade of green`, `red for delete` and `black` for all text.   
+I choose four colors for my website, `a lighter green for footer links and as an hover effect on the logo and nav links`, `a darker shade of green for the logo`, `a dark shade of green for all buttons`, `red for delete`, `black and white` for all text.   
 
 **#34A56F - A lighter green (HEX-color)** 
 
 ![Screenshot of green color](/assets/readme/color/logo-green.png)
 
-**#34A56F - A lighter green (HEX-color)** 
+**#20603C - A darker green (HEX-color)** 
 
-![Screenshot of green color](/assets/readme/color/green.png)
+![Screenshot of green color](/assets/readme/color/%2320603C.png)
+
+**#1C5434 - A dark green (HEX-color)** 
+
+![Screenshot of green color](/assets/readme/color/%231C5434.png)
 
 **Red color (Default css color)**
 
@@ -228,6 +232,9 @@ I choose four colors for my website, a `shade of green`, `another shade of green
 **Black color (Default css color)**
 
 ![Screenshot of black color](/assets/readme/color/black.png)
+
+**#ffffff White color (Default css color)**
+
 
 ### Fonts
 

@@ -140,7 +140,7 @@ I have tested the website with `Chrome lighthouse dev tool` to test the website 
 
 **Solution WAVE errors and alert:**
 
-
+You can look at the approved result [here]() (link). 
 
 
 ---

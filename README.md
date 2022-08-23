@@ -90,11 +90,13 @@ I hope that you will find some delicous recipes when navigating the website.
 
 * [Technologies Used](#technologies)
 
-* [Content](#content)
-
 * [Credits](#credits)
 
 * [Deployment](#deployment)
+  * [GitHub & Gitpod ](#github--gitpod)
+  * [Forking GitHub Repository](#forking-github-repository)
+  * [Cloning GitHub Repository](#cloning-github-repository)
+  * [Heroku](#heroku)
 
 * [Support](#support) 
 

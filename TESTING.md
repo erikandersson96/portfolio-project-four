@@ -134,9 +134,13 @@ I have tested the website with `Chrome lighthouse dev tool` to test the website 
 
 `What To Eat` website has been tested at [WAVE Web Accessibility Evaluation Tool](https://wave.webaim.org/). `WAVE` is a suite of evaluation tools that helps authors make their web content more accessible to individuals with disabilities (Taken from Wave website). And I got `7` contrast errors and `1` alert for `Suspicious alternative text` like demonstrated in the image below: 
 
-**WAVE error:**
+**WAVE errors and alert:**
 
 ![Screenshot of contrast error and alerts](/assets/readme/wave-lighthouse/wave-wrong.png)
+
+**Solution WAVE errors and alert:**
+
+
 
 
 ---

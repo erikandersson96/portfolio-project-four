@@ -42,10 +42,10 @@ footer a {
     font-size: 20px;
 }
 
-/******************* Color and size for the login/register button *******************/
+/******************* Color and size for the login/register button #2E8B57 *******************/
 .btn-signup {
-    background-color: #2E8B57;
-    color: #fff;
+    background-color: #1C5434;
+    color: #ffffff;
 }
 
 /******************* Parent div for background image and caption *******************/

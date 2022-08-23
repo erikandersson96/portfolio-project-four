@@ -63,6 +63,9 @@ I hope that you will find some delicous recipes when navigating the website.
   * [Scope](#scope) 
 
 * [Website Design](#website-design)
+  * [Design](#design)
+  * [Colors](#color-scheme)
+  * [Fonts](#fonts)
 
 * [Logic](#logic) 
   * [Flow Diagram](#flow-diagram)

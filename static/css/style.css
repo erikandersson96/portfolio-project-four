@@ -27,13 +27,13 @@ h1, h2, h3 {
 
 /******************* Logo *******************/
 #logo {
-    color: #34A56F;
+    color: #20603C;
     font-family: 'Dancing Script';
     font-size: 40px;
 }
 
 #logo:hover {
-    color: #000000;
+    color: #34A56F;
 }
 
 /******************* Footer *******************/

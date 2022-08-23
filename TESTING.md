@@ -144,7 +144,7 @@ You can look at the approved result [here](https://wave.webaim.org/report#/https
 
 I solved the `alert` by replacing the first alternative text of my background image to something more specific like `background image of ingredients to use in cooking`. 
 
-I solved the `7 contrast errors` by using [Webaim online contrast checker](https://webaim.org/resources/contrastchecker/) for help to find an accepted contrast ratio, the accepted ratio is `4.51:1`. 
+I solved the `7 contrast errors` by using [Webaim online contrast checker](https://webaim.org/resources/contrastchecker/) for help to find an accepted contrast ratio, the accepted ratio is `4.51:1` between `Foreground Color` and `Background Color`. 
 
 
 ---

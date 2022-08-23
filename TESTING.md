@@ -142,6 +142,10 @@ I have tested the website with `Chrome lighthouse dev tool` to test the website 
 
 You can look at the approved result [here]() (link). 
 
+I solved the `alert` by replacing the first alternative text of my background image to something more specific like `background image of ingredients to use in cooking`. 
+
+
+
 
 ---
 ## User Story Testing

@@ -6,6 +6,7 @@ from django.contrib.auth.decorators import login_required
 from django.urls import reverse
 from django.views import View, generic
 from django.core.paginator import EmptyPage, Paginator
+from django.contrib import messages
 
 
 class SafePaginator(Paginator):
@@ -46,6 +47,7 @@ def remove_favorite(request, slug):
     current_recipe = get_object_or_404(Recipe, slug=slug)
     Favorite.objects.get(
         user=current_user, favorite_recipe=current_recipe).delete()
+    messages.success(request, ("Recipe has been removed from My favorites."))
     return redirect('profile_favorite')
 
 
@@ -58,4 +60,5 @@ def add_favorite(request, slug):
     current_recipe = get_object_or_404(Recipe, slug=slug)
     Favorite.objects.get_or_create(
         user=current_user, favorite_recipe=current_recipe)
+    messages.success(request, ("Recipe has been added to My favorites."))
     return redirect(reverse('recipe_detail', args=[slug]))

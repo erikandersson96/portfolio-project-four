@@ -16,28 +16,28 @@
         <div class="container text-center text-md-left mb-3">
             <div class="row text-center text-md-left g-3 card-row">
                 
-                {% for recipe in object_list %}
+                {% for favourite in object_list %}
                 <div class="col-md-6 col-lg-3 col-xl-3 mx-auto mt-3">
                     <div class="card box-shadow h-100">
-                        {% if "placeholder" in recipe.meal_image.url %}
+                        {% if "placeholder" in favourite.favorite_recipe.meal_image.url %}
                         <img class="card-img-top" src="{% static 'site_images/standard-food-image.jpg' %}" alt="Plate with pasta">
                         {% else %}
-                        <img class="card-img-top" src="{{ recipe.meal_image.url }}" alt="{{ recipe.title }}">
+                        <img class="card-img-top" src="{{ favourite.favorite_recipe.meal_image.url }}" alt="{{ recipe.title }}">
                         {% endif %}
                         <div class="card-body">
-                            <h3 class="card-title">{{ recipe.title }}</h3>
-                            <p class="card-text">{{ recipe.excerpt }}</p>
+                            <h3 class="card-title">{{ favourite.favorite_recipe.title }}</h3>
+                            <p class="card-text">{{ favourite.favorite_recipe.excerpt }}</p>
                         </div>
                         <ul class="list-group">
-                            <li class="list-group-item align-items-center">Difficulty: {{ recipe.difficulty }}</li>
-                            <li class="list-group-item align-items-center">Servings: {{ recipe.serves }}</li>
-                            <li class="list-group-item align-items-center">Prep time: {{ recipe.prep_time }} min</li>
-                            <li class="list-group-item align-items-center">Cook time: {{ recipe.cook_time }} min</li>
-                            <li class="list-group-item align-items-center">Created by: {{ recipe.author }}</li>
+                            <li class="list-group-item align-items-center">Difficulty: {{ favourite.favorite_recipe.difficulty }}</li>
+                            <li class="list-group-item align-items-center">Servings: {{ favourite.favorite_recipe.serves }}</li>
+                            <li class="list-group-item align-items-center">Prep time: {{ favourite.favorite_recipe.prep_time }} min</li>
+                            <li class="list-group-item align-items-center">Cook time: {{ favourite.favorite_recipe.cook_time }} min</li>
+                            <li class="list-group-item align-items-center">Created by: {{ favourite.favorite_recipe.author }}</li>
                         </ul>
-                        <!-- Add url 'recipe_detail' recipe.slug within anchor tags for card footer href!!!!-->
+                        <!-- Url for view recipe details -->
                         <div class="card-footer">
-                             <a href="{% url 'recipe_detail' recipe.slug %}" class="btn btn-signup align-items-center">View recipe</a> 
+                            <a href="{% url 'recipe_detail' favourite.favorite_recipe.slug %}" class="btn btn-signup align-items-center">View recipe</a> 
                         </div>
                     </div>
                 </div>

@@ -11,8 +11,8 @@ class ProfileFavorite(generic.ListView):
     model = Recipe
     template_name = 'user_favorite.html'
 
-    def get_queryset(self):
-        queryset = Favorite.objects.get(user=request.user)
+    def get_queryset(self, *args, **kwargs):
+        queryset = Favorite.objects.filter(user=self.request.user)
         return queryset
 
 

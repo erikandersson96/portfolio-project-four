@@ -24,6 +24,9 @@ class SafePaginator(Paginator):
 
 
 class ProfileFavorite(generic.ListView):
+    """
+    Render user_favorite.html template for user
+    """
     model = Recipe
     template_name = 'user_favorite.html'
     paginator_class = SafePaginator

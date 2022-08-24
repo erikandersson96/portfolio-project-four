@@ -39,6 +39,9 @@
                         <div class="card-footer">
                             <a href="{% url 'recipe_detail' favourite.favorite_recipe.slug %}" class="btn btn-signup align-items-center">View recipe</a> 
                         </div>
+                        <div class="card-footer">
+                            <a href="#" class="btn btn-danger align-items-center">Remove bookmark</a> 
+                        </div>
                     </div>
                 </div>
                 {% if forloop.counter|divisibleby:3 %}

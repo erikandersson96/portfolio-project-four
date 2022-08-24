@@ -103,6 +103,8 @@ def add_recipe(request):
             recipe_form.author = request.user
             recipe_form.status = 1
             recipe_form.save()
+            messages.success(request, (
+                    "Recipe has been added successfully."))
             return redirect('home')
     else:
         recipe_form = RecipeForm()

@@ -74,6 +74,11 @@
             </div>
         </section>
         <div class="col mt-2 mb-3">
+            <!-- Button for bookmark recipe to My favorites -->
+            {% if user.is_authenticated %}
+            <a href="#"><button class="btn btn-signup btn-md" value="#" type="button">Bookmark recipe</button></a>
+            {% else %}
+            {% endif %}
             <!-- Authentication for edit and delete recipe -->
             {% if user.id == recipe.author.id %}
                 <a href="{% url 'edit_recipe' recipe.slug %}" class="edit"><button class="btn btn-signup btn-md" value="{{ recipe.slug }}" type="button">Edit recipe</button></a>

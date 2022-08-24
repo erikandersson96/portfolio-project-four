@@ -5,12 +5,28 @@ from django.contrib.auth.models import User
 from django.contrib.auth.decorators import login_required
 from django.urls import reverse
 from django.views import View, generic
-from django.core.exceptions import PermissionDenied
+from django.core.paginator import EmptyPage, Paginator
+
+
+class SafePaginator(Paginator):
+    """
+    Prevent user from manually type wrong page
+    in the adressbar other then those existing
+    """
+    def validate_number(self, number):
+        try:
+            return super(SafePaginator, self).validate_number(number)
+        except EmptyPage:
+            if number > 1:
+                return self.num_pages
+            else:
+                raise
 
 
 class ProfileFavorite(generic.ListView):
     model = Recipe
     template_name = 'user_favorite.html'
+    paginator_class = SafePaginator
     paginate_by = 3
 
     def get_queryset(self, *args, **kwargs):

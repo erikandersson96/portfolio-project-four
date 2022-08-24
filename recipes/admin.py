@@ -3,7 +3,6 @@ from .models import Recipe
 from django_summernote.admin import SummernoteModelAdmin
 
 
-@admin.register(Recipe)
 class RecipeAdmin(SummernoteModelAdmin):
     """
     Admin use summernote for recipe
@@ -12,3 +11,7 @@ class RecipeAdmin(SummernoteModelAdmin):
     search_fields = ['title', 'content']
     list_filter = ('status', 'created_on')
     summernote_fields = ('method', 'ingredients')
+
+
+# Register the models
+admin.site.register(Recipe, RecipeAdmin)

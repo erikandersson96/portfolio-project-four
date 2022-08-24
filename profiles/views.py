@@ -18,15 +18,14 @@ class ProfileFavorite(generic.ListView):
 
 
 @login_required
-def remove_favorite(slug):
+def remove_favorite(request, slug):
     """
     Remove from favorite recipe list
     """
-    remove_user_favorite = Favorite.objects.get(slug=slug)
-    if remove_user_favorite.user == request.user:
-        remove_user_favorite.delete()
-    else:
-        raise PermissionDenied()
+    current_user = request.user
+    current_recipe = get_object_or_404(Recipe, slug=slug)
+    Favorite.objects.get(
+        user=current_user, favorite_recipe=current_recipe).delete()
     return redirect('profile_favorite')
 
 
@@ -37,5 +36,6 @@ def add_favorite(request, slug):
     """
     current_user = request.user
     current_recipe = get_object_or_404(Recipe, slug=slug)
-    Favorite.objects.create(user=current_user, favorite_recipe=current_recipe)
+    Favorite.objects.get_or_create(
+        user=current_user, favorite_recipe=current_recipe)
     return redirect(reverse('recipe_detail', args=[slug]))

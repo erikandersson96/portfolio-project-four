@@ -5,6 +5,7 @@ from django.core.exceptions import PermissionDenied
 from .models import Recipe
 from .forms import RecipeForm
 from django.core.paginator import EmptyPage, Paginator
+from django.contrib import messages
 
 
 class SafePaginator(Paginator):
@@ -73,6 +74,8 @@ def edit_recipe(request, slug):
                 recipe = recipe_form.save(commit=False)
                 recipe.author = request.user
                 recipe.save()
+                messages.success(request, (
+                    "Recipe has been edited successfully."))
                 return redirect('home')
         else:
             recipe_form = RecipeForm(instance=recipe)

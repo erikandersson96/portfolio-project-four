@@ -121,4 +121,6 @@ def delete_recipe(request, slug):
         recipe.delete()
     else:
         raise PermissionDenied()
+    messages.success(request, (
+                    "Recipe has been deleted successfully."))
     return redirect('home')

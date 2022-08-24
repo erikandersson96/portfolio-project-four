@@ -11,6 +11,7 @@ from django.core.exceptions import PermissionDenied
 class ProfileFavorite(generic.ListView):
     model = Recipe
     template_name = 'user_favorite.html'
+    paginate_by = 3
 
     def get_queryset(self, *args, **kwargs):
         queryset = Favorite.objects.filter(user=self.request.user)

@@ -17,6 +17,17 @@ class ProfileFavorite(generic.ListView):
 
 
 @login_required
+def remove_favorite(request, slug):
+    """
+    Remove from favorite recipe list
+    """
+    current_user = request.user
+    current_recipe = get_object_or_404(Recipe, slug=slug)
+    Favorite.objects.pop(user=current_user, favorite_recipe=current_recipe)
+    return redirect('profile_favorite')
+
+
+@login_required
 def add_favorite(request, slug):
     """
     Add favorite recipe to list

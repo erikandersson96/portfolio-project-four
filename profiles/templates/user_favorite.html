@@ -11,7 +11,7 @@
     <!--  -->
     <section>
         <div class="col-lg-5 col-11 m-auto m-2 p-3 text-center">
-            <h1 class="display-1">{{ user.username }} favorite recipes!</h1>
+            <h1 class="display-1">{{ user.username }}, favorite recipes.</h1>
         </div> 
         <div class="container text-center text-md-left mb-3">
             <div class="row text-center text-md-left g-3 card-row">
@@ -71,10 +71,6 @@
                     {% endif %}
                 </div>
             </div>
-        <!-- Back to home page button -->
-        <div class="m-2 text-center">
-            <a href="{% url 'home' %}" class="btn btn-signup btn-md">Home</a>
-        </div>
     </section>
 
 {% endblock %}

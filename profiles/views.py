@@ -4,24 +4,17 @@ from recipes.models import Recipe
 from django.contrib.auth.models import User
 from django.contrib.auth.decorators import login_required
 from django.urls import reverse
-from django.views import View
+from django.views import View, generic
 
 
-class profile(View):
-    """
-    Renders user favorite template
-    """
-    def get(self, request, slug, *args, **kwargs):
-        queryset = Recipe.objects.filter(status=1)
-        recipe = get_object_or_404(queryset, slug=slug)
+class ProfileFavorite(generic.ListView):
+    model = Recipe
+    template_name = 'user_favorite.html'
 
-        return render(
-            request,
-            "user_favorite.html",
-            {
-                "recipe": recipe,
-            },
-        )
+    def get_queryset(self):
+        queryset = Favorite.objects.get(user=request.user)
+        return queryset
+
 
 @login_required
 def add_favorite(request, slug):

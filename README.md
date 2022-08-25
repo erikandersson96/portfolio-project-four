@@ -31,11 +31,10 @@ recipe website beacuse I am a food lover and tought that I could have some use f
 ---
 ## How To Navigate The Website 
 
-This website consists of a navbar on top, with the `logo, about, register, login, add recipe` for both first time visitors or user's that has an account. But `Add recipe` will only be available to use for user's which are logged in otherwise a
-message will appear which tells the visitor to `register or login`. 
+This website consists of a navbar on top, with the `logo, about, register, login, add recipe` for both first time visitors or user's that has an account. But `Add recipe` will only be available to use for user's which are logged in otherwise a message will appear which tells the visitor to `register or login`. 
+`My favorites` will only be displayed for authenticated users.
 
-A first time visitor or user will find all of the recipes listed on the start page, the recipes are listed with `pagination` of 6. So more then 6 recipes will then be displayed on a `"new page"` which can be accessed by a `Next` 
-button, on the new page there will be a `Previous` button. 
+A first time visitor or user will find all of the recipes listed on the start page, the recipes are listed with `pagination` of 6. So more then 6 recipes will then be displayed on a `"new page"` which can be accessed by a `Next` button, on the new page there will be a `Previous` button. 
 
 If a visitor or user selects a specific recipe to click on they will be directed to a page that hold the recipe details. The only difference in design of this page is if the visitor/user is authenticated and then a `Edit and Delete recipe` button will appear for user's who added their recipe. 
 
@@ -206,6 +205,10 @@ Create a website that allows users to create an account so they can see, add and
 
 `Add recipe` - This page is design in two different ways, either with only a message that says that you will have to login or register for an account, or a form with all the infromation that is required for adding a recipe. 
 
+`Edit recipe` - Is designed the same way as `Add recipe` but it is tweaked with text to match `Edit recipe`. 
+
+`My favorites` - Is designed with an `h1 header` on top with the users name and favorite recipes. The favorite recipes list is displayed almost the same way as on the home page but they are paginated by 3 per page instead of 6. 
+
 `Register` - Is just designed with the standard look that comes with `allauth`, I have only designed the `h1 font design to go with the rest`. 
 
 `Login and Logout` - looks almost the same in there design and is almost standard looking with `allauth` with a matching header. 
@@ -230,7 +233,7 @@ I choose four colors for my website, `a lighter green for footer links and as an
 
 ![Screenshot of green color](/assets/readme/color/%231C5434.png)
 
-**Red color (Default css color)**
+**Red color (Default bootstrap color "btn-danger")**
 
 ![Screenshot of red color](/assets/readme/color/red.png)
 
@@ -238,7 +241,7 @@ I choose four colors for my website, `a lighter green for footer links and as an
 
 ![Screenshot of black color](/assets/readme/color/black.png)
 
-**#ffffff White color (Default css color)**
+**#ffffff White color (Default css color), I haven't provided a image because of the white background it won't show.**
 
 
 ### Fonts
@@ -293,53 +296,64 @@ But If the user choose the `delete` button a delete modal will appear with a que
 
 ### Start Screen 
 
-For the start page I choose a vertically aligned navigation bar on top, with all of the navigation links `About, Add recipe, Register, Login` or just `About, Add recipe, Login/Logout` if the user is authenticated. After that there is a background image with some text underneath that presents the list of recipes in the lower section of the page, this text will change slightly to create a personal welcome message for a user that is authenticated. At the bottom I have my `footer` with contact me and my social media links as well as copyright for 
+For the start page I choose a vertically aligned navigation bar on top, with all of the navigation links `About, Add recipe, Register, Login` or `About, Add recipe, My favorites, Login/Logout` if the user is authenticated. After that there is a background image with some text underneath that presents the list of recipes in the lower section of the page, this text will change slightly to create a personal welcome message for a user that is authenticated. At the bottom I have my `footer` with contact me and my social media links as well as copyright for 
 `What To Eat`.
 All other pages on the website inherits the navigation bar and footer.  
 
 This is how it looks: 
 
 **Not authenticated:**
+
 ![Screenshot of start page upper part (not logged in)](/assets/readme/design/home.png) 
 
 **Authenticated:**
-![Screenshot of start page upper part (logged in)](/assets/readme/design/home-up.png) 
+
+![Screenshot of start page upper part (logged in)](/assets/readme/design/home2.png) 
 
 **Not authenticated:**
+
 ![Screenshot of start page lower part (not logged in)](/assets/readme/design/home-down.png) 
 
 **Authenticated:**
+
 ![Screenshot of start page lower part (logged in)](/assets/readme/design/home-down1.png) 
 
 **Footer:**
+
 ![Screenshot of footer](/assets/readme/design/footer.png) 
 
 ### Navbar
 
 **Navbar links:**
-The navbar links depends as I have mentioned earlier, either there is `About, Add recipe, Register, Login` or `About, Add recipe, Login/Logout` if the user is authenticated. 
+
+The navbar links depends as I have mentioned earlier, either there is `About, Add recipe, Register, Login` or `About, Add recipe, My favorites, Login/Logout` if the user is authenticated. 
 
 ![Screenshot of navbar](/assets/readme/design/navbar.png)
 
 ![Screenshot of navbar logged in](/assets/readme/design/navbar1.png)
 
 **About modal:**
+
 The about link will trigger a `modal` that contains the about What To Eat text. To close the about modal you can just click anywhere else outside it or use the close button. 
 
 ![Screenshot of about modal](/assets/readme/design/about-modal.png)
 
 **Add recipe:**
+
 The `Add recipe` link will either display a `You have to login to add your own recipes!` message or the form for adding a recipe depending of if the user is authenticated or not on the that page. 
 
 **Add recipe, not authenticated:**
+
 ![Screenshot of add recipe site not authenticated](/assets/readme/design/add-recipe.png)
 
 **Add recipe, authenticated:**
+
 ![Screenshot of add recipe site authenticated](/assets/readme/design/add-recipe1.png)
 
 ### User
 
 **Register account:**
+
 The `Register` page displays a register your account page with `username, email (optional), password, password again`. 
 
 ![Screenshot of register an account](/assets/readme/design/register.png)
@@ -373,21 +387,37 @@ content as the start page to match, and then a `"Previous"` button will replace 
 When a `user` has selected a recipe to view by clicking `View recipe` from the recipe list, a detailed page of that recipe will appear with the recipe name on top, the created on and by information underneath. Right below that there is an image of the recipe, which can be selected by a user of what ever image they would like or a standard image will be provided. On the right there is two boxes on top of eachother `Recipe details` and `ingredients`. `Cook method` is found right underneath the recipe image. And if the user is authenticated and is the creator of the specific recipe he or she can then edit or delete the recipe by a green and red button on the bottom of the `Recipe details` page. 
 
 **Recipe details, not authenticated or creator of recipe:**
+
 ![Screenshot of recipe details, not logged in or creator of recipe](/assets/readme/design/recipe-detail.png)
 
+**Recipe details, authenticated:**
+
+![Screenshot of recipe details, logged in](/assets/readme/design/recipe-detail1.png)
+
+If a user is logged in, he or she can then see the `Bookmark recipe` button for each recipe and then add it to the `My favorites` recipe page. 
+
 **Recipe details, authenticated and creator of recipe:**
-![Screenshot of recipe details, logged in and creator of recipe](/assets/readme/design/recipe-detail1.png)
+
+![Screenshot of recipe details, logged in and creator of recipe](/assets/readme/design/recipe-detail2.png)
 
 If the user is the creator of the recipe and wish to `edit` the recipe he or she can then click the green button that says `Edit recipe` to come to the edit recipe page, this page looks 
 similar to the `Add recipe` page but each input field will be filled out with the recipe information of that recipe. 
 
 **Edit recipe, authenticated and creator of recipe:**
+
 ![Screenshot of edit recipe](/assets/readme/design/edit-recipe.png)
 
 If the user is the creator of the recipe and wish to `delete` the recipe he or she can then click on the red button that says `Delete recipe`. A modal will then appear on the top of the page to inform the user that he or she is about to delete the recipe and asks for a confirmation on this. 
 
 **Delete recipe, authenticated and creator of recipe:**
+
 ![Screenshot of delete recipe modal](/assets/readme/design/delete-recipe.png)
+
+**My favorites recipe page:**
+
+![Screenshot of my favorite recipes, remove bookmark](/assets/readme/design/remove-favorite.png)
+
+Here the user can remove each bookmarked recipe by pressing the `Remove bookmark` button on each recipe. 
 
 
 ---

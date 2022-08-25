@@ -252,17 +252,28 @@ Here is my user story testing for this project as a **admin**:
 Something that's worth mentioning is that I've tested the majority of these devices within Chrome dev tool, I have not had physical access to test these devices. I have tested the responsiveness and aesthetics on the following devices and browsers:
 
 * Apple 
+  * iPhone 4
+  * iPhone SE
+  * iPhone XR
+  * iPhone 12 Pro
+  * iPhone 6/7/8
+  * iPhone 6/7/8 Plus
+  * iPad Mini
 
 * Android
-
-* Google Devices
+  * Samsung Galaxy S8+
+  * Samsung Galaxy S20 Ultra
 
 * Motorola
+ * Moto G4
 
-* Desktops/laptops
+* Desktops/laptops/monitor
+  * MacBook Pro 13"
+  * Lenovo 24" monitor
 
 * Browsers
-
+  * Chrome 
+  * Safari
 
 ---
 ## Manual Testing

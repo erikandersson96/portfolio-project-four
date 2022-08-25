@@ -93,7 +93,21 @@ indentation.
 
 ##### profiles App
 
+**admin.py:**
 
+![Screenshot pep8 validation profiles admin.py](/assets/readme/testing-readme/pep8-profiles-admin.png)
+
+**models.py:**
+
+![Screenshot pep8 validation profiles models.py](/assets/readme/testing-readme/pep8-profiles-models.png)
+
+**urls.py:**
+
+![Screenshot pep8 validation profiles urls.py](/assets/readme/testing-readme/pep8-profiles-urls.png)
+
+**views.py:**
+
+![Screenshot pep8 validation profiles views.py](/assets/readme/testing-readme/pep8-profiles-views.png)
 
 
 ### HTML Code Validation 

@@ -38,7 +38,7 @@ During my development for this project each function were tested to work as expe
 
 ### Python (PEP8) Validation 
 
-I have tested my python code at [PEP8 online validation tool](http://pep8online.com/), I will show my results below with images and then a short description below each image of my solution. And I have seperated each django file to their respective django application within the project, the main application whattoeat and the recipes app. 
+I have tested my python code at [PEP8 online validation tool](http://pep8online.com/) (link), I will show my results below with images and then a short description below each image of my solution. And I have seperated each django file to their respective django application within the project, the main application whattoeat and the recipes app. 
 
 ##### whattoeat Main Project App 
 
@@ -116,7 +116,7 @@ indentation.
 
 ### HTML Code Validation 
 
-When testing my markup HTML code at [W3C HTML Validator](https://validator.w3.org/), I got one error: 
+When testing my markup HTML code at [W3C HTML Validator](https://validator.w3.org/) (link), I got one error: 
 
 **Error:** 
 
@@ -134,7 +134,7 @@ Now you can take a look at my `approved` HTML validation by clicking this link [
 
 ### CSS Code Validation
 
-When I first tested my CSS code via [W3C Jigsaw CSS Validator](https://jigsaw.w3.org/css-validator/validator.html.en), by enter my heroku website link like I have done this previously with my other projects (but then I used the github link). But then I got 6 errors for Font Awesome like shown in the image below. So I asked my mentor [Benjamin Kavanagh](https://github.com/BAK2K3) why this was the case because it seemed to be a problem not related to my CSS but rather something regarding my CDN link for Font Awesome, so I was told to not test my CSS by typing in the website link but instead copy my CSS and paste it in the `By direct input` and test it that way and then I got it right with no errors. 
+When I first tested my CSS code via [W3C Jigsaw CSS Validator](https://jigsaw.w3.org/css-validator/validator.html.en) (link), by enter my heroku website link like I have done this previously with my other projects (but then I used the github link). But then I got 6 errors for Font Awesome like shown in the image below. So I asked my mentor [Benjamin Kavanagh](https://github.com/BAK2K3) (link) why this was the case because it seemed to be a problem not related to my CSS but rather something regarding my CDN link for Font Awesome, so I was told to not test my CSS by typing in the website link but instead copy my CSS and paste it in the `By direct input` and test it that way and then I got it right with no errors. 
 
 **First wrong attempt with errors:** 
 
@@ -160,7 +160,7 @@ I have tested the website with `Chrome lighthouse dev tool` to test the website 
 
 ### Wave
 
-`What To Eat` website has been tested at [WAVE Web Accessibility Evaluation Tool](https://wave.webaim.org/). `WAVE` is a suite of evaluation tools that helps authors make their web content more accessible to individuals with disabilities (Taken from Wave website). And I got `7` contrast errors and `1` alert for `Suspicious alternative text` for the start page like demonstrated in the image below: 
+`What To Eat` website has been tested at [WAVE Web Accessibility Evaluation Tool](https://wave.webaim.org/) (link). `WAVE` is a suite of evaluation tools that helps authors make their web content more accessible to individuals with disabilities (Taken from Wave website). And I got `7` contrast errors and `1` alert for `Suspicious alternative text` for the start page like demonstrated in the image below: 
 
 **WAVE errors and alert:**
 
@@ -172,7 +172,7 @@ You can look at the approved result [here](https://wave.webaim.org/report#/https
 
 I solved the `alert` by replacing the first alternative text of my background image to something more specific like `background image of ingredients to use in cooking`. 
 
-I solved the `7 contrast errors` by using [Webaim online contrast checker](https://webaim.org/resources/contrastchecker/) for help to find an accepted contrast ratio, the accepted ratio is `4.51:1` between `Foreground Color` and `Background Color`. 
+I solved the `7 contrast errors` by using [Webaim online contrast checker](https://webaim.org/resources/contrastchecker/) (link) for help to find an accepted contrast ratio, the accepted ratio is `4.51:1` between `Foreground Color` and `Background Color`. 
 
 When testing the other pages `Add recipe, Register, Login` I got `1 Alert` for missing `h1` (I have used a h3 heading instead), since I tought that a `h3` looked better I will stay with it and since this is just an `Alert and not an Error`. The `Add recipe, Edit recipe and My favorites` isn't tested because I have to be logged in to test those but `WAVE` won't let me login while testing or before testing. For the link at `Register` page, that says you can login if you already got an account got `1 Alert` for `Redundant link`, I will leave this as it is as well since this is just an `Alert and not an Error`. 
 
@@ -344,9 +344,9 @@ I have manualy tested so these functions and elements works correct:
 ---
 ## Defensive Programming
 
-After my second session with my mentor [Benjamin Kavanagh](https://github.com/BAK2K3) I got the feedback that I should implement `Defensive Programming` for my `CRUD functionality` which stands for `Create, Read, Update, Delete` and that is translated to my `Add recipe for "Create", Edit recipe for "Update", Delete recipe for "Delete"`. The `Read functionality` is just the way a guest or user can view a recipe, but that isn't a part of `Defensive Programming` since you doesn't need to be authenticated to view the recipes. 
+After my second session with my mentor [Benjamin Kavanagh](https://github.com/BAK2K3) (link) I got the feedback that I should implement `Defensive Programming` for my `CRUD functionality` which stands for `Create, Read, Update, Delete` and that is translated to my `Add recipe for "Create", Edit recipe for "Update", Delete recipe for "Delete"`. The `Read functionality` is just the way a guest or user can view a recipe, but that isn't a part of `Defensive Programming` since you doesn't need to be authenticated to view the recipes. 
 
-So on to what I did to improve my backend code the way I did in the front end code is that I added a `@login_required` decorator that is a part of `Django decorators` (read more about django decorators [here](https://docs.djangoproject.com/en/dev/topics/auth/default/#the-login-required-decorator)), to ensure that what ever guest or user that is trying to access either `Add recipe, Edit recipe, Delete recipe, Bookmark recipe, Remove bookmark` is authenticated. 
+So on to what I did to improve my backend code the way I did in the front end code is that I added a `@login_required` decorator that is a part of `Django decorators` (read more about django decorators [here](https://docs.djangoproject.com/en/dev/topics/auth/default/#the-login-required-decorator) (link)), to ensure that what ever guest or user that is trying to access either `Add recipe, Edit recipe, Delete recipe, Bookmark recipe, Remove bookmark` is authenticated. 
 
 For my `Edit recipe and Delete recipe` I wanted to make sure that only the `author` (creator of that recipe) could `Edit or Delete` the specific recipe, otherwise the guest or user would be directed to my custom `403 error page`.
 

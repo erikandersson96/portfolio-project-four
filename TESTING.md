@@ -154,7 +154,7 @@ I have tested the website with `Chrome lighthouse dev tool` to test the website 
 
 ### Wave
 
-`What To Eat` website has been tested at [WAVE Web Accessibility Evaluation Tool](https://wave.webaim.org/). `WAVE` is a suite of evaluation tools that helps authors make their web content more accessible to individuals with disabilities (Taken from Wave website). And I got `7` contrast errors and `1` alert for `Suspicious alternative text` like demonstrated in the image below: 
+`What To Eat` website has been tested at [WAVE Web Accessibility Evaluation Tool](https://wave.webaim.org/). `WAVE` is a suite of evaluation tools that helps authors make their web content more accessible to individuals with disabilities (Taken from Wave website). And I got `7` contrast errors and `1` alert for `Suspicious alternative text` for the start page like demonstrated in the image below: 
 
 **WAVE errors and alert:**
 
@@ -167,6 +167,22 @@ You can look at the approved result [here](https://wave.webaim.org/report#/https
 I solved the `alert` by replacing the first alternative text of my background image to something more specific like `background image of ingredients to use in cooking`. 
 
 I solved the `7 contrast errors` by using [Webaim online contrast checker](https://webaim.org/resources/contrastchecker/) for help to find an accepted contrast ratio, the accepted ratio is `4.51:1` between `Foreground Color` and `Background Color`. 
+
+When testing the other pages `Add recipe, Register, Login` I got `1 Alert` for missing `h1` (I have used a h3 heading instead), since I tought that a `h3` looked better I will stay with it and since this is just an `Alert and not an Error`. The `Add recipe, Edit recipe and My favorites` isn't tested because I have to be logged in to test those but `WAVE` won't let me login while testing or before testing. For the link at `Register` page, that says you can login if you already got an account got `1 Alert` for `Redundant link`, I will leave this as it is as well since this is just an `Alert and not an Error`. 
+
+**Alert for missing h1:**
+
+![Screenshot of alerts h1](/assets/readme/wave-lighthouse/h1-alert.png)
+
+![Screenshot of alerts h1](/assets/readme/wave-lighthouse/h1-alert-2.png)
+
+**Alert for Redundant link:**
+
+![Screenshot of alert redundant link](/assets/readme/wave-lighthouse/register-alert.png)
+
+![Screenshot of alert redundant link](/assets/readme/wave-lighthouse/register-alert-2.png)
+
+![Screenshot of alert redundant link](/assets/readme/wave-lighthouse/register-alert-3.png)
 
 
 ---

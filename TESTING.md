@@ -350,6 +350,11 @@ Here are some screenshots of my function based views in views.py:
 
 ![Screenshot of function based views in views.py, add_recipe](/assets/readme/testing-readme/delete_recipe.png)
 
+---
+## Automated Tests
+
+For this project I have not done any `Automated tests`, because my knowledge for automated tests in django wasn't enough for me to try. I was too focused on learning `Django` and complete this project. But now when I feel more confident with `Django` and understands it better I will perform these tests for my future projects.  
+
 
 ---
 ## RETURN BACK TO [TOP](#testing)

@@ -332,23 +332,28 @@ I have manualy tested so these functions and elements works correct:
 
 After my second session with my mentor [Benjamin Kavanagh](https://github.com/BAK2K3) I got the feedback that I should implement `Defensive Programming` for my `CRUD functionality` which stands for `Create, Read, Update, Delete` and that is translated to my `Add recipe for "Create", Edit recipe for "Update", Delete recipe for "Delete"`. The `Read functionality` is just the way a guest or user can view a recipe, but that isn't a part of `Defensive Programming` since you doesn't need to be authenticated to view the recipes. 
 
-So on to what I did to improve my backend code the way I did in the front end code is that I added a `@login_required` decorator that is a part of `Django decorators` (read more about django decorators [here](https://docs.djangoproject.com/en/dev/topics/auth/default/#the-login-required-decorator)), to ensure that what ever guest or user that is trying to access either `Add recipe, Edit recipe or Delete recipe` is authenticated. 
+So on to what I did to improve my backend code the way I did in the front end code is that I added a `@login_required` decorator that is a part of `Django decorators` (read more about django decorators [here](https://docs.djangoproject.com/en/dev/topics/auth/default/#the-login-required-decorator)), to ensure that what ever guest or user that is trying to access either `Add recipe, Edit recipe, Delete recipe, Bookmark recipe, Remove bookmark` is authenticated. 
 
 For my `Edit recipe and Delete recipe` I wanted to make sure that only the `author` (creator of that recipe) could `Edit or Delete` the specific recipe, otherwise the guest or user would be directed to my custom `403 error page`.
 
-Here are some screenshots of my function based views in views.py: 
+**Here are some screenshots of my function based views in views.py for my recipes app:** 
 
 **Add recipe:**
 
-![Screenshot of function based views in views.py, add_recipe](/assets/readme/testing-readme/add_recipe.png)
+![Screenshot of function based views in views.py in recipes app, add_recipe](/assets/readme/testing-readme/add_recipe.png)
 
 **Edit recipe:**
 
-![Screenshot of function based views in views.py, add_recipe](/assets/readme/testing-readme/edit_recipe.png)
+![Screenshot of function based views in views.py in recipes app, add_recipe](/assets/readme/testing-readme/edit_recipe.png)
 
 **Delete recipe:**
 
-![Screenshot of function based views in views.py, add_recipe](/assets/readme/testing-readme/delete_recipe.png)
+![Screenshot of function based views in views.py in recipes app, add_recipe](/assets/readme/testing-readme/delete_recipe.png)
+
+**Here are a screenshot of my function based views in views.py for my profiles app:**
+
+![Screenshot of function based views in views.py in profiles app, remove_favorite and add_favorite](/assets/readme/testing-readme/profiles-views.png)
+
 
 ---
 ## Automated Tests

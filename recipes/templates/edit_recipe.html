@@ -3,6 +3,7 @@
 {% load static %}
 {% load crispy_forms_tags %}
 
+<!-- Page title -->
 {% block title %}
     Edit recipe page
 {% endblock %}
@@ -13,7 +14,6 @@
         <div class="container text-dark">
             <div class="row">
                 <div class="col mt-3 mb-5">
-                    <!-- Add Css styling for h2 use ".text-box" -->
                     <div class="text-box rounded">
                         <h2 class="what-to-eat-text">Edit Recipe</h2>
                         <hr>
@@ -62,6 +62,7 @@
             </div>
         </div>
     {% else %}
+        <!-- If user isn't logged in a message will appear with register or login -->
         <div class="container">
             <div class="row">
                 <div class="col mt-3 mb-5 text-center">

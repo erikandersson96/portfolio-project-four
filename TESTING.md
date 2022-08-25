@@ -30,7 +30,7 @@ During my development for this project each function were tested to work as expe
 
 * [Defensive Programming](#defensive-programming)
 
-* [Automated Tests]()
+* [Automated Tests](#automated-tests)
 
 
 ---

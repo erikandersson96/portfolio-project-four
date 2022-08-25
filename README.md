@@ -384,6 +384,7 @@ content as the start page to match, and then a `"Previous"` button will replace 
 ![Screenshot of previous button](/assets/readme/design/previous.png)  
 
 **View recipe:**
+
 When a `user` has selected a recipe to view by clicking `View recipe` from the recipe list, a detailed page of that recipe will appear with the recipe name on top, the created on and by information underneath. Right below that there is an image of the recipe, which can be selected by a user of what ever image they would like or a standard image will be provided. On the right there is two boxes on top of eachother `Recipe details` and `ingredients`. `Cook method` is found right underneath the recipe image. And if the user is authenticated and is the creator of the specific recipe he or she can then edit or delete the recipe by a green and red button on the bottom of the `Recipe details` page. 
 
 **Recipe details, not authenticated or creator of recipe:**

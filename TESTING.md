@@ -275,6 +275,7 @@ Something that's worth mentioning is that I've tested the majority of these devi
   * Chrome 
   * Safari
 
+
 ---
 ## Manual Testing
 

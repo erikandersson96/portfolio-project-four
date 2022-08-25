@@ -229,7 +229,7 @@ Here is my user story testing for this project as a **user**:
 
 1. As a **user** I would like to be able to edit and delete recipes created by me. 
 
-- I ahve made sure that only the `author` of the recipe can `edit or delete` the specific recipe. 
+- I have made sure that only the `author` of the recipe can `edit or delete` the specific recipe. 
 
 Here is my user story testing for this project as a **admin**:
 

@@ -2,6 +2,7 @@
 
 {% load static %}
 
+<!-- Page title -->
 {% block title %}
     Home page
 {% endblock %}
@@ -74,6 +75,7 @@
             {% endif %}
             {% endfor %}
             </div>
+            <!-- Page navigation Next/Previous -->
             <div class="row mt-3">
                 {% if is_paginated %}
                 <nav aria-label="Page Navigation">

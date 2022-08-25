@@ -6,7 +6,7 @@ users can login/logout, see all of the recipes, edit or delete the recipes that 
 
 **Remember that all links in this Readme does not open in a new tab. They open in the same window.** 
 
-To visit What To Eat website please click this [link](https://whattoeat2022.herokuapp.com/). 
+To visit What To Eat website please click this [link](https://whattoeat2022.herokuapp.com/) (link). 
 
 ![Screenshot of Techsini mockup](/assets/readme/design/project-image.png)
 
@@ -535,7 +535,7 @@ create some of my `Django` and `Bootstrap` functionality.
 
 #### Help from Stack Overflow
 
-At first I had an issue that when paginate (press next and previous) in the recipe list on the home page, a user could manually type in a random number in the adress bar like shown in the image below to trigger a 404 page. To prevent this I used a solution found on `Stack Overflow` provided to me by my mentor [Benjamin Kavanagh](https://github.com/BAK2K3), the solution can be found via this [link](https://stackoverflow.com/questions/40835222/display-last-page-of-paginated-results-instead-of-404-using-listview) (link). I just wrote the exact same code as written by `TimB` among those answers and it solved my issue. 
+At first I had an issue that when paginate (press next and previous) in the recipe list on the home page, a user could manually type in a random number in the adress bar like shown in the image below to trigger a 404 page. To prevent this I used a solution found on `Stack Overflow` provided to me by my mentor [Benjamin Kavanagh](https://github.com/BAK2K3) (link), the solution can be found via this [link](https://stackoverflow.com/questions/40835222/display-last-page-of-paginated-results-instead-of-404-using-listview) (link). I just wrote the exact same code as written by `TimB` among those answers and it solved my issue. 
 
 ![Screenshot adressbar manually paginate random wrong number](/assets/readme/wrong-page.png)
 
@@ -568,7 +568,7 @@ For this project I used Code Institutes Python template that can be found [here]
 1. When you have done that, you will see `"new"` up in the left corner. 
 **Like this:**
 ![Screenshot new repository button github](/assets/readme/github.png)
-1. Select in the dropdown menu under `Repository template` if you for example would like to use the template provided by `Code Institute` that I did for this project. If you don't see it in the dropdown menu click this [link](https://github.com/Code-Institute-Org/python-essentials-template) to get to the one provided by `Code Institute` and click `Use this template` to the left of the green Gitpod button.
+1. Select in the dropdown menu under `Repository template` if you for example would like to use the template provided by `Code Institute` that I did for this project. If you don't see it in the dropdown menu click this [link](https://github.com/Code-Institute-Org/python-essentials-template) (link) to get to the one provided by `Code Institute` and click `Use this template` to the left of the green Gitpod button.
 1. When you have done that, give the repository a name. Leave it public if you want anyone on the internet to see your repository (I always do). 
 1. Click create repository. 
 1. **Remember** to use the `commit` commands that I explained above so your hard work doesn't get lost if anything happens to Gitpod. 
@@ -583,7 +583,7 @@ as "upstream repository". I will explain the process of forking down below:
 1. Click this button. 
 1. This creates a copy of that repository to your Github home page. You can submit and receive changes to your copy by using pull requests and/or syncing with the original upstream repository. 
 
-This instructions were taken from [Github - Fork a repo](https://docs.github.com/en/get-started/quickstart/fork-a-repo). 
+This instructions were taken from [Github - Fork a repo](https://docs.github.com/en/get-started/quickstart/fork-a-repo) (link). 
 
 ### Cloning GitHub Repository
 
@@ -597,7 +597,7 @@ Cloning a repository inolves making a full copy of a repository on your local ma
 1. Type `git clone` and paste the URL copied from the Github page. 
 1. The repository clone will now be created on your machine. 
 
-This instructions were taken from [Github - cloning a repository](https://docs.github.com/en/repositories/creating-and-managing-repositories/cloning-a-repository).
+This instructions were taken from [Github - cloning a repository](https://docs.github.com/en/repositories/creating-and-managing-repositories/cloning-a-repository) (link).
 
 ### Heroku 
 
@@ -637,7 +637,7 @@ If the `create app` process at `Heroku` website wouldn't work follow these steps
 I would like to give an extra `Thank you` to all the kind people I have around me that gave me support in all different ways. 
 
 * **Code Institute** for their **Tutor** support. 
-* My mentor [Benjamin Kavanagh](https://github.com/BAK2K3) for being a **Superior** mentor.
+* My mentor [Benjamin Kavanagh](https://github.com/BAK2K3) (link) for being a **Superior** mentor.
 * **Google** for always clear things up.
 * **Code Institute Slack channel** for always helping out with problems or questions. 
 * My lovely **Girlfriend** for always supporting and believing in me.

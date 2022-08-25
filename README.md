@@ -514,12 +514,6 @@ a class of `d-flex flex-column min-vh-100` to the `body` in my base.html file.
 
 ### Unfixed Bugs
 
-For some reason when a user is logged in and open the `About modal`, the already logged in user can't access the `register or login` links in the `About modal`. But it works perfectly fine for a user (guest) which aren't logged in. 
-
-**The links are these highlighted with blue:** 
-
-![Screenshot of unfixed bug](/assets/readme/bugs/unfixed-bug.png)
-
 For some reason is the textfields for ingredients and instructions at `add recipe and edit recipe pages` not the same width as the `Excerpt and Title`. It doesn't affect desktop users that much but mobile users will have to scroll to the side to cover the whole textarea and reach all of the tools to modify the text. I have tried to fix this without success so I will leave it as an unfixed bug for now.  
 
 

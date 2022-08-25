@@ -129,7 +129,7 @@ So my solution for this error was to just erase this missing closing tag.
 
 **After I applied the HTML solution:**
 
-Now you can take a look at my `approved` HTML validation by clicking this link [here](https://validator.w3.org/nu/?doc=https%3A%2F%2Fwhattoeat2022.herokuapp.com%2F).
+Now you can take a look at my `approved` HTML validation by clicking this link [here](https://validator.w3.org/nu/?doc=https%3A%2F%2Fwhattoeat2022.herokuapp.com%2F) (link).
 
 
 ### CSS Code Validation
@@ -141,6 +141,8 @@ When I first tested my CSS code via [W3C Jigsaw CSS Validator](https://jigsaw.w3
 ![Screenshot of css wrong attempt](/assets/readme/testing-readme/css-validering-2.png)
 
 **The correct attempt with no errors:**
+
+Now you can take a look at my `approved` CSS validation by clicking this link [here](https://jigsaw.w3.org/css-validator/validator) (link).
 
 
 ### Lighthouse

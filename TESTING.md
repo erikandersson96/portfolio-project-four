@@ -310,6 +310,12 @@ I was manualy testing so the authentication for each page worked correct:
 
 ### About Modal
 
+I have manualy tested so the about modal works correct: 
+
+* Make sure so the `About` nav link opens the modal. 
+* Make sure so the `Register and Login` links in my modal directs to each page. 
+* Make sure so the about modal can be closed by `Press outside the modal, The "X" in the right corner or The "Close" button`. 
+
 ### My favorites
 
 

@@ -13,7 +13,7 @@ During my development for this project each function were tested to work as expe
   * [HTML Validation](#html-code-validation)
   * [CSS Validation](#css-code-validation)
   * [Lighthouse](#lighthouse)
-  * [Wave](#wave)
+  * [WAVE](#wave)
 
 * [User Story Testing](#user-story-testing)
 
@@ -25,8 +25,12 @@ During my development for this project each function were tested to work as expe
   * [Recipe Details](#recipe-details)
   * [Add Recipe](#add-recipe)
   * [Authentication](#authentication)
+  * [About Modal](#about-modal)
+  * [My favorites](#my-favorites)
 
 * [Defensive Programming](#defensive-programming)
+
+* [Automated Tests]()
 
 
 ---
@@ -303,6 +307,10 @@ I was manualy testing so the authentication for each page worked correct:
 * Make sure so the `Login` page only accepts the correct username and password, and then directs the user back to the home page. 
 * Make sure so the `Logout` page appears with `You are about to sign out. Is that what you want?` message and then directs the user back to the home page. 
 * Make sure so the `Sign up` page works correctly and directs the user back to the home page. 
+
+### About Modal
+
+### My favorites
 
 
 ---

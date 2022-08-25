@@ -59,7 +59,6 @@
 
                     <!-- Authentication Navigation menu -->
                     {% if user.is_authenticated %}
-                        <!-- Delete profile_favorite/my favorites link if not used -->
                         <li class="nav-item">
                             <a class="nav-link active" href="{% url 'profile_favorite' %}">My favorites</a> 
                         </li>
@@ -113,10 +112,10 @@
         </div>
       </div>
 
-    <!-- Content for each page get inserted between these content blocks -->
+    <!-- Hero image for home page get inserted between these content blocks -->
     {% block header_image %}
     {% endblock %}
-
+    <!-- Content for each page get inserted between these content blocks -->
     {% block content %}
     {% endblock %}
 

@@ -54,6 +54,10 @@ I got no errors when I tested the `whattoeat` urls.py code.
 
 ##### recipes App 
 
+**admin.py:**
+
+![Screenshot pep8 validation recipes admin.py](/assets/readme/testing-readme/pep8-recipes-admin.png)
+
 **forms.py:**
 
 ![Screenshot pep8 validation recipes forms.py](/assets/readme/testing-readme/pep8-recipes-forms.png)
@@ -86,6 +90,10 @@ I got a warning for `line too long`, so I fixed this by breaking up the line int
 
 I fixed the two warnings of `line too long` by erasing commented out code that was too long and unnecessary and splitting up the warning for line 56 into two lines of code with the correct
 indentation.
+
+##### profiles App
+
+
 
 
 ### HTML Code Validation 

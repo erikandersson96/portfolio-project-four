@@ -267,7 +267,7 @@ Something that's worth mentioning is that I've tested the majority of these devi
 
 ### Standard Elements
 
-I was testing so my most common elements of my website was working correct, such as: 
+I have manualy tested so my most common elements of my website is working correct, such as: 
 
 * Make sure so my Logo of `What To Eat` always direct the user back to the home page. 
 * Test so my navigation links work as expected. 
@@ -275,14 +275,15 @@ I was testing so my most common elements of my website was working correct, such
 
 ### Home Page 
 
-I was manualy testing my home page for these elements: 
+I have manualy tested my home page for these elements: 
 
 * When a user login a green message on the top of the home page appears so the user knows that the login was successful. This message also appears when the user logout. 
 * Make sure so the `View recipe` button on each recipe card directs the user to that specific recipe details. 
+* Make sure so a user can't manually type in a page number that doesn't exists for the `page pagination` to trigger an error.
 
 ### Recipe Details
 
-I was manualy testing so these functions and elements was working correct: 
+I have manualy tested so these functions and elements works correct: 
 
 * Make sure so `only` the author of each recipe can see the green `Edit recipe` and red `Delete recipe` buttons by checking the authentication of each user that want to see recipe details. 
 * Make sure so `only` the author can edit the recipe. 
@@ -291,7 +292,7 @@ I was manualy testing so these functions and elements was working correct:
 
 ### Add Recipe
 
-I was manualy testing so the elements of this page was working correct: 
+I have manualy tested so the elements of this page works correct: 
 
 * Make sure so the recipe `slug` was unique for each recipe like a `ID`. 
 * Make sure so the user gets a warning message is the user tries to add a recipe with the same title as another recipe. 
@@ -302,7 +303,7 @@ for how long `Prep time` this message will appear `Ensure this value is less tha
 
 ### Authentication
 
-I was manualy testing so the authentication for each page worked correct: 
+I have manualy tested so the authentication for each page works correct: 
 
 * Make sure so the `Login` page only accepts the correct username and password, and then directs the user back to the home page. 
 * Make sure so the `Logout` page appears with `You are about to sign out. Is that what you want?` message and then directs the user back to the home page. 
@@ -312,11 +313,18 @@ I was manualy testing so the authentication for each page worked correct:
 
 I have manualy tested so the about modal works correct: 
 
-* Make sure so the `About` nav link opens the modal. 
-* Make sure so the `Register and Login` links in my modal directs to each page. 
+* Make sure so the `About` nav link opens the modal.  
 * Make sure so the about modal can be closed by `Press outside the modal, The "X" in the right corner or The "Close" button`. 
 
 ### My favorites
+
+I have manualy tested so these functions and elements works correct:
+
+* Make sure so the `My favorites` is shown only for logged in users and that it directs the user to `{username} favorite recipes` page. 
+* Make sure so the `Bookmark recipe` button on the `Recipe detail` page is working as it should, and so the success message appears. 
+* Make sure so the `Remove bookmark` button on the recipe at the `My favorites` page works and removes the recipe from that list but doesn't get deleted totally. 
+* Make sure so a user can't duplicate favorites by adding the same recipe several times to `My favorites`. 
+* Make sure so a user can't manually type in a page number that doesn't exists for the `page pagination` to trigger an error. 
 
 
 ---

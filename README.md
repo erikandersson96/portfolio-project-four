@@ -70,9 +70,8 @@ I hope that you will find some delicous recipes when navigating the website.
   * [Fonts](#fonts)
 
 * [Logic](#logic) 
-  * [Flow Diagram](#flow-diagram)
-  * [Explain Logic in Flow Diagram](#explain-logic-in-flow-chart) 
-  * [Database Diagram](#database-diagram)
+  * [Database Diagram](#what-to-eat---database-schema)
+  * [Flow Diagram](#what-to-eat---flow-diagram)
    
 * [Existing Features](#existing-features)
   * [Start Screen](#start-screen)
@@ -300,7 +299,7 @@ When the user `View recipe` a recipe he or she can then choose to `Bookmark reci
 
 ### Start Screen 
 
-For the start page I choose a vertically aligned navigation bar on top, with all of the navigation links `About, Add recipe, Register, Login` or `About, Add recipe, My favorites, Login/Logout` if the user is authenticated. After that there is a background image with some text underneath that presents the list of recipes in the lower section of the page, this text will change slightly to create a personal welcome message for a user that is authenticated. At the bottom I have my `footer` with contact me and my social media links as well as copyright for 
+For the start page I choose a vertically aligned navigation bar on top, with all of the navigation links `About, Add recipe, Register, Login` or `About, Add recipe, My favorites, Login/Logout` if the user is authenticated. After that there is a background image and a welcome message. Underneath my background image is a presentation text of the recipes, this text will change slightly to create a personal welcome message for a user that is authenticated. At the bottom I have my `footer` with contact me and my social media links as well as copyright for 
 `What To Eat`.
 All other pages on the website inherits the navigation bar and footer.  
 
@@ -386,6 +385,7 @@ The `Login` page displays a login form and if the user is already authenicated (
 ![Screenshot of recipe card](/assets/readme/design/recipe-card.png) 
 
 **Next and previous page:**
+
 When there are more then 6 recipes in `What To Eat's` recipe list a `"Next"` button will appear that takes the user or site visitor to the next page of recipes which loads with the same 
 content as the start page to match, and then a `"Previous"` button will replace the `"Next"` button so the user can get back to the start page. The list of recipes is in an order of newest to oldest.  
 

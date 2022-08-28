@@ -290,6 +290,8 @@ If the user choose to edit the recipe, the user will get directed to the `Edit r
 
 But If the user choose the `delete` button a delete modal will appear with a question if the user want to delete or not, if yes the recipe will be deleted permently and if not the user can close the modal window by the close button or just click somewhere outside the modal. 
 
+When the user `View recipe` a recipe he or she can then choose to `Bookmark recipe` to add it to their `My favorites` recipes. If the user want to remove a recipe from the `My favorite` recipe he or she can do so by the red button that says `Remove bookmark` at each recipe card at their `My favorite` recipe list.  
+
 
 ---
 ## Existing Features

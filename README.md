@@ -1,4 +1,6 @@
-# What To Eat 
+# What To Eat "WTE"
+
+![Screenshot of what to eat logo](/assets/readme/design/wte-logo.png)
 
 What To Eat is a recipe website where both first time visitors and users can see all of our delicous recipes. 
 If a visitor wish to share their own delicous recipes, they can do so by register for a free user account. Old 

@@ -323,6 +323,8 @@ This is how it looks:
 
 ![Screenshot of start page lower part (logged in)](/assets/readme/design/home-down1.png) 
 
+### Footer
+
 **Footer:**
 
 ![Screenshot of footer](/assets/readme/design/footer.png) 
@@ -337,11 +339,15 @@ The navbar links depends as I have mentioned earlier, either there is `About, Ad
 
 ![Screenshot of navbar logged in](/assets/readme/design/navbar1.png)
 
+### About modal
+
 **About modal:**
 
 The about link will trigger a `modal` that contains the about What To Eat text. To close the about modal you can just click anywhere else outside it or use the close button. 
 
 ![Screenshot of about modal](/assets/readme/design/about-modal.png)
+
+### Add recipe
 
 **Add recipe:**
 
@@ -406,6 +412,8 @@ If a user is logged in, he or she can then see the `Bookmark recipe` button for 
 
 ![Screenshot of recipe details, logged in and creator of recipe](/assets/readme/design/recipe-detail2.png)
 
+### Edit recipe
+
 If the user is the creator of the recipe and wish to `edit` the recipe he or she can then click the green button that says `Edit recipe` to come to the edit recipe page, this page looks 
 similar to the `Add recipe` page but each input field will be filled out with the recipe information of that recipe. 
 
@@ -413,11 +421,15 @@ similar to the `Add recipe` page but each input field will be filled out with th
 
 ![Screenshot of edit recipe](/assets/readme/design/edit-recipe.png)
 
+### Delete recipe
+
 If the user is the creator of the recipe and wish to `delete` the recipe he or she can then click on the red button that says `Delete recipe`. A modal will then appear on the top of the page to inform the user that he or she is about to delete the recipe and asks for a confirmation on this. 
 
 **Delete recipe, authenticated and creator of recipe:**
 
 ![Screenshot of delete recipe modal](/assets/readme/design/delete-recipe.png)
+
+### My favorites
 
 **My favorites recipe page:**
 

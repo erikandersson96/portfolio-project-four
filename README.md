@@ -4,7 +4,8 @@ What To Eat is a recipe website where both first time visitors and users can see
 If a visitor wish to share their own delicous recipes, they can do so by register for a free user account. Old 
 users can login/logout, see all of the recipes, edit or delete the recipes that they have created.  
 
-**Remember that all links in this Readme does not open in a new tab. They open in the same window.** 
+### HINT:
+**Remember that all links in this Readme does not open in a new tab. They open in the this window. I have added a "(link)" to remember you as a reader that "this is a link", so you easier can remember that each link opens in this window.** 
 
 To visit What To Eat website please click this [link](https://whattoeat2022.herokuapp.com/) (link). 
 

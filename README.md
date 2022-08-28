@@ -2,7 +2,7 @@
 
 What To Eat is a recipe website where both first time visitors and users can see all of our delicous recipes. 
 If a visitor wish to share their own delicous recipes, they can do so by register for a free user account. Old 
-users can login/logout, see all of the recipes, edit or delete the recipes that they have created.  
+users can login/logout, see all of the recipes, edit or delete the recipes that they have created. All logged in users can add favorite recipes to a saved list.
 
 ### HINT:
 **Remember that all links in this Readme does not open in a new tab. They open in the same window (I have marked them with "(link)").**  

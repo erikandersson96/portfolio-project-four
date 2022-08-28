@@ -5,11 +5,11 @@ If a visitor wish to share their own delicous recipes, they can do so by registe
 users can login/logout, see all of the recipes, edit or delete the recipes that they have created.  
 
 ### HINT:
-**Remember that all links in this Readme does not open in a new tab. They open in the this window. I have added a "(link)" to remember you as a reader that "this is a link", so you easier can remember that each link opens in this window.** 
-
-To visit What To Eat website please click this [link](https://whattoeat2022.herokuapp.com/) (link). 
+**Remember that all links in this Readme does not open in a new tab. They open in this window. I have added a "(link)" to remember you as a reader that "this is a link", so you easier can remember that each link opens in this window.**  
 
 ![Screenshot of Techsini mockup](/assets/readme/design/project-image.png)
+
+To visit `What To Eat` website please click this [link](https://whattoeat2022.herokuapp.com/) (link).
 
 
 ---
@@ -25,14 +25,14 @@ recipe website beacuse I am a food lover and tought that I could have some use f
 ##### Features I aimed to achieve with this project:
 
 * To make the website `easy` to understand for the user. 
-* Make sure that the website has good `UI and UX` through out the whole site so the user doesn't get confuesed. 
-* To make it easier for people to decide what they should eat for dinner. 
+* Make sure that the website has good `UI and UX` throughout the whole website so the user doesn't get confuesed. 
+* Inspire people with recipes that they could eat for dinner. 
 
 
 ---
 ## How To Navigate The Website 
 
-This website consists of a navbar on top, with the `logo, about, register, login, add recipe` for both first time visitors or user's that has an account. But `Add recipe` will only be available to use for user's which are logged in otherwise a message will appear which tells the visitor to `register or login`. 
+This website consists of a navbar on top, with the `logo, about, register, login, add recipe, my favorites` for both first time visitors or user's that has an account. But `Add recipe` will only be available to use for user's which are logged in otherwise a message will appear which tells the visitor to `register or login`. 
 `My favorites` will only be displayed for authenticated users.
 
 A first time visitor or user will find all of the recipes listed on the start page, the recipes are listed with `pagination` of 6. So more then 6 recipes will then be displayed on a `"new page"` which can be accessed by a `Next` button, on the new page there will be a `Previous` button. 
@@ -46,6 +46,8 @@ In the footer of the page the social media links can be found, but also the copy
 `Register and login` looks almost the same apart from some design features that are necessary. 
 
 `Add recipe or Edit recipe` which are available for logged in users shares the same design apart from some buttons and headings.
+
+`My favorites` will be available for logged in users. When a user `View recipe` they can choose to `Bookmark recipe` to add it to their favorites. If they wish to remove a recipe they can do so by click `Remove bookamrk` on the specific recipe card.  
 
 I hope that you will find some delicous recipes when navigating the website. 
 

@@ -2,6 +2,7 @@
 
 During my development for this project each function were tested to work as expected. Each section in this file describes all of the different tests. 
 
+### HINT:
 **Remember that all links in this Testing file does not open in a new tab. They open in the same window (I have marked them with "(link)").**
 
 

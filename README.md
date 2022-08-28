@@ -5,7 +5,7 @@ If a visitor wish to share their own delicous recipes, they can do so by registe
 users can login/logout, see all of the recipes, edit or delete the recipes that they have created.  
 
 ### HINT:
-**Remember that all links in this Readme does not open in a new tab. They open in this window. I have added a "(link)" to remember you as a reader that "this is a link", so you easier can remember that each link opens in this window.**  
+**Remember that all links in this Readme does not open in a new tab. They open in the same window (I have marked them with "(link)").**  
 
 ![Screenshot of Techsini mockup](/assets/readme/design/project-image.png)
 

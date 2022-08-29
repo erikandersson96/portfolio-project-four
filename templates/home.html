@@ -32,12 +32,12 @@
         {% if user.is_authenticated %}
             <h1 class="title p-4 text-center">Welcome to What To Eat - Recipes, {{ user.username }}.</h1>
             <h2 class="text-center">Choose a delicious recipe for todays dinner:</h2>
-                
+            <p class="text-center">(Difficulty: 0 = Easy, 1 = Medium, 2 = Hard)</p>
         {% else %} 
             <h1 class="title p-4 text-center">What To Eat - Recipes.</h1>
             <p class="text-center">Here is all of our recipes listed for you.</p>
             <h2 class="text-center">Choose a delicious recipe for todays dinner:</h2>
-               
+            <p class="text-center">(Difficulty: 0 = Easy, 1 = Medium, 2 = Hard)</p> 
         {% endif %} 
     </div>
 

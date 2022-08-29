@@ -234,6 +234,10 @@ Here is my user story testing for this project as a **user**:
 
 - I have made sure that only the `author` of the recipe can `edit or delete` the specific recipe. 
 
+1. As a **user** I would like to make recipes my favorite.
+
+- I have created a `My favorites` page where logged in users can add their favorite recipes.
+
 Here is my user story testing for this project as a **admin**:
 
 1. As a **admin** I need to be able to see the entire list of recipes that has been added. 
@@ -244,7 +248,7 @@ Here is my user story testing for this project as a **admin**:
 
 - In the admin panel the admin can add recipes to the list of recipes. 
 
-1. As a **admin** I need to be able to edit and delete recipes created by me. 
+1. As a **admin** I need to be able to edit and delete recipes. 
 
 - As an admin you can edit and delete recipes in the admin panel. 
 

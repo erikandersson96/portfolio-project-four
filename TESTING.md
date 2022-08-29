@@ -41,7 +41,7 @@ During my development for this project each function were tested to work as expe
 
 I have tested my python code at [PEP8 online validation tool](http://pep8online.com/) (link), I will show my results below with images and then a short description below each image of my solution. And I have seperated each django file to their respective django application within the project, the main application whattoeat and the recipes app. 
 
-##### whattoeat Main Project App 
+#### whattoeat Main Project App 
 
 **settings.py:**
 
@@ -57,7 +57,7 @@ I added a backslash to get rid of the line too long warning for line 162, and I 
 
 I got no errors when I tested the `whattoeat` urls.py code. 
 
-##### recipes App 
+#### recipes App 
 
 **admin.py:**
 
@@ -96,7 +96,7 @@ I got a warning for `line too long`, so I fixed this by breaking up the line int
 I fixed the two warnings of `line too long` by erasing commented out code that was too long and unnecessary and splitting up the warning for line 56 into two lines of code with the correct
 indentation.
 
-##### profiles App
+#### profiles App
 
 **admin.py:**
 

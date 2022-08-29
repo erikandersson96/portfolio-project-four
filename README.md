@@ -169,12 +169,13 @@ As a user I would like to be able to:
 * Login to my account. 
 * Add recipes to the list of recipes. 
 * Edit and delete recipes created by me. 
+* Make recipes my favorite.
 
 As a admin I need to be able to: 
 
 * See the entire list of recipes that has been added. 
 * Add recipes to the list of recipes to be viewed by everyone. 
-* Edit and delete recipes created by admin. 
+* Edit and delete recipes. 
  
 #### Strategy
 
@@ -195,7 +196,7 @@ Create a website that allows users to create an account so they can see, add and
 
 `Logo design` - Because this website was created with the intention to keep it clean and simple. I decided to go with only `“What To Eat”`. Because I thought it gives the website a simple and clean look.
 
-`Background Image` - I downloaded this image from pixabay.com which is a website with free images. And I used a white background color to it in case the image wouldn't load.
+`Background Image` - I downloaded this image from pixabay.com which is a website with free images. And I used a white background color to it in case the image wouldn't load since all text is black.
 
 `Navigation bar` - I decided to use a pretty standard navbar with navigation links, but I think that gives the website a straight forward look. 
 
@@ -218,7 +219,7 @@ Create a website that allows users to create an account so they can see, add and
 
 `Login and Logout` - looks almost the same in there design and is almost standard looking with `allauth` with a matching header. 
 
-`Buttons` - All buttons for the website is green to match each other except the delete button which is red. 
+`Buttons` - All buttons for the website is green to match eachother except the delete button which is red. 
 
 `Summernote` - I used this to add the `"text tools"` to edit the information inside both the `ingredients and instructions` text boxes for add and edit a recipe. 
 
@@ -246,7 +247,9 @@ I choose four colors for my website, `a lighter green for footer links and as an
 
 ![Screenshot of black color](/assets/readme/color/black.png)
 
-**#ffffff White color (Default css color), I haven't provided a image because of the white background it won't show.**
+**#ffffff White color, I haven't provided a image because of the white background it won't show.**
+
+Visit this link to see what #ffffff color looks like [link](https://www.color-hex.com/color/ffffff) (link).
 
 
 ### Fonts

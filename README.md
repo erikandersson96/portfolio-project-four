@@ -121,7 +121,7 @@ Before I started to work with the code for this project I was requested of my me
 
 If you want to visit my trello board you can do so by visit this [link](https://trello.com/b/Hy1ZJoPK/portfolio-project-4) (link).
 
-I will demonstrate for you down below each step of my trello board during my development:
+I will demonstrate each step in the process for you down below of my trello board during my development:
 
 **Trello board:**
 

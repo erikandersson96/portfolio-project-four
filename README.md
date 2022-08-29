@@ -389,6 +389,8 @@ The `Login` page displays a login form and if the user is already authenicated (
 
 **Recipe card:**
 
+The recipe card includes a `Title, Excerpt, Difficulty, Servings, Prep time, Cook time, Created by and the button to view the recipe details`. 
+
 ![Screenshot of recipe card](/assets/readme/design/recipe-card.png) 
 
 **Next and previous page:**

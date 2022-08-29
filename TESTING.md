@@ -143,7 +143,9 @@ When I first tested my CSS code via [W3C Jigsaw CSS Validator](https://jigsaw.w3
 
 **The correct attempt with no errors:**
 
-Now you can take a look at my `approved` CSS validation by clicking this link [here](https://jigsaw.w3.org/css-validator/validator) (link).
+Now you can take a look at my `approved` CSS validation down below:
+
+![Screenshot of css approved validation](/assets/readme/testing-readme/css-validation-1.png)
 
 
 ### Lighthouse

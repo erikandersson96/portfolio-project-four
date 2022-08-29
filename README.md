@@ -91,6 +91,7 @@ I hope that you will find some delicous recipes when navigating the website.
 
 * [Testing](#testing)
   * [Bugs](#bugs)
+  * [Unfixed bugs](#unfixed-bugs)
 
 * [Technologies Used](#technologies)
 

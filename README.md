@@ -338,7 +338,7 @@ This is how it looks:
 
 **Navbar links:**
 
-The navbar links depends as I have mentioned earlier, either there is `About, Add recipe, Register, Login` or `About, Add recipe, My favorites, Login/Logout` if the user is authenticated. 
+The navbar links depends as I have mentioned earlier, either there is `About, Add recipe, Register, Login` or `About, Add recipe, My favorites, Logout` if the user is authenticated. 
 
 ![Screenshot of navbar](/assets/readme/design/navbar.png)
 
@@ -348,7 +348,7 @@ The navbar links depends as I have mentioned earlier, either there is `About, Ad
 
 **About modal:**
 
-The about link will trigger a `modal` that contains the about What To Eat text. To close the about modal you can just click anywhere else outside it or use the close button. 
+The about link will trigger a `modal` that contains the about What To Eat text. To close the about modal you can just click anywhere outside it or use the close button. 
 
 ![Screenshot of about modal](/assets/readme/design/about-modal.png)
 
